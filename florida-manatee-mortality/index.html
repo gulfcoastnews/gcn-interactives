@@ -512,20 +512,14 @@ function render(){
   nodes.push(renderControls());
 
   const fr = filtered();
-  if(!fr.length){
-    nodes.push(renderEmpty());
-  } else {
-    nodes.push(renderCharts(fr));
-    nodes.push(renderGeo(fr));
-  }
+  nodes.push(renderGeo(fr));
+  nodes.push(renderCharts(fr));
   nodes.push(renderMethodology());
   nodes.push(renderFooter());
   app.replaceChildren(...nodes);
 
   // post-render enhancements
-  if(fr.length){
-    if(S.mapStatus==="ready") drawMap(fr);
-  }
+  if(S.mapStatus==="ready") drawMap(fr);
   postHeight();
 }
 
@@ -687,7 +681,8 @@ function renderCauseCard(fr){
   const counts={}; CAUSES.forEach(c=>counts[c.name]=0);
   fr.forEach(r=>{ if(counts[r.cause]==null) counts[r.cause]=0; counts[r.cause]++; });
   const total=fr.length;
-  const rows=CAUSES.map(c=>({...c,n:counts[c.name]||0})).filter(c=>c.n>0 || S.cause==="all");
+  const rows=CAUSES.map(c=>({...c,n:counts[c.name]||0}))
+    .filter(c=>c.n>0 || S.cause==="all" || c.name===S.cause);
   const max=Math.max(1,...rows.map(r=>r.n));
 
   const card=el("section",{class:"card","aria-label":"Cause of death breakdown"});
