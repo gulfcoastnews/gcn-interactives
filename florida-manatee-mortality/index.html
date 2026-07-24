@@ -518,6 +518,8 @@ function render(){
   } else {
     nodes.push(renderCharts(fr));
     nodes.push(renderGeo(fr));
+    if(S.meta && S.meta.sample) nodes.push(el("p",{class:"sample-flag",style:"margin-top:16px"},
+      iconSVG("info",16), "Sample data — synthetic figures for demonstration only, not official FWC information."));
   }
   nodes.push(renderMethodology());
   nodes.push(renderFooter());
@@ -547,8 +549,6 @@ function renderMasthead(){
   const m=S.meta||{};
   const isSample = m.sample;
   const head = el("header",{class:"masthead"});
-  if(isSample) head.append(el("span",{class:"sample-flag"},
-    iconSVG("info",16), "Sample data — synthetic figures for demonstration only"));
   head.append(el("h1",{},"Florida ",el("span",{class:"accent"},"manatee"), " mortality"));
   head.append(el("p",{class:"lede"},"Reported manatee deaths across Florida — by cause, by month, and by county. Current-year figures are preliminary and change as cases are examined and confirmed."));
   return head;
