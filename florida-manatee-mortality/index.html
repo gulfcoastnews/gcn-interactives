@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Florida Manatee Mortality — Interactive</title>
+<meta name="description" content="An interactive look at reported Florida manatee deaths by cause, timing, and county, distinguishing preliminary current-year data from finalized historical records.">
+<!-- Map libraries (pinned, hash-verified per Maps skill). County geometry is fetched at runtime; the interactive degrades gracefully if it is unavailable. -->
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js" integrity="sha384-Ukv1p/xTma6P4/2bY5KzWBw+ydSpXmhCMtyciIQVDJ1RmOxtCYNMF1uXT9T63H67" crossorigin="anonymous"></script>
+<style>
+/* ============================================================
+   TYPOGRAPHY — Effra (HTV Sales design system typeface)
+   ============================================================ */
+@font-face{font-family:"Effra";src:url("assets/fonts/Effra_Std_Lt.ttf") format("truetype");font-weight:300;font-display:swap}
+@font-face{font-family:"Effra";src:url("assets/fonts/Effra_Std_Rg.ttf") format("truetype");font-weight:400;font-display:swap}
+@font-face{font-family:"Effra";src:url("assets/fonts/Effra_Std_Md.ttf") format("truetype");font-weight:500;font-display:swap}
+@font-face{font-family:"Effra";src:url("assets/fonts/Effra_Std_Bd.ttf") format("truetype");font-weight:700;font-display:swap}
+@font-face{font-family:"Effra";src:url("assets/fonts/Effra_Std_He.ttf") format("truetype");font-weight:800;font-display:swap}
+
+/* ============================================================
+   DESIGN TOKENS — HTV Sales palette + Florida coastal accents
+   ============================================================ */
+:root{
+  /* HTV brand core */
+  --navy:#00102D; --navy-panel:#0A234C; --gulf:#1A6BE1; --gulf-700:#1450B0; --gulf-800:#0E3C86;
+  --sky:#5692D1; --gold:#F1D273; --gold-600:#D9B24A;
+  /* Florida coastal accents */
+  --seaglass:#2F7D5B;      /* sea-glass green — "natural" & positive framing */
+  --sand:#EBDCBF; --sand-line:#E0CFA6;   /* warm sand surfaces */
+  --coral:#B4341F;         /* coral — emphasis / preliminary / alerts only */
+  --coral-soft:#FBE4DE;
+  /* neutrals */
+  --white:#fff; --gray:#F2F2F2; --n50:#F7F8FA; --n100:#F2F2F2; --n200:#E2E5EA;
+  --n300:#CBD1DA; --n400:#9AA3B2; --n500:#6B7585; --n600:#4A5567; --n700:#2E394C;
+  --ink:#00102D; --ink-2:#4A5567; --ink-3:#6B7585;
+  --focus:#1A6BE1;
+  --radius:8px; --radius-sm:5px;
+  --shadow-card:0 1px 2px rgba(0,16,45,.06),0 6px 18px rgba(0,16,45,.08);
+  --shadow-pop:0 8px 28px rgba(0,16,45,.18);
+  --maxw:1120px;
+  --font:"Effra","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  /* cause colors (distinguishable; never the sole signal — always paired with text) */
+  --c-WC:#C24631; --c-GL:#9B6A2B; --c-HR:#D19A3C; --c-PN:#2E8B9E;
+  --c-CS:#5B8FD0; --c-NA:#2F7D5B; --c-UD:#596477; --c-UO:#7B8493;
+  --c-VN:#AAB2BF;
+  --dur:200ms; --ease:cubic-bezier(.2,.6,.2,1);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font-family:var(--font); color:var(--ink); background:var(--white);
+  font-size:16px; line-height:1.5; -webkit-text-size-adjust:100%;
+  text-rendering:optimizeLegibility;
+}
+.app{width:100%; max-width:var(--maxw); margin:0 auto; padding:18px 16px 28px}
+h1,h2,h3,h4{margin:0; letter-spacing:-.01em; line-height:1.14; text-wrap:balance}
+p{margin:0}
+a{color:var(--gulf); text-underline-offset:2px}
+a:hover{color:var(--gulf-800)}
+a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,
+[tabindex]:focus-visible,input:focus-visible{outline:3px solid var(--focus); outline-offset:2px; border-radius:3px}
+:focus{outline:none}
+
+.eyebrow{font-size:12px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--gulf); margin:0 0 6px}
+.eyebrow.on-dark{color:var(--sky)}
+.muted{color:var(--ink-2)}
+.small{font-size:14px}
+.xsmall{font-size:13px}
+.tnum{font-variant-numeric:tabular-nums}
+.vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.stack{display:flex; flex-direction:column}
+.row{display:flex; align-items:center}
+.wrap{flex-wrap:wrap}
+
+/* ---- header ---- */
+.brandbar{display:flex; align-items:center; gap:12px; padding:0 0 14px; margin-bottom:16px; border-bottom:2px solid var(--navy)}
+.brandbar .flag{display:flex; flex-direction:column; line-height:1}
+.brandbar .flag .net{font-size:clamp(15px,3.4vw,19px); font-weight:800; letter-spacing:.12em; color:var(--navy); text-transform:uppercase}
+.brandbar .flag .net .g{color:var(--gulf)}
+.brandbar .flag .desk{font-size:clamp(10px,2.4vw,12px); font-weight:700; letter-spacing:.26em; color:var(--gulf); text-transform:uppercase; margin-top:4px}
+.brandbar .tick{width:6px; align-self:stretch; min-height:34px; background:var(--gulf); flex:none}
+.brandbar .spacer{flex:1}
+.brandbar .kicker{font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); text-align:right}
+.masthead{display:flex; flex-direction:column; gap:10px; margin-bottom:14px}
+.sample-flag{display:inline-flex; align-items:center; gap:8px; align-self:flex-start;
+  background:var(--sand); color:#5B4A22; border:1px solid var(--sand-line);
+  font-size:13px; font-weight:700; letter-spacing:.04em; padding:5px 10px; border-radius:999px}
+.masthead h1{font-size:clamp(24px,6vw,40px); font-weight:800; color:var(--navy); letter-spacing:-.02em}
+.masthead h1 .accent{color:var(--gulf)}
+.lede{font-size:16px; color:var(--ink-2); max-width:62ch; text-wrap:pretty}
+.sourceline{font-size:14px; color:var(--ink-3); display:flex; flex-wrap:wrap; gap:4px 14px; align-items:baseline}
+.sourceline strong{color:var(--ink); font-weight:700}
+
+/* ---- status hero ---- */
+.hero{background:var(--navy); color:#fff; border-radius:var(--radius); padding:20px 18px;
+  display:grid; grid-template-columns:1fr; gap:18px; position:relative; overflow:hidden}
+.hero::after{content:""; position:absolute; inset:0; pointer-events:none;
+  background:repeating-linear-gradient(60deg,rgba(255,255,255,.04) 0 1px,transparent 1px 22px),
+             repeating-linear-gradient(-60deg,rgba(255,255,255,.04) 0 1px,transparent 1px 22px);}
+.hero>*{position:relative; z-index:1}
+.hero-total .fig{font-size:clamp(48px,15vw,88px); font-weight:800; line-height:.95; color:var(--gold);
+  letter-spacing:-.02em; font-variant-numeric:tabular-nums}
+.hero-total .cap{font-size:15px; color:#DCE6F5; margin-top:6px; max-width:34ch; text-wrap:pretty}
+.hero-badges{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px}
+.badge{display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:700;
+  letter-spacing:.06em; text-transform:uppercase; padding:6px 11px; border-radius:6px; white-space:nowrap}
+.badge.prelim{background:var(--coral); color:#fff}
+.badge.final{background:#DCE6F5; color:var(--navy)}
+.badge .dot{width:8px;height:8px;border-radius:50%;background:currentColor}
+.hero-meta{display:grid; grid-template-columns:1fr; gap:2px; font-size:14px}
+.hero-meta .k{color:var(--sky); font-weight:700; font-size:12px; letter-spacing:.1em; text-transform:uppercase}
+.hero-meta .v{color:#fff; font-size:15px}
+.hero-meta .grp{padding:8px 0; border-top:1px solid rgba(255,255,255,.14)}
+.hero-note{font-size:13.5px; color:#C6D3E8; border-left:3px solid var(--sky); padding:6px 0 6px 12px; max-width:60ch; text-wrap:pretty}
+
+/* ---- controls / filters ---- */
+.controls{margin:16px 0 6px}
+.controls summary{list-style:none; cursor:pointer}
+.controls summary::-webkit-details-marker{display:none}
+.ctrlbar{display:flex; align-items:center; justify-content:space-between; gap:12px;
+  background:var(--n50); border:1px solid var(--n200); border-radius:var(--radius); padding:12px 14px}
+.ctrlbar .lbl{display:flex; align-items:center; gap:9px; font-weight:700; color:var(--navy); font-size:15px}
+.ctrlbar .chev{transition:transform var(--dur) var(--ease); color:var(--gulf)}
+.controls[open] .chev{transform:rotate(180deg)}
+.activecount{font-size:12px; font-weight:700; color:#fff; background:var(--gulf); border-radius:999px; padding:2px 8px; letter-spacing:.02em}
+.filters{display:grid; grid-template-columns:1fr; gap:12px; padding:14px; border:1px solid var(--n200);
+  border-top:none; border-radius:0 0 var(--radius) var(--radius); background:#fff}
+.field{display:flex; flex-direction:column; gap:5px}
+.field label{font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-2)}
+.field select{font-family:var(--font); font-size:16px; font-weight:500; color:var(--navy); background:#fff;
+  border:1.5px solid var(--n300); border-radius:var(--radius-sm); padding:11px 12px; min-height:44px; width:100%;
+  appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%231A6BE1' stroke-width='3'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat; background-position:right 12px center; padding-right:34px}
+.field select:hover{border-color:var(--gulf)}
+.filter-actions{display:flex; flex-wrap:wrap; gap:10px; align-items:center}
+
+.btn{font-family:var(--font); font-size:15px; font-weight:700; border-radius:var(--radius-sm);
+  min-height:44px; padding:11px 16px; cursor:pointer; border:1.5px solid transparent; display:inline-flex;
+  align-items:center; gap:8px; transition:filter var(--dur) var(--ease),background var(--dur) var(--ease),transform var(--dur) var(--ease); white-space:nowrap}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--gulf); color:#fff}
+.btn-primary:hover{filter:brightness(.93)}
+.btn-secondary{background:#fff; color:var(--gulf); border-color:var(--gulf)}
+.btn-secondary:hover{background:var(--gulf-100,#E6EFFB)}
+.btn-ghost{background:transparent; color:var(--navy); border-color:var(--n300)}
+.btn-ghost:hover{background:var(--n100)}
+.btn svg{width:18px;height:18px;flex:none}
+.btn:disabled{opacity:.5; cursor:not-allowed}
+
+/* ---- section / cards ---- */
+.grid{display:grid; grid-template-columns:1fr; gap:16px; margin-top:16px}
+.card{background:#fff; border:1px solid var(--n200); border-radius:var(--radius); box-shadow:var(--shadow-card);
+  padding:18px 16px; min-width:0}
+.card h2{font-size:19px; font-weight:800; color:var(--navy)}
+.card .subhead{font-size:14px; color:var(--ink-2); margin-top:3px; text-wrap:pretty}
+.card-head{display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:14px}
+.card-head .titlewrap{min-width:0}
+
+/* toggle (table view / prev year / reduced motion) */
+.toggle{display:inline-flex; align-items:center; gap:8px; font-size:14px; font-weight:600; color:var(--navy);
+  cursor:pointer; min-height:36px; user-select:none}
+.toggle input{position:absolute; opacity:0; width:0; height:0}
+.switch{width:40px; height:24px; border-radius:999px; background:var(--n300); position:relative; flex:none; transition:background var(--dur) var(--ease)}
+.switch::after{content:""; position:absolute; top:3px; left:3px; width:18px; height:18px; border-radius:50%; background:#fff; transition:transform var(--dur) var(--ease); box-shadow:0 1px 2px rgba(0,0,0,.3)}
+.toggle input:checked + .switch{background:var(--gulf)}
+.toggle input:checked + .switch::after{transform:translateX(16px)}
+.toggle input:focus-visible + .switch{outline:3px solid var(--focus); outline-offset:2px}
+.mini-actions{display:flex; flex-wrap:wrap; gap:14px 18px; align-items:center; margin-top:4px}
+
+/* ---- cause bars ---- */
+.causelist{display:flex; flex-direction:column; gap:12px}
+.causerow{display:grid; grid-template-columns:1fr auto; gap:4px 12px; align-items:center}
+.causerow .name{font-size:15px; font-weight:600; color:var(--navy); display:flex; align-items:center; gap:9px; min-width:0}
+.causerow .name .sw{width:14px; height:14px; border-radius:3px; flex:none}
+.causerow .name .txt{overflow-wrap:anywhere}
+.causerow .valwrap{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+.causerow .valwrap .n{font-size:16px; font-weight:800; color:var(--navy)}
+.causerow .valwrap .pct{font-size:13px; color:var(--ink-3); margin-left:6px}
+.causerow .track{grid-column:1 / -1; height:12px; background:var(--n100); border-radius:6px; overflow:hidden}
+.causerow .fill{height:100%; border-radius:6px; transition:width 600ms var(--ease)}
+.causerow .why{grid-column:1 / -1; font-size:13.5px; color:var(--ink-2); margin-top:-2px; text-wrap:pretty}
+
+/* ---- cumulative chart ---- */
+.chartwrap{position:relative}
+svg.chart{width:100%; height:auto; display:block; overflow:visible}
+.chart .axis text{font-size:14px; fill:var(--ink-3); font-family:var(--font)}
+.chart .axis line,.chart .axis path{stroke:var(--n200)}
+.chart .gridline{stroke:var(--n100)}
+.line-cur{fill:none; stroke:var(--gulf); stroke-width:3; stroke-linejoin:round; stroke-linecap:round}
+.line-prev{fill:none; stroke:var(--n400); stroke-width:2; stroke-dasharray:6 5}
+.cur-dot{fill:var(--gulf)}
+.chart-cursor{stroke:var(--navy); stroke-width:1; stroke-dasharray:3 3}
+.legend{display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:12px; font-size:14px}
+.legend .li{display:inline-flex; align-items:center; gap:8px; color:var(--navy)}
+.legend .swline{width:22px; height:0; border-top:3px solid var(--gulf)}
+.legend .swline.prev{border-top:2px dashed var(--n400)}
+.tooltip{position:absolute; pointer-events:none; background:var(--navy); color:#fff; border-radius:6px;
+  padding:8px 11px; font-size:13px; box-shadow:var(--shadow-pop); min-width:130px; z-index:5; opacity:0;
+  transition:opacity 120ms linear}
+.tooltip.show{opacity:1}
+.tooltip .tt-date{font-weight:700; color:var(--gold); margin-bottom:3px; font-size:13px}
+.tooltip .tt-row{display:flex; justify-content:space-between; gap:14px; font-variant-numeric:tabular-nums}
+.tooltip .tt-row .lab{color:#C6D3E8}
+.chart-help{font-size:14px; color:var(--ink-3); margin-top:8px}
+
+/* ---- map + ranking ---- */
+.geo{display:grid; grid-template-columns:1fr; gap:16px}
+.mapbox{position:relative}
+svg.flmap{width:100%; height:auto; display:block; background:#F4F8FC; border:1px solid var(--n200); border-radius:var(--radius)}
+.flmap path.county{stroke:#fff; stroke-width:.6; cursor:pointer; transition:fill var(--dur) var(--ease)}
+.flmap path.county:hover{stroke:var(--navy); stroke-width:1.3}
+.flmap path.county.selected{stroke:var(--coral); stroke-width:2}
+.flmap path.county:focus-visible{outline:none; stroke:var(--navy); stroke-width:2}
+.map-legend{display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; margin-top:10px; font-size:13.5px; color:var(--ink-2)}
+.map-legend .scale{display:flex; align-items:center; gap:0}
+.map-legend .sw{width:26px; height:14px}
+.map-legend .ends{display:flex; justify-content:space-between; width:100%}
+.map-readout{margin-top:10px; font-size:14px; background:var(--n50); border:1px solid var(--n200);
+  border-radius:var(--radius-sm); padding:10px 12px; color:var(--navy); min-height:44px; display:flex; align-items:center; gap:8px}
+.map-readout strong{font-weight:800}
+
+.ranklist{display:flex; flex-direction:column; gap:2px}
+.rankrow{display:grid; grid-template-columns:auto 1fr auto; gap:10px; align-items:center; padding:9px 8px;
+  border:none; background:transparent; width:100%; text-align:left; font-family:var(--font); cursor:pointer;
+  border-radius:var(--radius-sm); min-height:44px; border-bottom:1px solid var(--n100)}
+.rankrow:hover{background:var(--n50)}
+.rankrow.active{background:var(--gulf-100,#E6EFFB); box-shadow:inset 3px 0 0 var(--gulf)}
+.rankrow .rk{font-size:13px; font-weight:700; color:var(--ink-3); width:24px; text-align:right; font-variant-numeric:tabular-nums}
+.rankrow .co{min-width:0}
+.rankrow .co .nm{font-size:15px; font-weight:700; color:var(--navy); overflow-wrap:anywhere}
+.rankrow .co .meter{height:7px; background:var(--n100); border-radius:4px; margin-top:5px; overflow:hidden}
+.rankrow .co .meter i{display:block; height:100%; background:var(--gulf); border-radius:4px}
+.rankrow .ct{font-size:16px; font-weight:800; color:var(--navy); font-variant-numeric:tabular-nums; white-space:nowrap}
+.rankrow .ct small{font-size:12px; font-weight:600; color:var(--ink-3); margin-left:3px}
+
+/* ---- data tables ---- */
+.dtable-wrap{overflow-x:auto; margin-top:10px}
+table.dtable{border-collapse:collapse; width:100%; font-size:14px; min-width:280px}
+table.dtable caption{text-align:left; font-size:13px; color:var(--ink-3); padding-bottom:8px}
+table.dtable th,table.dtable td{padding:8px 10px; border-bottom:1px solid var(--n200); text-align:left}
+table.dtable th{font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-2); font-weight:700}
+table.dtable td.num{text-align:right; font-variant-numeric:tabular-nums; font-weight:700; color:var(--navy)}
+
+/* ---- alerts / banners ---- */
+.banner{display:flex; gap:12px; align-items:flex-start; border-radius:var(--radius); padding:13px 15px; margin:14px 0; font-size:14.5px; text-wrap:pretty}
+.banner svg{width:22px; height:22px; flex:none; margin-top:1px}
+.banner .b-body strong{display:block; font-size:15px; margin-bottom:2px}
+.banner.warn{background:var(--sand); border:1px solid var(--sand-line); color:#5B4A22}
+.banner.warn svg{color:#9A7B23}
+.banner.error{background:var(--coral-soft); border:1px solid #F0C4BA; color:#7A2416}
+.banner.error svg{color:var(--coral)}
+.banner.info{background:#E9F1FC; border:1px solid #CFE0F7; color:#12386E}
+.banner.info svg{color:var(--gulf)}
+
+/* ---- states: loading / empty / map-unavailable ---- */
+.sk{background:linear-gradient(100deg,var(--n100) 30%,var(--n50) 50%,var(--n100) 70%); background-size:200% 100%;
+  animation:sk 1.3s linear infinite; border-radius:6px}
+@keyframes sk{to{background-position:-200% 0}}
+.sk-line{height:14px; margin:8px 0}
+.sk-fig{height:70px; width:60%; margin:6px 0}
+.state-empty,.state-unavail{text-align:center; padding:34px 18px; color:var(--ink-2)}
+.state-empty .ic,.state-unavail .ic{color:var(--n400); margin-bottom:10px}
+.state-empty h3,.state-unavail h3{font-size:19px; color:var(--navy); margin-bottom:6px}
+.state-empty p,.state-unavail p{max-width:46ch; margin:0 auto 14px; text-wrap:pretty}
+
+/* ---- methodology drawer ---- */
+.method{margin-top:20px; border:1px solid var(--n200); border-radius:var(--radius); overflow:hidden}
+.method summary{list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between;
+  gap:12px; padding:16px; background:var(--n50); font-weight:700; color:var(--navy); font-size:16px}
+.method summary::-webkit-details-marker{display:none}
+.method[open] summary{border-bottom:1px solid var(--n200)}
+.method .chev{transition:transform var(--dur) var(--ease); color:var(--gulf)}
+.method[open] .chev{transform:rotate(180deg)}
+.method-body{padding:16px; font-size:15px; color:var(--ink-2); line-height:1.6}
+.method-body h3{font-size:14px; text-transform:uppercase; letter-spacing:.1em; color:var(--gulf); margin:18px 0 6px}
+.method-body h3:first-child{margin-top:0}
+.method-body ul{margin:6px 0; padding-left:20px}
+.method-body li{margin:4px 0; text-wrap:pretty}
+.method-body dl{display:grid; grid-template-columns:auto 1fr; gap:6px 14px; margin:6px 0}
+.method-body dt{font-weight:700; color:var(--navy)}
+
+/* ---- footer ---- */
+.foot{margin-top:22px; padding-top:16px; border-top:1px solid var(--n200); display:flex; flex-wrap:wrap;
+  justify-content:space-between; gap:12px; align-items:center; font-size:13.5px; color:var(--ink-3)}
+.foot .credit{display:flex; align-items:center; gap:10px; font-weight:700; color:var(--navy)}
+.foot .credit .mark{display:inline-flex; align-items:center; gap:7px}
+.foot .credit .gcn{background:var(--navy); color:#fff; font-weight:800; letter-spacing:.04em; font-size:12px; padding:5px 8px; border-radius:4px}
+
+/* ---- prototype state previewer (demo only) ---- */
+.devbar{margin-top:16px; border:1px dashed var(--n300); border-radius:var(--radius); background:var(--n50);
+  padding:10px 14px; display:flex; flex-wrap:wrap; align-items:center; gap:10px 14px; font-size:13px; color:var(--ink-2)}
+.devbar .tag{font-size:11px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--coral);
+  background:var(--coral-soft); padding:3px 7px; border-radius:4px}
+.devbar select{font-family:var(--font); font-size:14px; padding:6px 26px 6px 9px; min-height:38px; border:1.5px solid var(--n300);
+  border-radius:var(--radius-sm); background:#fff; color:var(--navy); appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236B7585' stroke-width='3'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center}
+
+/* ============================================================
+   RESPONSIVE — mobile-first; enhance upward
+   ============================================================ */
+@media (min-width:560px){
+  .app{padding:22px 22px 32px}
+  .filters{grid-template-columns:1fr 1fr}
+  .filter-actions{grid-column:1 / -1}
+  .hero-meta{grid-template-columns:1fr 1fr}
+}
+@media (min-width:720px){
+  .hero{grid-template-columns:auto 1fr; align-items:center; padding:26px 26px}
+  .hero-meta{border-left:1px solid rgba(255,255,255,.16); padding-left:24px}
+  .filters{grid-template-columns:repeat(3,1fr)}
+}
+@media (min-width:900px){
+  .grid.two{grid-template-columns:1fr 1fr}
+  .geo{grid-template-columns:1.15fr 1fr; align-items:start}
+}
+
+/* ============================================================
+   REDUCED MOTION
+   ============================================================ */
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms!important; animation-iteration-count:1!important; transition-duration:.001ms!important}
+}
+body.reduce-motion *{animation-duration:.001ms!important; transition-duration:.001ms!important; scroll-behavior:auto!important}
+</style>
+</head>
+<body>
+<main class="app" id="app" aria-busy="true">
+  <!-- rendered by JS -->
+  <div id="live" aria-live="polite" class="vh"></div>
+</main>
+
+<script>
+"use strict";
+/* =====================================================================
+   Florida Manatee Mortality — interactive
+   Static, iframe-safe, no backend. Loads ./data/mortality.json.
+   ===================================================================== */
+
+const CFG = {
+  DATA_URL: "data/mortality.json",
+  COUNTY_TOPO_URL: "https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/counties-10m.json",
+  STALE_DAYS: 10, // refresh older than this -> stale warning
+  LKG_KEY: "manatee_lkg_v1", // last-known-good cache
+};
+
+/* Official FWC cause order + short plain-language help (tooltips must not merge categories) */
+const CAUSES = [
+  {code:"WC", name:"Watercraft",           color:"var(--c-WC)", help:"Collision with a boat hull or propeller."},
+  {code:"GL", name:"Flood Gate/Canal Lock", color:"var(--c-GL)", help:"Death associated with a flood-control gate or canal lock."},
+  {code:"HR", name:"Human-Related, Other", color:"var(--c-HR)", help:"Other human-related causes, such as entanglement or debris ingestion."},
+  {code:"PN", name:"Perinatal",            color:"var(--c-PN)", help:"Dependent calves under ~150 cm that died at or near birth; cause is often not determined."},
+  {code:"CS", name:"Cold Stress",          color:"var(--c-CS)", help:"Cold-stress syndrome from prolonged exposure to water below ~68°F (20°C)."},
+  {code:"NA", name:"Natural",              color:"var(--c-NA)", help:"Natural causes such as disease or red tide (brevetoxicosis)."},
+  {code:"UD", name:"Undetermined: Too Decomposed", color:"var(--c-UD)", help:"Cause could not be determined because of decomposition."},
+  {code:"UO", name:"Undetermined: Other",  color:"var(--c-UO)", help:"Cause could not be determined for another reason."},
+  {code:"VN", name:"Verified, Not Necropsied", color:"var(--c-VN)", help:"The death was verified, but a full necropsy was not completed."},
+];
+const CAUSE_BY_NAME = Object.fromEntries(CAUSES.map(c=>[c.name,c]));
+
+/* Florida county FIPS -> name (matches names used in the data) */
+const FL_FIPS = {
+ "12001":"Alachua","12003":"Baker","12005":"Bay","12007":"Bradford","12009":"Brevard","12011":"Broward",
+ "12013":"Calhoun","12015":"Charlotte","12017":"Citrus","12019":"Clay","12021":"Collier","12023":"Columbia",
+ "12027":"DeSoto","12029":"Dixie","12031":"Duval","12033":"Escambia","12035":"Flagler","12037":"Franklin",
+ "12039":"Gadsden","12041":"Gilchrist","12043":"Glades","12045":"Gulf","12047":"Hamilton","12049":"Hardee",
+ "12051":"Hendry","12053":"Hernando","12055":"Highlands","12057":"Hillsborough","12059":"Holmes","12061":"Indian River",
+ "12063":"Jackson","12065":"Jefferson","12067":"Lafayette","12069":"Lake","12071":"Lee","12073":"Leon",
+ "12075":"Levy","12077":"Liberty","12079":"Madison","12081":"Manatee","12083":"Marion","12085":"Martin",
+ "12086":"Miami-Dade","12087":"Monroe","12089":"Nassau","12091":"Okaloosa","12093":"Okeechobee","12095":"Orange",
+ "12097":"Osceola","12099":"Palm Beach","12101":"Pasco","12103":"Pinellas","12105":"Polk","12107":"Putnam",
+ "12109":"St. Johns","12111":"St. Lucie","12113":"Santa Rosa","12115":"Sarasota","12117":"Seminole","12119":"Sumter",
+ "12121":"Suwannee","12123":"Taylor","12125":"Union","12127":"Volusia","12129":"Wakulla","12131":"Walton","12133":"Washington"
+};
+
+/* ---------- state ---------- */
+const S = {
+  status: "loading",     // loading | ready | empty | stale | failure | error
+  mapStatus: "loading",  // loading | ready | unavailable
+  data: null,            // {_meta, records}
+  meta: null,
+  records: [],
+  years: [],
+  year: null,
+  county: "all",
+  cause: "all",
+  showPrev: true,
+  tableView: false,
+  reduceMotion: window.matchMedia("(prefers-reduced-motion:reduce)").matches,
+  topo: null,            // fl county features
+  cursorIdx: null,
+};
+
+/* ---------- utilities ---------- */
+const $ = (sel,root=document)=>root.querySelector(sel);
+const fmt = n => n.toLocaleString("en-US");
+const el = (tag,attrs={},...kids)=>{
+  const n=document.createElement(tag);
+  for(const [k,v] of Object.entries(attrs)){
+    if(v==null||v===false) continue;
+    if(k==="class") n.className=v;
+    else if(k==="html") n.innerHTML=v;
+    else if(k.startsWith("on")&&typeof v==="function") n.addEventListener(k.slice(2).toLowerCase(),v);
+    else if(k==="text") n.textContent=v;
+    else n.setAttribute(k,v===true?"":v);
+  }
+  for(const kid of kids.flat()){ if(kid==null||kid===false) continue; n.append(kid.nodeType?kid:document.createTextNode(kid)); }
+  return n;
+};
+function parseDate(s){ const [y,m,d]=s.split("-").map(Number); return new Date(Date.UTC(y,m-1,d)); }
+function dayOfYear(d){ const start=Date.UTC(d.getUTCFullYear(),0,0); return Math.floor((d-start)/86400000); }
+function fmtLong(s){ if(!s) return "—"; return parseDate(s).toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric",timeZone:"UTC"}); }
+function fmtShort(doy,year){ const d=new Date(Date.UTC(year,0,doy)); return d.toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"}); }
+function fmtRefresh(iso){ if(!iso) return "—"; const d=new Date(iso); return d.toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"})+" at "+d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit",timeZoneName:"short"}); }
+function announce(msg){ const l=$("#live"); if(l) l.textContent=msg; }
+
+/* ---------- derived data ---------- */
+function yearRecords(year){ return S.records.filter(r=>r.date.slice(0,4)===String(year)); }
+function applyFilters(recs){
+  return recs.filter(r=>(S.county==="all"||r.county===S.county) && (S.cause==="all"||r.cause===S.cause));
+}
+function filtered(){ return applyFilters(yearRecords(S.year)); }
+function yearIsPreliminary(year){ const r=yearRecords(year); return r.length>0 && r.some(x=>x.status==="preliminary"); }
+function reportedThrough(year){
+  const r=yearRecords(year); if(!r.length) return null;
+  // prefer explicit sourceAsOf, else max record date
+  let asOf=r.reduce((m,x)=>x.sourceAsOf&&x.sourceAsOf>m?x.sourceAsOf:m,"");
+  if(!asOf) asOf=r.reduce((m,x)=>x.date>m?x.date:m,"0000-00-00");
+  return asOf;
+}
+function refreshDate(){ if(S.meta&&S.meta.fetchedAt) return S.meta.fetchedAt; const r=S.records.find(x=>x.fetchedAt); return r?r.fetchedAt:null; }
+function daysSince(iso){ if(!iso) return null; return Math.floor((Date.now()-new Date(iso))/86400000); }
+
+function effectiveStatus(){ return S.status; }
+
+/* =====================================================================
+   DATA LOADING  (with last-known-good cache + failure handling)
+   ===================================================================== */
+async function loadData(){
+  S.status="loading"; render();
+  try{
+    const res = await fetch(CFG.DATA_URL, {cache:"no-store"});
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const json = await res.json();
+    ingest(json, false);
+    try{ localStorage.setItem(CFG.LKG_KEY, JSON.stringify({at:Date.now(), json})); }catch(e){}
+    // stale check
+    const ds = daysSince(refreshDate());
+    S.status = (ds!=null && ds>CFG.STALE_DAYS) ? "stale" : "ready";
+  }catch(err){
+    // update failure -> fall back to last-known-good
+    const lkg = readLKG();
+    if(lkg){ ingest(lkg.json, true); S.status="failure"; }
+    else { S.status="error"; }
+    console.warn("Data load failed:", err);
+  }
+  render();
+  loadMap();
+}
+function readLKG(){ try{ const raw=localStorage.getItem(CFG.LKG_KEY); return raw?JSON.parse(raw):null; }catch(e){ return null; } }
+function ingest(json, fromCache){
+  const records = Array.isArray(json) ? json : (json.records||[]);
+  S.data=json; S.records=records;
+  S.meta = Array.isArray(json) ? {} : (json._meta||{});
+  S.years = [...new Set(records.map(r=>r.date.slice(0,4)))].map(Number).sort((a,b)=>b-a);
+  if(S.year==null) S.year = S.years[0];
+}
+
+/* =====================================================================
+   MAP LOADING (county geometry; degrades to "map unavailable")
+   ===================================================================== */
+async function loadMap(){
+  if(typeof d3==="undefined" || typeof topojson==="undefined"){ S.mapStatus="unavailable"; render(); return; }
+  if(S.topo){ S.mapStatus="ready"; render(); return; }
+  S.mapStatus="loading";
+  try{
+    const topo = await d3.json(CFG.COUNTY_TOPO_URL);
+    const fc = topojson.feature(topo, topo.objects.counties);
+    S.topo = fc.features.filter(f=>String(f.id).startsWith("12"));
+    if(!S.topo.length) throw new Error("no FL counties");
+    S.mapStatus="ready";
+  }catch(err){
+    console.warn("Map geometry unavailable:", err);
+    S.mapStatus="unavailable";
+  }
+  render();
+}
+
+/* =====================================================================
+   RENDER
+   ===================================================================== */
+function render(){
+  const app=$("#app");
+  const live = $("#live") || el("div",{id:"live","aria-live":"polite",class:"vh"});
+  const st = effectiveStatus();
+  app.setAttribute("aria-busy", st==="loading");
+  document.body.classList.toggle("reduce-motion", S.reduceMotion);
+
+  const nodes=[];
+  nodes.push(live);
+  nodes.push(renderBrandBar());
+  nodes.push(renderMasthead());
+
+  if(st==="loading"){ nodes.push(renderLoading()); app.replaceChildren(...nodes); return; }
+  if(st==="error"){ nodes.push(renderHardError()); app.replaceChildren(...nodes); return; }
+
+  // banners for failure/stale
+  if(st==="failure") nodes.push(renderFailureBanner());
+  else if(st==="stale") nodes.push(renderStaleBanner());
+  if((S.meta&&S.meta.warnings||[]).length) nodes.push(renderSourceWarning());
+
+  nodes.push(renderHero());
+  nodes.push(renderControls());
+
+  const fr = filtered();
+  if(!fr.length){
+    nodes.push(renderEmpty());
+  } else {
+    nodes.push(renderCharts(fr));
+    nodes.push(renderGeo(fr));
+  }
+  nodes.push(renderMethodology());
+  nodes.push(renderFooter());
+  app.replaceChildren(...nodes);
+
+  // post-render enhancements
+  if(fr.length){
+    if(S.mapStatus==="ready") drawMap(fr);
+  }
+  postHeight();
+}
+
+/* ---------- brand bar ---------- */
+function renderBrandBar(){
+  const bar=el("div",{class:"brandbar"});
+  bar.append(el("span",{class:"tick","aria-hidden":"true",style:"background-color:#F1D273"}));
+  bar.append(el("div",{class:"flag"},
+    el("span",{class:"net"},el("span",{class:"g",style:"color:#00102D"},"Gulf Coast")," News"),
+    el("span",{class:"desk"},"Data Desk")));
+  bar.append(el("span",{class:"spacer"}));
+  bar.append(el("span",{class:"kicker"},"Florida wildlife",el("br",{}),"Coastal watch"));
+  return bar;
+}
+
+/* ---------- masthead ---------- */
+function renderMasthead(){
+  const m=S.meta||{};
+  const isSample = m.sample;
+  const head = el("header",{class:"masthead"});
+  if(isSample) head.append(el("span",{class:"sample-flag"},
+    iconSVG("info",16), "Sample data — synthetic figures for demonstration only"));
+  head.append(el("h1",{},"Florida ",el("span",{class:"accent"},"manatee"), " mortality"));
+  head.append(el("p",{class:"lede"},"Reported manatee deaths across Florida — by cause, by month, and by county. Current-year figures are preliminary and change as cases are examined and confirmed."));
+  return head;
+}
+
+/* ---------- loading skeleton ---------- */
+function renderLoading(){
+  const wrap=el("div",{class:"stack","aria-hidden":"true"});
+  const hero=el("div",{class:"hero"}); hero.style.background="var(--navy)";
+  hero.append(el("div",{},el("div",{class:"sk sk-fig",style:"background:rgba(255,255,255,.12)"}),
+    el("div",{class:"sk sk-line",style:"width:70%;background:rgba(255,255,255,.12)"})));
+  wrap.append(hero);
+  const g=el("div",{class:"grid two"});
+  for(let i=0;i<2;i++){ const c=el("div",{class:"card"}); c.append(el("div",{class:"sk sk-line",style:"width:40%"}),
+    el("div",{class:"sk sk-line"}),el("div",{class:"sk sk-line"}),el("div",{class:"sk sk-line",style:"width:80%"}),el("div",{class:"sk sk-line",style:"width:60%"})); g.append(c); }
+  wrap.append(g);
+  const sr=el("p",{class:"vh",role:"status"},"Loading manatee mortality data…");
+  wrap.append(sr);
+  announce("Loading manatee mortality data…");
+  return wrap;
+}
+function renderHardError(){
+  return el("div",{class:"card"},el("div",{class:"state-unavail"},
+    el("div",{class:"ic"},iconSVG("alert",40)),
+    el("h3",{},"Data couldn’t be loaded"),
+    el("p",{},"We couldn’t load the mortality dataset and no previously saved copy is available. Please check the connection and try again."),
+    el("button",{class:"btn btn-primary",onclick:()=>loadData()},iconSVG("refresh",18),"Retry")
+  ));
+}
+
+/* ---------- banners ---------- */
+function renderFailureBanner(){
+  const rd=fmtRefresh(refreshDate());
+  return banner("error","alert","Showing the last saved data","We couldn’t reach the data source for a fresh update, so these figures are from the most recent successful refresh ("+rd+"). Totals are not zeroed out — they reflect the last known-good dataset.",
+    el("button",{class:"btn btn-secondary",style:"margin-top:10px",onclick:()=>loadData()},iconSVG("refresh",16),"Try updating again"));
+}
+function renderStaleBanner(){
+  const ds=daysSince(refreshDate());
+  return banner("warn","clock","This data may be out of date","The most recent successful refresh was "+ds+" days ago ("+fmtRefresh(refreshDate())+"). Newer records may exist on the FWC site.",
+    el("button",{class:"btn btn-secondary",style:"margin-top:10px",onclick:()=>loadData()},iconSVG("refresh",16),"Check for updates"));
+}
+function renderSourceWarning(){
+  const warnings=(S.meta&&S.meta.warnings)||[];
+  return banner("warn","info","FWC source note",warnings.join(" "));
+}
+function banner(kind,icon,title,body,extra){
+  return el("div",{class:"banner "+kind,role:kind==="error"?"alert":"status"},
+    iconSVG(icon,22),
+    el("div",{class:"b-body"}, el("strong",{},title), el("span",{},body), extra||null));
+}
+
+/* ---------- hero / status ---------- */
+function renderHero(){
+  const fr=filtered();
+  const total=fr.length;
+  const prelim=yearIsPreliminary(S.year);
+  const through=reportedThrough(S.year);
+  const rd=refreshDate();
+  const filtersActive = S.county!=="all" || S.cause!=="all";
+
+  const hero=el("section",{class:"hero","aria-label":"Headline figures for "+S.year});
+
+  const left=el("div",{class:"hero-total"});
+  left.append(el("div",{class:"hero-badges"},
+    prelim ? el("span",{class:"badge prelim"},el("span",{class:"dot"}),"Preliminary")
+           : el("span",{class:"badge final"},el("span",{class:"dot"}),"Final"),
+    el("span",{class:"badge final",style:"background:rgba(255,255,255,.14);color:#fff"},S.year)
+  ));
+  left.append(el("div",{class:"fig tnum"},fmt(total)));
+  left.append(el("div",{class:"cap"},
+    filtersActive
+      ? "reported manatee deaths in "+S.year+" matching the current filters"
+      : "manatee deaths reported statewide in "+S.year
+  ));
+  hero.append(left);
+
+  const right=el("div",{class:"hero-meta"});
+  right.append(metaGrp("Reported through", fmtLong(through), prelim?"Preliminary — subject to change":"Final count"));
+  right.append(metaGrp("Website last refreshed", fmtRefresh(rd), null));
+  right.append(metaGrp("Source", "Florida FWC", el("a",{href:(S.meta&&S.meta.sourceUrl)||"https://myfwc.com",target:"_blank",rel:"noopener noreferrer"},"View official statistics ↗")));
+  const note=el("p",{class:"hero-note"}, prelim
+    ? "These are preliminary counts of deaths, not a population estimate. Totals rise through the year and are revised as carcasses are examined."
+    : "Counts reflect reported deaths only and are not a population estimate.");
+  right.append(note);
+  hero.append(right);
+  return hero;
+}
+function metaGrp(k,v,sub){
+  return el("div",{class:"grp"},
+    el("div",{class:"k"},k), el("div",{class:"v"},v),
+    sub? (typeof sub==="string"? el("div",{class:"small",style:"color:#9FB3D4"},sub):el("div",{class:"small"},sub)) : null);
+}
+
+/* ---------- controls / filters ---------- */
+function renderControls(){
+  const filtersActive=(S.county!=="all"?1:0)+(S.cause!=="all"?1:0);
+  const det=el("details",{class:"controls",open:window.matchMedia("(min-width:720px)").matches?true:null});
+  const sum=el("summary",{});
+  const bar=el("div",{class:"ctrlbar"});
+  bar.append(el("span",{class:"lbl"},iconSVG("filter",18),"Filter the data",
+     filtersActive?el("span",{class:"activecount"},filtersActive+" active"):null));
+  bar.append(el("span",{class:"chev"},iconSVG("chev",18)));
+  sum.append(bar); det.append(sum);
+
+  const f=el("div",{class:"filters"});
+  f.append(selectField("Year","flt-year",S.years.map(y=>({v:String(y),t:String(y)+(yearIsPreliminary(y)?" (preliminary)":"")})),String(S.year),v=>{S.year=Number(v);S.cursorIdx=null;render();announce("Year set to "+v);}));
+
+  const counties=[...new Set(S.records.map(r=>r.county))].sort();
+  f.append(selectField("County","flt-county",[{v:"all",t:"All counties"}].concat(counties.map(c=>({v:c,t:c}))),S.county,v=>{S.county=v;render();announce(v==="all"?"Showing all counties":"County filter: "+v);}));
+
+  f.append(selectField("Cause of death","flt-cause",[{v:"all",t:"All causes"}].concat(CAUSES.map(c=>({v:c.name,t:c.name}))),S.cause,v=>{S.cause=v;render();announce(v==="all"?"Showing all causes":"Cause filter: "+v);}));
+
+  const acts=el("div",{class:"filter-actions"});
+  const noFilters = S.county==="all"&&S.cause==="all";
+  acts.append(el("button",{class:"btn btn-ghost",disabled:noFilters?true:null,onclick:resetFilters},iconSVG("reset",18),"Reset filters"));
+  acts.append(el("button",{class:"btn btn-secondary",onclick:downloadCSV},iconSVG("download",18),"Download CSV"));
+  f.append(acts);
+  det.append(f);
+  return det;
+}
+function selectField(label,id,opts,val,onchange){
+  const sel=el("select",{id,"aria-label":label,onchange:e=>onchange(e.target.value)});
+  for(const o of opts){ const op=el("option",{value:o.v},o.t); if(o.v===val) op.selected=true; sel.append(op); }
+  return el("div",{class:"field"},el("label",{for:id},label),sel);
+}
+function resetFilters(){ S.county="all"; S.cause="all"; render(); announce("Filters reset. Showing all counties and causes for "+S.year+"."); }
+
+/* ---------- charts (cause + cumulative) ---------- */
+function renderCharts(fr){
+  const grid=el("div",{class:"grid two"});
+  grid.append(renderCauseCard(fr));
+  grid.append(renderCumulativeCard(fr));
+  return grid;
+}
+
+function renderCauseCard(fr){
+  const counts={}; CAUSES.forEach(c=>counts[c.name]=0);
+  fr.forEach(r=>{ if(counts[r.cause]==null) counts[r.cause]=0; counts[r.cause]++; });
+  const total=fr.length;
+  const rows=CAUSES.map(c=>({...c,n:counts[c.name]||0})).filter(c=>c.n>0 || S.cause==="all");
+  const max=Math.max(1,...rows.map(r=>r.n));
+
+  const card=el("section",{class:"card","aria-label":"Cause of death breakdown"});
+  card.append(cardHead("Cause of death","How the "+fmt(total)+" reported "+S.year+" death"+(total===1?"":"s")+" break down. Categories follow FWC’s official classifications.",
+    tableToggle()));
+
+  if(S.tableView){
+    card.append(dataTable(["Cause","Deaths","Share"],
+      rows.map(r=>[r.name, fmt(r.n), total?Math.round(r.n/total*100)+"%":"0%"]),
+      "Reported manatee deaths by cause, "+S.year));
+  } else {
+    const list=el("div",{class:"causelist",role:"list"});
+    rows.forEach(r=>{
+      const pct=total?Math.round(r.n/total*100):0;
+      const row=el("div",{class:"causerow",role:"listitem"});
+      row.append(el("div",{class:"name"},el("span",{class:"sw",style:"background:"+r.color}),el("span",{class:"txt"},r.name)));
+      row.append(el("div",{class:"valwrap"},el("span",{class:"n"},fmt(r.n)),el("span",{class:"pct"},pct+"%")));
+      const track=el("div",{class:"track"});
+      track.append(el("div",{class:"fill",style:"width:"+(S.reduceMotion?(r.n/max*100):0)+"%;background:"+r.color,"aria-hidden":"true"}));
+      row.append(track);
+      row.append(el("p",{class:"why"},r.help));
+      list.append(row);
+      if(!S.reduceMotion) requestAnimationFrame(()=>{ const fill=track.firstChild; fill.style.width=(r.n/max*100)+"%"; });
+    });
+    card.append(list);
+  }
+  return card;
+}
+
+function renderCumulativeCard(fr){
+  const card=el("section",{class:"card","aria-label":"Cumulative deaths by date"});
+  const prevYear=S.year-1;
+  const havePrev=S.years.includes(prevYear);
+  card.append(cardHead("Deaths by date","Running total of reported deaths through the year"+(havePrev&&S.showPrev?", compared with "+prevYear+" over the same period.":"."),
+    el("div",{class:"mini-actions"},
+      havePrev? toggleSwitch("Compare "+prevYear, S.showPrev, v=>{S.showPrev=v;render();announce(v?("Comparing "+prevYear):("Hiding "+prevYear+" comparison"));}) : null,
+      tableToggle())));
+
+  const through=reportedThrough(S.year);
+  const cutoffDOY = through ? dayOfYear(parseDate(through)) : 366;
+
+  const cur=cumulativeSeries(fr, cutoffDOY);
+  const prevFr = havePrev&&S.showPrev ? applyFilters(yearRecords(prevYear)) : null;
+  const prev = prevFr ? cumulativeSeries(prevFr, cutoffDOY) : null;
+
+  if(havePrev&&S.showPrev){
+    card.append(el("p",{class:"chart-help"},iconSInline("info"),
+      " "+prevYear+" is shown only through "+fmtShort(cutoffDOY,prevYear)+" — the same point in the year as the current cutoff — so the two lines cover an equal number of days. "+(yearIsPreliminary(S.year)?"The "+S.year+" line is still preliminary and incomplete.":"")));
+  }
+
+  if(S.tableView){
+    // monthly checkpoints
+    const rows=monthlyCheckpoints(cur,prev,cutoffDOY,prevYear,S.showPrev&&havePrev);
+    card.append(dataTable(
+      ["Through", S.year+" (cumulative)"].concat(havePrev&&S.showPrev?[prevYear+" (cumulative)"]:[]),
+      rows, "Cumulative reported deaths by month"));
+  } else {
+    card.append(cumulativeSVG(cur,prev,cutoffDOY,prevYear,havePrev&&S.showPrev));
+    const leg=el("div",{class:"legend"});
+    leg.append(el("span",{class:"li"},el("span",{class:"swline"}),String(S.year)+(yearIsPreliminary(S.year)?" (preliminary)":"")));
+    if(havePrev&&S.showPrev) leg.append(el("span",{class:"li"},el("span",{class:"swline prev"}),String(prevYear)+" (through same date)"));
+    card.append(leg);
+    card.append(el("p",{class:"chart-help"},"Tip: use ← → arrow keys on the chart, or tap it, to read values for a specific date."));
+  }
+  return card;
+}
+
+function cumulativeSeries(recs, cutoffDOY){
+  const byDoy=new Array(367).fill(0);
+  recs.forEach(r=>{ const d=parseDate(r.date); const doy=dayOfYear(d); if(doy>=1&&doy<=cutoffDOY) byDoy[doy]++; });
+  const out=[]; let run=0;
+  for(let i=1;i<=cutoffDOY;i++){ run+=byDoy[i]; out.push({doy:i,total:run}); }
+  return out;
+}
+function monthlyCheckpoints(cur,prev,cutoffDOY,prevYear,withPrev){
+  const rows=[]; const marks=[31,59,90,120,151,181,212,243,273,304,334,365];
+  const names=["Jan 31","Feb 28","Mar 31","Apr 30","May 31","Jun 30","Jul 31","Aug 31","Sep 30","Oct 31","Nov 30","Dec 31"];
+  marks.forEach((mk,i)=>{
+    if(mk>cutoffDOY) return;
+    const c=cur.filter(p=>p.doy<=mk).pop();
+    const row=["through "+names[i], c?fmt(c.total):"0"];
+    if(withPrev&&prev){ const p=prev.filter(x=>x.doy<=mk).pop(); row.push(p?fmt(p.total):"0"); }
+    rows.push(row);
+  });
+  // final cutoff row
+  const c=cur[cur.length-1];
+  const frow=["through "+fmtShort(cutoffDOY,S.year), c?fmt(c.total):"0"];
+  if(withPrev&&prev){ const p=prev[prev.length-1]; frow.push(p?fmt(p.total):"0"); }
+  rows.push(frow);
+  return rows;
+}
+
+function cumulativeSVG(cur,prev,cutoffDOY,prevYear,withPrev){
+  const W=560,H=300, m={t:14,r:14,b:34,l:46};
+  const iw=W-m.l-m.r, ih=H-m.t-m.b;
+  const maxY=Math.max(1, cur[cur.length-1]?.total||1, withPrev&&prev?(prev[prev.length-1]?.total||0):0);
+  const niceMax=niceCeil(maxY);
+  const x=doy=>m.l+(doy-1)/(Math.max(1,cutoffDOY-1))*iw;
+  const y=v=>m.t+ih-(v/niceMax)*ih;
+  const path=series=>series.map((p,i)=>(i?"L":"M")+x(p.doy).toFixed(1)+" "+y(p.total).toFixed(1)).join(" ");
+
+  const svgNS="http://www.w3.org/2000/svg";
+  const svg=document.createElementNS(svgNS,"svg");
+  svg.setAttribute("viewBox","0 0 "+W+" "+H); svg.setAttribute("class","chart");
+  svg.setAttribute("role","img");
+  const curTot=cur[cur.length-1]?.total||0;
+  svg.setAttribute("aria-label","Line chart: cumulative reported manatee deaths in "+S.year+" reaching "+curTot+" by "+fmtShort(cutoffDOY,S.year)+(withPrev&&prev?("; compared with "+ (prev[prev.length-1]?.total||0) +" in "+prevYear+" over the same period"):"")+". A data table with the same values is available above via ‘View as table’.");
+  const mk=(t,a={})=>{ const n=document.createElementNS(svgNS,t); for(const k in a) n.setAttribute(k,a[k]); return n; };
+
+  // gridlines + y axis
+  const gY=mk("g",{class:"axis"});
+  const steps=4;
+  for(let i=0;i<=steps;i++){ const v=niceMax*i/steps; const yy=y(v);
+    gY.append(mk("line",{class:"gridline",x1:m.l,x2:W-m.r,y1:yy,y2:yy}));
+    const tx=mk("text",{x:m.l-8,y:yy+4,"text-anchor":"end"}); tx.textContent=fmt(Math.round(v)); gY.append(tx);
+  }
+  svg.append(gY);
+  // x axis month labels (fewer on small screens handled by CSS font; we place quarterly + cutoff)
+  const gX=mk("g",{class:"axis"});
+  gX.append(mk("line",{x1:m.l,x2:W-m.r,y1:m.t+ih,y2:m.t+ih}));
+  const monthMarks=[1,60,152,244,335].filter(d=>d<=cutoffDOY);
+  monthMarks.forEach(d=>{ const tx=mk("text",{x:x(d),y:m.t+ih+20,"text-anchor":"middle"}); tx.textContent=fmtShort(d,S.year); gX.append(tx); });
+  // cutoff label
+  const ctx=mk("text",{x:x(cutoffDOY),y:m.t+ih+20,"text-anchor":"end",fill:"var(--gulf)"}); ctx.textContent=fmtShort(cutoffDOY,S.year); gX.append(ctx);
+  svg.append(gX);
+
+  // prev line
+  if(withPrev&&prev&&prev.length){ svg.append(mk("path",{class:"line-prev",d:path(prev)})); }
+  // cur line
+  const curPath=mk("path",{class:"line-cur",d:path(cur)});
+  svg.append(curPath);
+  if(!S.reduceMotion){ const len=curPath.getTotalLength?0:0; curPath.style.strokeDasharray=W*2; curPath.style.strokeDashoffset=W*2; requestAnimationFrame(()=>{ curPath.style.transition="stroke-dashoffset 900ms var(--ease)"; curPath.style.strokeDashoffset=0; }); }
+  // end dot
+  const last=cur[cur.length-1]; if(last) svg.append(mk("circle",{class:"cur-dot",cx:x(last.doy),cy:y(last.total),r:4}));
+
+  // interaction layer
+  const cursorLine=mk("line",{class:"chart-cursor",y1:m.t,y2:m.t+ih,style:"opacity:0"});
+  const cursorDot=mk("circle",{r:5,fill:"var(--navy)",stroke:"#fff","stroke-width":2,style:"opacity:0"});
+  svg.append(cursorLine,cursorDot);
+  const overlay=mk("rect",{x:m.l,y:m.t,width:iw,height:ih,fill:"transparent",tabindex:0,role:"slider",
+    "aria-label":"Read cumulative deaths by date. Use left and right arrow keys.","aria-valuemin":1,"aria-valuemax":cutoffDOY});
+  svg.append(overlay);
+
+  const tip=el("div",{class:"tooltip",role:"status"});
+  const setCursor=(doy)=>{
+    S.cursorIdx=doy;
+    const cp=cur.find(p=>p.doy===doy)||cur[cur.length-1];
+    const xx=x(cp.doy), yy=y(cp.total);
+    cursorLine.setAttribute("x1",xx); cursorLine.setAttribute("x2",xx); cursorLine.style.opacity=1;
+    cursorDot.setAttribute("cx",xx); cursorDot.setAttribute("cy",yy); cursorDot.style.opacity=1;
+    overlay.setAttribute("aria-valuenow",doy);
+    overlay.setAttribute("aria-valuetext",fmtShort(doy,S.year)+": "+cp.total+" cumulative in "+S.year);
+    // tooltip content
+    tip.replaceChildren(el("div",{class:"tt-date"},fmtShort(doy,S.year)));
+    tip.append(el("div",{class:"tt-row"},el("span",{class:"lab"},String(S.year)),el("span",{},fmt(cp.total))));
+    if(withPrev&&prev){ const pp=prev.find(p=>p.doy===doy)||prev[prev.length-1]; tip.append(el("div",{class:"tt-row"},el("span",{class:"lab"},String(prevYear)),el("span",{},fmt(pp?pp.total:0)))); }
+    tip.classList.add("show");
+    // position (relative to wrap)
+    const wrapRect=wrap.getBoundingClientRect(); const svgRect=svg.getBoundingClientRect();
+    const scale=svgRect.width/W;
+    let px=svgRect.left-wrapRect.left+xx*scale+12;
+    let py=svgRect.top-wrapRect.top+yy*scale-10;
+    if(px>wrapRect.width-150) px=svgRect.left-wrapRect.left+xx*scale-150;
+    tip.style.left=px+"px"; tip.style.top=Math.max(0,py)+"px";
+  };
+  const hide=()=>{ cursorLine.style.opacity=0; cursorDot.style.opacity=0; tip.classList.remove("show"); };
+  const doyFromEvt=(clientX)=>{ const rect=svg.getBoundingClientRect(); const scale=rect.width/W; const px=(clientX-rect.left)/scale; let doy=Math.round(1+((px-m.l)/iw)*(cutoffDOY-1)); return Math.max(1,Math.min(cutoffDOY,doy)); };
+  overlay.addEventListener("pointermove",e=>setCursor(doyFromEvt(e.clientX)));
+  overlay.addEventListener("pointerdown",e=>setCursor(doyFromEvt(e.clientX)));
+  overlay.addEventListener("pointerleave",hide);
+  overlay.addEventListener("keydown",e=>{
+    let cur0=S.cursorIdx||Math.round(cutoffDOY/2); let step= e.shiftKey?7:1;
+    if(e.key==="ArrowRight"){ setCursor(Math.min(cutoffDOY,cur0+step)); e.preventDefault(); }
+    else if(e.key==="ArrowLeft"){ setCursor(Math.max(1,cur0-step)); e.preventDefault(); }
+    else if(e.key==="Home"){ setCursor(1); e.preventDefault(); }
+    else if(e.key==="End"){ setCursor(cutoffDOY); e.preventDefault(); }
+  });
+  overlay.addEventListener("focus",()=>setCursor(S.cursorIdx||cutoffDOY));
+  overlay.addEventListener("blur",hide);
+
+  const wrap=el("div",{class:"chartwrap"}); wrap.append(svg,tip);
+  return wrap;
+}
+function niceCeil(v){ if(v<=5) return 5; const pow=Math.pow(10,Math.floor(Math.log10(v))); const f=v/pow; const n=f<=1?1:f<=2?2:f<=2.5?2.5:f<=5?5:10; return n*pow; }
+
+/* ---------- geographic ---------- */
+function renderGeo(fr){
+  const counts={}; fr.forEach(r=>counts[r.county]=(counts[r.county]||0)+1);
+  const ranked=Object.entries(counts).map(([c,n])=>({county:c,n})).sort((a,b)=>b.n-a.n||a.county.localeCompare(b.county));
+  S._counts=counts; S._maxCount=Math.max(1,...ranked.map(r=>r.n));
+
+  const card=el("section",{class:"card",style:"margin-top:16px","aria-label":"Deaths by county"});
+  card.append(cardHead("Where deaths were reported","County of recovery for the "+fmt(fr.length)+" reported "+S.year+" death"+(fr.length===1?"":"s")+". County is available even when exact coordinates are not."));
+
+  const geo=el("div",{class:"geo"});
+  // MAP
+  const mapUnavail = S.mapStatus==="unavailable";
+  const mapCol=el("div",{class:"mapbox"});
+  if(mapUnavail){
+    mapCol.append(el("div",{class:"state-unavail",style:"border:1px solid var(--n200);border-radius:var(--radius);background:var(--n50)"},
+      el("div",{class:"ic"},iconSVG("map",36)),
+      el("h3",{},"Map view is unavailable"),
+      el("p",{},"The county map couldn’t be loaded right now, but the ranked county list below has the same information."),
+      el("button",{class:"btn btn-secondary",onclick:()=>{ S.topo=null; loadMap(); }},iconSVG("refresh",16),"Retry map")
+    ));
+  } else if(S.mapStatus==="loading"){
+    mapCol.append(el("div",{class:"sk",style:"width:100%;aspect-ratio:3/2;border-radius:var(--radius)","aria-label":"Loading map"}));
+  } else {
+    const svgHolder=el("div",{id:"map-holder"});
+    mapCol.append(svgHolder);
+    // legend
+    mapCol.append(mapLegend());
+    mapCol.append(el("div",{class:"map-readout",id:"map-readout","aria-live":"polite"},
+      iconSInline("info")," ",S.county!=="all"
+        ? el("span",{},el("strong",{},S.county)," — ",fmt(counts[S.county]||0)," reported death"+((counts[S.county]||0)===1?"":"s")+" in "+S.year)
+        : el("span",{},"Select a county on the map or list to filter. Darker shading means more reported deaths.")));
+  }
+  geo.append(mapCol);
+
+  // RANKING
+  const rankCol=el("div",{});
+  rankCol.append(el("p",{class:"eyebrow",style:"margin-bottom:10px"},"County ranking"));
+  if(S.tableView){
+    rankCol.append(dataTable(["Rank","County","Deaths"],
+      ranked.map((r,i)=>[String(i+1),r.county,fmt(r.n)]),"Reported deaths by county, "+S.year));
+  } else {
+    const list=el("div",{class:"ranklist",role:"list"});
+    ranked.slice(0,12).forEach((r,i)=>{
+      const active=S.county===r.county;
+      const row=el("button",{class:"rankrow"+(active?" active":""),role:"listitem","aria-pressed":active?"true":"false",
+        onclick:()=>{ S.county=active?"all":r.county; render(); announce(active?"County filter cleared":"Filtered to "+r.county); }});
+      row.append(el("span",{class:"rk"},String(i+1)));
+      const co=el("span",{class:"co"});
+      co.append(el("span",{class:"nm"},r.county));
+      const meter=el("span",{class:"meter"}); meter.append(el("i",{style:"width:"+(r.n/S._maxCount*100)+"%"})); co.append(meter);
+      row.append(co);
+      row.append(el("span",{class:"ct"},fmt(r.n)));
+      list.append(row);
+    });
+    rankCol.append(list);
+    if(ranked.length>12) rankCol.append(el("p",{class:"chart-help"},"Showing the top 12 of "+ranked.length+" counties with reported deaths. Switch to ‘View as table’ for the full list."));
+    if(!ranked.length) rankCol.append(el("p",{class:"muted small"},"No counties to rank for the current selection."));
+  }
+  geo.append(rankCol);
+  card.append(geo);
+  return card;
+}
+function mapLegend(){
+  const stops=colorStops();
+  const leg=el("div",{class:"map-legend"});
+  leg.append(el("span",{},"Reported deaths:"));
+  const scale=el("span",{class:"scale","aria-hidden":"true"});
+  stops.forEach(s=>scale.append(el("span",{class:"sw",style:"background:"+s.c})));
+  leg.append(el("span",{style:"display:flex;flex-direction:column;gap:2px"},scale,
+    el("span",{class:"ends xsmall",style:"color:var(--ink-3)"},el("span",{},"fewer"),el("span",{},"more"))));
+  leg.append(el("span",{class:"row",style:"gap:6px"},el("span",{class:"sw",style:"background:#E7ECF2;border:1px solid var(--n300)"}),"none reported"));
+  return leg;
+}
+function colorStops(){
+  return [{c:"#D6E4F5"},{c:"#9CC0EC"},{c:"#5C93DC"},{c:"#2E6FC9"},{c:"#12386E"}];
+}
+function countyColor(n,max){
+  if(!n) return "#E7ECF2";
+  const stops=colorStops().map(s=>s.c);
+  const t=Math.log(n+1)/Math.log(max+1); // log scale (Brevard dominates)
+  const idx=Math.min(stops.length-1,Math.floor(t*stops.length));
+  return stops[idx];
+}
+function drawMap(fr){
+  const holder=$("#map-holder"); if(!holder||!S.topo) return;
+  const counts=S._counts||{}; const max=S._maxCount||1;
+  const W=640,H=430;
+  const svg=d3.create("svg").attr("viewBox","0 0 "+W+" "+H).attr("class","flmap")
+    .attr("role","img")
+    .attr("aria-label","Choropleth map of Florida counties shaded by number of reported manatee deaths in "+S.year+". Brevard County on the Atlantic coast has the most. The ranked county list beside this map lists exact counts.");
+  const fc={type:"FeatureCollection",features:S.topo};
+  const proj=d3.geoMercator().fitExtent([[8,8],[W-8,H-8]],fc);
+  const path=d3.geoPath(proj);
+  svg.selectAll("path").data(S.topo).join("path")
+    .attr("d",path)
+    .attr("class",d=>"county"+(FL_FIPS[d.id]===S.county?" selected":""))
+    .attr("fill",d=>countyColor(counts[FL_FIPS[d.id]]||0,max))
+    .attr("tabindex",0)
+    .attr("role","button")
+    .attr("aria-label",d=>{ const nm=FL_FIPS[d.id]||("County "+d.id); const n=counts[nm]||0; return nm+": "+n+" reported death"+(n===1?"":"s")+" in "+S.year+". Activate to filter."; })
+    .on("click",(e,d)=>selectCounty(FL_FIPS[d.id]))
+    .on("keydown",(e,d)=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); selectCounty(FL_FIPS[d.id]); } })
+    .on("mouseenter focus",(e,d)=>updateReadout(FL_FIPS[d.id]))
+    .append("title").text(d=>{ const nm=FL_FIPS[d.id]||d.id; const n=counts[nm]||0; return nm+": "+n; });
+  holder.replaceChildren(svg.node());
+}
+function updateReadout(county){
+  const ro=$("#map-readout"); if(!ro||!county) return;
+  const n=(S._counts||{})[county]||0;
+  ro.replaceChildren(iconSInline("info"),document.createTextNode(" "),
+    el("span",{},el("strong",{},county)," — ",fmt(n)," reported death"+(n===1?"":"s")+" in "+S.year));
+}
+function selectCounty(county){
+  if(!county) return;
+  S.county = (S.county===county)?"all":county;
+  render(); announce(S.county==="all"?"County filter cleared":"Filtered to "+county);
+}
+
+/* ---------- empty state ---------- */
+function renderEmpty(){
+  return el("section",{class:"card"},el("div",{class:"state-empty",role:"status"},
+    el("div",{class:"ic"},iconSVG("search",40)),
+    el("h3",{},"No matching records"),
+    el("p",{},"No reported manatee deaths match "+(S.cause!=="all"?("cause “"+S.cause+"”"):"")+(S.cause!=="all"&&S.county!=="all"?" in ":"")+(S.county!=="all"?("“"+S.county+"” County"):"")+" for "+S.year+"."),
+    el("button",{class:"btn btn-primary",onclick:resetFilters},iconSVG("reset",18),"Reset filters")
+  ));
+}
+
+/* ---------- methodology drawer ---------- */
+function renderMethodology(){
+  const m=S.meta||{};
+  const det=el("details",{class:"method"});
+  det.append(el("summary",{},el("span",{},"Methodology, sources & how to read this"),el("span",{class:"chev"},iconSVG("chev",18))));
+  const b=el("div",{class:"method-body"});
+  b.innerHTML = `
+    <h3>What this shows</h3>
+    <p>This interactive summarizes <strong>reported manatee deaths</strong> recorded by the Florida Fish and Wildlife Conservation Commission (FWC). Each record is one carcass documented by FWC’s Marine Mammal Pathobiology Lab and partners.</p>
+    <h3>Preliminary vs. final</h3>
+    <p>Current-year figures are <strong>preliminary</strong>: they rise as new deaths are reported and can be revised as necropsies assign a cause. Prior calendar years shown as <strong>final</strong> reflect FWC’s year-end totals. We never relabel preliminary records as final.</p>
+    <h3>Two dates that matter</h3>
+    <dl>
+      <dt>Reported through</dt><dd>The last date covered by the underlying data for the selected year.</dd>
+      <dt>Website last refreshed</dt><dd>When this page last successfully pulled a fresh copy of the data. If an update fails, the last successful dataset is kept and a notice is shown.</dd>
+    </dl>
+    <h3>Cause categories</h3>
+    <p>Causes use FWC’s official classifications and are not combined:</p>
+    <ul>${CAUSES.map(c=>`<li><strong>${c.name}:</strong> ${c.help}</li>`).join("")}</ul>
+    <h3>Year-over-year comparison</h3>
+    <p>When the previous year is shown, both lines are cut off at the <strong>same day of the year</strong> as the current reporting date, so a partial current year is never compared against a complete prior year.</p>
+    <h3>Geography</h3>
+    <p>Counts are grouped by <strong>county of recovery</strong>, which is available even when precise latitude/longitude is not. County shading uses a log scale because a few lagoon counties account for a large share of deaths.</p>
+    <h3>Important caveat</h3>
+    <p><strong>Mortality totals are not a population estimate.</strong> A change in reported deaths does not by itself indicate the manatee population is rising or falling. Population status comes from separate FWC/USGS surveys and models.</p>
+    <h3>Source</h3>
+    <p>${m.source||"Florida Fish and Wildlife Conservation Commission (FWC)"} — <a href="${m.sourceUrl||"https://myfwc.com"}" target="_blank" rel="noopener noreferrer">official mortality statistics ↗</a>.${m.sample?" <strong>These figures are synthetic sample data</strong> for demonstration and do not represent real counts.":""}</p>
+  `;
+  det.append(b);
+  return det;
+}
+
+/* ---------- footer ---------- */
+function renderFooter(){
+  const foot=el("footer",{class:"foot"});
+  foot.append(el("div",{class:"credit"},
+    el("img",{src:"assets/brand/gulfcoast-logo.png",alt:"Gulf Coast",style:"height:34px;width:auto;display:block"}),
+    el("span",{class:"mark"},"Gulf Coast News"),
+    el("span",{class:"muted",style:"font-weight:400"},"· Data Desk")));
+  foot.append(el("div",{class:"small",style:"text-align:right"},
+    el("div",{},"Source: Florida FWC manatee mortality statistics"),
+    el("a",{href:(S.meta&&S.meta.sourceUrl)||"https://myfwc.com",target:"_blank",rel:"noopener noreferrer"},"myfwc.com ↗"),
+    toggleSwitch("Reduce motion", S.reduceMotion, v=>{S.reduceMotion=v;render();})));
+  return foot;
+}
+
+/* ---------- shared bits ---------- */
+function cardHead(title,sub,right){
+  return el("div",{class:"card-head"},
+    el("div",{class:"titlewrap"},el("h2",{},title),sub?el("p",{class:"subhead"},sub):null),
+    right||null);
+}
+function tableToggle(){
+  return toggleSwitch("View as table", S.tableView, v=>{S.tableView=v;render();announce(v?"Showing data tables":"Showing charts");});
+}
+function toggleSwitch(label,checked,onchange){
+  const id="tg-"+Math.random().toString(36).slice(2,7);
+  return el("label",{class:"toggle",for:id},
+    el("input",{type:"checkbox",id,checked:checked?true:null,onchange:e=>onchange(e.target.checked)}),
+    el("span",{class:"switch","aria-hidden":"true"}),
+    el("span",{},label));
+}
+function dataTable(headers,rows,caption){
+  const wrap=el("div",{class:"dtable-wrap"});
+  const t=el("table",{class:"dtable"});
+  if(caption) t.append(el("caption",{},caption));
+  const thead=el("thead",{}); const trh=el("tr",{});
+  headers.forEach((h,i)=>trh.append(el("th",{scope:"col"},h))); thead.append(trh); t.append(thead);
+  const tb=el("tbody",{});
+  rows.forEach(r=>{ const tr=el("tr",{}); r.forEach((c,i)=>tr.append(el(i===0?"th":"td",{scope:i===0?"row":null,class:i>0&&!isNaN(String(c).replace(/[,%]/g,""))?"num":null},c))); tb.append(tr); });
+  t.append(tb); wrap.append(t); return wrap;
+}
+
+/* ---------- CSV download ---------- */
+function downloadCSV(){
+  const fr=filtered();
+  const cols=["fieldId","date","county","city","waterway","sex","lengthCm","cause","causeCode","latitude","longitude","status","source","sourceAsOf","fetchedAt"];
+  const esc=v=>{ if(v==null) return ""; const s=String(v); return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s; };
+  const lines=[cols.join(",")].concat(fr.map(r=>cols.map(c=>esc(r[c])).join(",")));
+  const note = (S.meta&&S.meta.sample)?"# SAMPLE DATA — synthetic, not official FWC figures\n":"";
+  const blob=new Blob([note+lines.join("\n")],{type:"text/csv;charset=utf-8"});
+  const url=URL.createObjectURL(blob);
+  const a=el("a",{href:url,download:"manatee-mortality-"+S.year+(S.county!=="all"?"-"+S.county.replace(/\s+/g,"_"):"")+(S.cause!=="all"?"-"+S.cause.replace(/[^a-z]+/gi,"_"):"")+".csv"});
+  document.body.append(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  announce("Downloaded "+fr.length+" records as CSV.");
+}
+
+/* =====================================================================
+   ICONS (inline SVG, stroke = currentColor)
+   ===================================================================== */
+function iconPath(name){
+  const P={
+    info:'<circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="7.5" r=".6" fill="currentColor" stroke="none"/>',
+    alert:'<path d="M12 3l9 16H3z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="17" r=".6" fill="currentColor" stroke="none"/>',
+    clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    filter:'<path d="M3 5h18l-7 8v6l-4-2v-4z"/>',
+    chev:'<path d="M6 9l6 6 6-6"/>',
+    reset:'<path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v4h4"/>',
+    download:'<path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M4 20h16"/>',
+    refresh:'<path d="M20 12a8 8 0 1 1-2.3-5.6"/><path d="M20 4v4h-4"/>',
+    map:'<path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><line x1="9" y1="4" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="20"/>',
+    search:'<circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/>',
+  };
+  return P[name]||P.info;
+}
+function iconSVG(name,size=20){
+  const s=document.createElementNS("http://www.w3.org/2000/svg","svg");
+  s.setAttribute("width",size); s.setAttribute("height",size); s.setAttribute("viewBox","0 0 24 24");
+  s.setAttribute("fill","none"); s.setAttribute("stroke","currentColor"); s.setAttribute("stroke-width","2");
+  s.setAttribute("stroke-linecap","round"); s.setAttribute("stroke-linejoin","round"); s.setAttribute("aria-hidden","true");
+  s.innerHTML=iconPath(name); return s;
+}
+function iconSInline(name){ const s=iconSVG(name,16); s.style.verticalAlign="-3px"; s.style.color="var(--gulf)"; return s; }
+
+/* =====================================================================
+   IFRAME HEIGHT (postMessage) — responsive embed
+   ===================================================================== */
+let _lastH=0;
+function postHeight(){
+  requestAnimationFrame(()=>{
+    const h=document.body.scrollHeight;
+    if(Math.abs(h-_lastH)>2){ _lastH=h; try{ window.parent.postMessage({type:"manatee-embed:height",height:h},"*"); }catch(e){} }
+  });
+}
+if(window.ResizeObserver){ new ResizeObserver(()=>postHeight()).observe(document.body); }
+window.addEventListener("load",postHeight);
+
+/* =====================================================================
+   BOOT
+   ===================================================================== */
+loadData();
+</script>
+</body>
+</html>
