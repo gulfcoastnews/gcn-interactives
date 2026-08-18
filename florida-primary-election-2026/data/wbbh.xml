@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Snapshot of https://s3.amazonaws.com/enps-bucket/election/wbbh.xml taken
+     2026-08-18, before any votes were reported. Counties on the statewide
+     races are trimmed to the Southwest Florida group to keep this preview file
+     small; the mirror workflow replaces this file with the complete feed. -->
+<election date="20260818" reporttime_gmt="8/18/2026 5:33:17 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+	<race id="60" id_full="FL-10290-Y" state="Florida" office="State House" seatname="District" seatnumber="76">
+		<title_2_1>State House District 76 (R)</title_2_1>
+		<candidates>
+			<candidate id="176195"><name>Julie McCormack</name><party>R</party></candidate>
+			<candidate id="167559"><name>Vanessa Oliver</name><party>R</party><incumbent>Y</incumbent></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="43" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="13" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="15" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="270" id_full="FL-10294-Y" state="Florida" office="State House" seatname="District" seatnumber="78">
+		<title_2_1>State House District 78 (R)</title_2_1>
+		<candidates>
+			<candidate id="176199"><name>Audrey Brooks</name><party>R</party></candidate>
+			<candidate id="176200"><name>Susan Frantz</name><party>R</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="29" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="29" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="134" id_full="FL-10302-Y" state="Florida" office="State House" seatname="District" seatnumber="82">
+		<title_2_1>State House District 82 (R)</title_2_1>
+		<candidates>
+			<candidate id="176208"><name>Bill Poteet</name><party>R</party></candidate>
+			<candidate id="176210"><name>Liesa Priddy</name><party>R</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="33" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="23" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10026" county="Hendry" fips="12051" precincts_total="10" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="305" id_full="FL-10024-H" state="Florida" office="U.S. House" seatname="District" seatnumber="9">
+		<title_2_1>U.S. House District 9 (R)</title_2_1>
+		<candidates>
+			<candidate id="176342"><name>Ben Butler</name><party>R</party></candidate>
+			<candidate id="167869"><name>Marcus Carter</name><party>R</party></candidate>
+			<candidate id="166310"><name>Thomas Chalifoux</name><party>R</party></candidate>
+			<candidate id="175734"><name>Dan Green</name><party>R</party></candidate>
+			<candidate id="175735"><name>Jorge Martinez</name><party>R</party></candidate>
+			<candidate id="175736"><name>Steve Rance</name><party>R</party></candidate>
+			<candidate id="175737"><name>Justin Story</name><party>R</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="221" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10022" county="Glades" fips="12043" precincts_total="13" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10031" county="Indian River" fips="12061" precincts_total="35" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="21" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="111" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10053" county="Polk" fips="12105" precincts_total="5" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="272" id_full="FL-10487-H" state="Florida" number="392" office="U.S. House" seatname="District" seatnumber="16">
+		<title_2_1>U.S. House District 16 (D)</title_2_1>
+		<candidates>
+			<candidate id="175813"><name>Jon Harris</name><party>D</party></candidate>
+			<candidate id="175814"><name>Kelly Kirschner</name><party>D</party></candidate>
+			<candidate id="111105"><name>Tamika Lyles</name><party>D</party></candidate>
+			<candidate id="175815"><name>Glenn Pearson</name><party>D</party></candidate>
+			<candidate id="1009"><name>Jan Schneider</name><party>D</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="215" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10025" county="Hardee" fips="12049" precincts_total="12" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10041" county="Manatee" fips="12081" precincts_total="72" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="90" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10058" county="Sarasota" fips="12115" precincts_total="18" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="76" id_full="FL-10038-H" state="Florida" number="393" office="U.S. House" seatname="District" seatnumber="16">
+		<title_2_1>U.S. House District 16 (R)</title_2_1>
+		<candidates>
+			<candidate id="175816"><name>Sydney Gruters</name><party>R</party></candidate>
+			<candidate id="175817"><name>Ed Pope</name><party>R</party></candidate>
+			<candidate id="166328"><name>Eddie Speir</name><party>R</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="215" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10025" county="Hardee" fips="12049" precincts_total="12" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10041" county="Manatee" fips="12081" precincts_total="72" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="90" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10058" county="Sarasota" fips="12115" precincts_total="18" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="40" id_full="FL-10488-H" state="Florida" office="U.S. House" seatname="District" seatnumber="17">
+		<title_2_1>U.S. House District 17 (D)</title_2_1>
+		<candidates>
+			<candidate id="166329"><name>Matthew Montavon</name><party>D</party></candidate>
+			<candidate id="175818"><name>Allen Spence</name><party>D</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="146" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="24" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="308" id_full="FL-10491-G" state="Florida" office="Governor">
+		<title_2_1>Governor (D)</title_2_1>
+		<candidates>
+			<candidate id="175575"><name>Evelyn Castillo-Bach</name><party>D</party></candidate>
+			<candidate id="175576"><name>Thomas Fernandez</name><party>D</party></candidate>
+			<candidate id="175578"><name>Dayna Foster</name><party>D</party></candidate>
+			<candidate id="63159"><name>David Jolly</name><party>D</party></candidate>
+			<candidate id="110345"><name>Dotie Joseph</name><party>D</party></candidate>
+			<candidate id="175580"><name>Stephann Norman</name><party>D</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="99" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="67" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10026" county="Hendry" fips="12051" precincts_total="10" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10022" county="Glades" fips="12043" precincts_total="13" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="114" id_full="FL-10046-G" state="Florida" office="Governor">
+		<title_2_1>Governor (R)</title_2_1>
+		<candidates>
+			<candidate id="111504"><name>Jay Collins</name><party>R</party></candidate>
+			<candidate id="62408"><name>Byron Donalds</name><party>R</party></candidate>
+			<candidate id="175581"><name>James Fishback</name><party>R</party></candidate>
+			<candidate id="175582"><name>Jim Holcomb</name><party>R</party></candidate>
+			<candidate id="175583"><name>Arthur McCaffrey</name><party>R</party></candidate>
+			<candidate id="175584"><name>Daniel Nokovich</name><party>R</party></candidate>
+			<candidate id="107807"><name>Paul Renner</name><party>R</party></candidate>
+			<candidate id="175585"><name>Rachel Rodriguez</name><party>R</party></candidate>
+			<candidate id="111393"><name>James Shaw</name><party>R</party></candidate>
+			<candidate id="175586"><name>Caneste Succe</name><party>R</party></candidate>
+			<candidate id="175587"><name>Bobby Williams</name><party>R</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="99" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="67" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10026" county="Hendry" fips="12051" precincts_total="10" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10022" county="Glades" fips="12043" precincts_total="13" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="182" id_full="FL-10494-T" state="Florida" office="Chief Financial Officer">
+		<title_2_1>Chief Financial Officer (D)</title_2_1>
+		<candidates>
+			<candidate id="175596"><name>Earle Ford</name><party>D</party></candidate>
+			<candidate id="58627"><name>Annette Taddeo</name><party>D</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="99" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="67" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="19" id_full="FL-10054-T" state="Florida" office="Chief Financial Officer">
+		<title_2_1>Chief Financial Officer (R)</title_2_1>
+		<candidates>
+			<candidate id="175597"><name>Frank Collige</name><party>R</party></candidate>
+			<candidate id="107845"><name>Blaise Ingoglia</name><party>R</party><incumbent>Y</incumbent></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="99" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="67" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="223" id_full="FL-10637-AGC" state="Florida" office="Agriculture Commissioner">
+		<title_2_1>Agriculture Commissioner (D)</title_2_1>
+		<candidates>
+			<candidate id="166341"><name>Joey Atkins</name><party>D</party></candidate>
+			<candidate id="175600"><name>Don Prichard</name><party>D</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="99" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="67" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+	<race id="227" id_full="FL-10058-AGC" state="Florida" office="Agriculture Commissioner">
+		<title_2_1>Agriculture Commissioner (R)</title_2_1>
+		<candidates>
+			<candidate id="106936"><name>Wilton Simpson</name><party>R</party><incumbent>Y</incumbent></candidate>
+			<candidate id="175601"><name>Matthew Taylor</name><party>R</party></candidate>
+		</candidates>
+		<reporting_units>
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="99" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="67" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="0" precincts_percentage="0"></reporting_unit>
+		</reporting_units>
+	</race>
+</election>
