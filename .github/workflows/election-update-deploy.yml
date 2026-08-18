@@ -1,0 +1,104 @@
+name: Update election feed and deploy Pages
+
+# Mirrors the ENPS/AP feed into the repository every five minutes so the
+# interactive reads it from its own origin (no CORS dependency on the S3
+# bucket). Stops fetching once data/freeze.json says frozen: true; the page
+# itself also freezes automatically when every race reports 100%.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: gcn-pages
+  cancel-in-progress: false
+
+env:
+  # Election Hub widget ids to mirror. Keep in sync with HUB_IDS in index.html.
+  HUB_IDS: "593 535"
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check freeze flag
+        id: freeze
+        run: |
+          if grep -q '"frozen"[[:space:]]*:[[:space:]]*true' \
+            florida-primary-election-2026/data/freeze.json 2>/dev/null; then
+            echo "frozen=true" >> "$GITHUB_OUTPUT"
+            echo "Results frozen — skipping fetch."
+          else
+            echo "frozen=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Retrieve and validate feed
+        if: steps.freeze.outputs.frozen == 'false'
+        run: |
+          cd florida-primary-election-2026/data
+          curl -sS --fail --retry 3 --retry-delay 5 \
+            "https://s3.amazonaws.com/enps-bucket/election/wbbh.xml" -o wbbh.xml.new
+          # Only replace the live copy when the download really is a results
+          # feed. A truncated or empty response leaves the last good file up.
+          if grep -q "<race" wbbh.xml.new; then
+            mv wbbh.xml.new wbbh.xml
+          else
+            echo "Feed contained no <race> elements — keeping previous copy."
+            rm -f wbbh.xml.new
+            exit 1
+          fi
+          curl -sS --fail --retry 3 \
+            "https://s3.amazonaws.com/enps-bucket/election/wbbh.json" -o wbbh.json || true
+          # Hearst Election Hub — county, municipal, and ballot-measure results.
+          # One id per widget; keep this list in sync with HUB_IDS in index.html.
+          for id in $HUB_IDS; do
+            curl -sS --fail --retry 3 --retry-delay 5 \
+              "https://ehub.htvapps.com/wbbh/wp-json/election-hub/v1/widget/$id?_locale=user" \
+              -o "hub-$id.json.new" || { echo "Hub $id fetch failed."; rm -f "hub-$id.json.new"; continue; }
+            if grep -q '"results"' "hub-$id.json.new"; then
+              mv "hub-$id.json.new" "hub-$id.json"
+            else
+              echo "Hub $id response had no results array — keeping previous copy."
+              rm -f "hub-$id.json.new"
+            fi
+          done
+
+      - name: Save updated results
+        if: steps.freeze.outputs.frozen == 'false'
+        run: |
+          if git diff --quiet -- florida-primary-election-2026/data; then
+            echo "No results change to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add florida-primary-election-2026/data
+            git commit -m "data: refresh AP election results"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
