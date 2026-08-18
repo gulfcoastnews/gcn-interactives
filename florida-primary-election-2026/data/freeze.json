@@ -1,0 +1,4 @@
+{
+  "frozen": false,
+  "note": "Set frozen to true and commit to lock the page on the last results it loaded. The mirror workflow also stops fetching while this is true."
+}
