@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/18/2026 11:35:32 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/18/2026 11:36:17 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -22,9 +22,9 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3140" precincts_percentage="55">
-				<cand id="166341" votes="436437" vote_percentage="59.42" vote_percentage_2="59" />
-				<cand id="175600" votes="298038" vote_percentage="40.58" vote_percentage_2="41" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3148" precincts_percentage="55">
+				<cand id="166341" votes="437750" vote_percentage="59.44" vote_percentage_2="59" />
+				<cand id="175600" votes="298647" vote_percentage="40.56" vote_percentage_2="41" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="35" precincts_percentage="56">
 				<cand id="166341" votes="8699" vote_percentage="57.97" vote_percentage_2="58" />
@@ -135,8 +135,8 @@
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="1" precincts_percentage="20">
-				<cand id="166341" votes="44" vote_percentage="48.35" vote_percentage_2="48" />
-				<cand id="175600" votes="47" vote_percentage="51.65" vote_percentage_2="52" />
+				<cand id="166341" votes="90" vote_percentage="55.21" vote_percentage_2="55" />
+				<cand id="175600" votes="73" vote_percentage="44.79" vote_percentage_2="45" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -176,17 +176,17 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="6" precincts_percentage="55">
-				<cand id="166341" votes="283" vote_percentage="54.95" vote_percentage_2="55" />
-				<cand id="175600" votes="232" vote_percentage="45.05" vote_percentage_2="45" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="8" precincts_percentage="73">
+				<cand id="166341" votes="397" vote_percentage="54.31" vote_percentage_2="54" />
+				<cand id="175600" votes="334" vote_percentage="45.69" vote_percentage_2="46" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="152" precincts_percentage="58">
 				<cand id="166341" votes="33237" vote_percentage="62.1" vote_percentage_2="62" />
 				<cand id="175600" votes="20288" vote_percentage="37.9" vote_percentage_2="38" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="111" precincts_percentage="82">
-				<cand id="166341" votes="10467" vote_percentage="67.73" vote_percentage_2="68" />
-				<cand id="175600" votes="4988" vote_percentage="32.27" vote_percentage_2="32" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="123" precincts_percentage="90">
+				<cand id="166341" votes="11620" vote_percentage="68" />
+				<cand id="175600" votes="5469" vote_percentage="32" />
 			</reporting_unit>
 			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -268,9 +268,9 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3003" precincts_percentage="53">
-				<cand id="106936" votes="631229" vote_percentage="70" />
-				<cand id="175601" votes="270531" vote_percentage="30" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3014" precincts_percentage="53">
+				<cand id="106936" votes="633810" vote_percentage="69.98" vote_percentage_2="70" />
+				<cand id="175601" votes="271915" vote_percentage="30.02" vote_percentage_2="30" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="32" precincts_percentage="51">
 				<cand id="106936" votes="4891" vote_percentage="73.95" vote_percentage_2="74" />
@@ -338,7 +338,7 @@
 			</reporting_unit>
 			<reporting_unit id="10019" county="Franklin" fips="12037" precincts_total="8" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10020" county="Gadsden" fips="12039" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
+			<reporting_unit id="10020" county="Gadsden" fips="12039" precincts_total="25" precincts_reporting="20" precincts_percentage="80">
 				<cand id="106936" votes="1346" vote_percentage="74.74" vote_percentage_2="75" />
 				<cand id="175601" votes="455" vote_percentage="25.26" vote_percentage_2="25" />
 			</reporting_unit>
@@ -426,17 +426,17 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="5" precincts_percentage="45">
-				<cand id="106936" votes="1209" vote_percentage="72.57" vote_percentage_2="73" />
-				<cand id="175601" votes="457" vote_percentage="27.43" vote_percentage_2="27" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
+				<cand id="106936" votes="2264" vote_percentage="69.13" vote_percentage_2="69" />
+				<cand id="175601" votes="1011" vote_percentage="30.87" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="145" precincts_percentage="55">
 				<cand id="106936" votes="23205" vote_percentage="73.44" vote_percentage_2="73" />
 				<cand id="175601" votes="8393" vote_percentage="26.56" vote_percentage_2="27" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="101" precincts_percentage="74">
-				<cand id="106936" votes="8858" vote_percentage="67.05" vote_percentage_2="67" />
-				<cand id="175601" votes="4353" vote_percentage="32.95" vote_percentage_2="33" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="120" precincts_percentage="88">
+				<cand id="106936" votes="10384" vote_percentage="66.71" vote_percentage_2="67" />
+				<cand id="175601" votes="5183" vote_percentage="33.29" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -516,9 +516,9 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3156" precincts_percentage="55">
-				<cand id="175596" votes="255224" vote_percentage="34.56" vote_percentage_2="35" />
-				<cand id="58627" votes="483290" vote_percentage="65.44" vote_percentage_2="65" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3243" precincts_percentage="57">
+				<cand id="175596" votes="262227" vote_percentage="34.56" vote_percentage_2="35" />
+				<cand id="58627" votes="496596" vote_percentage="65.44" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="36" precincts_percentage="57">
 				<cand id="175596" votes="4561" vote_percentage="29.6" vote_percentage_2="30" />
@@ -629,10 +629,12 @@
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="1" precincts_percentage="20">
-				<cand id="175596" votes="39" vote_percentage="42.39" vote_percentage_2="42" />
-				<cand id="58627" votes="53" vote_percentage="57.61" vote_percentage_2="58" />
+				<cand id="175596" votes="70" vote_percentage="42.17" vote_percentage_2="42" />
+				<cand id="58627" votes="96" vote_percentage="57.83" vote_percentage_2="58" />
 			</reporting_unit>
-			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="66" precincts_percentage="72">
+				<cand id="175596" votes="6268" vote_percentage="34.09" vote_percentage_2="34" />
+				<cand id="58627" votes="12116" vote_percentage="65.91" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10036" county="Lee" fips="12071" precincts_total="99" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -670,17 +672,17 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="6" precincts_percentage="55">
-				<cand id="175596" votes="179" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="342" vote_percentage="65.64" vote_percentage_2="66" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="8" precincts_percentage="73">
+				<cand id="175596" votes="255" vote_percentage="34.65" vote_percentage_2="35" />
+				<cand id="58627" votes="481" vote_percentage="65.35" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="154" precincts_percentage="59">
 				<cand id="175596" votes="18895" vote_percentage="34.76" vote_percentage_2="35" />
 				<cand id="58627" votes="35460" vote_percentage="65.24" vote_percentage_2="65" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="111" precincts_percentage="82">
-				<cand id="175596" votes="5959" vote_percentage="38.27" vote_percentage_2="38" />
-				<cand id="58627" votes="9611" vote_percentage="61.73" vote_percentage_2="62" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="123" precincts_percentage="90">
+				<cand id="175596" votes="6587" vote_percentage="38.28" vote_percentage_2="38" />
+				<cand id="58627" votes="10619" vote_percentage="61.72" vote_percentage_2="62" />
 			</reporting_unit>
 			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -760,9 +762,9 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3115" precincts_percentage="55">
-				<cand id="175597" votes="344115" vote_percentage="37.21" vote_percentage_2="37" />
-				<cand id="107845" votes="580637" vote_percentage="62.79" vote_percentage_2="63" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3145" precincts_percentage="55">
+				<cand id="175597" votes="348222" vote_percentage="37.29" vote_percentage_2="37" />
+				<cand id="107845" votes="585507" vote_percentage="62.71" vote_percentage_2="63" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="31" precincts_percentage="49">
 				<cand id="175597" votes="2042" vote_percentage="31.57" vote_percentage_2="32" />
@@ -872,9 +874,9 @@
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="2" precincts_percentage="40">
-				<cand id="175597" votes="350" vote_percentage="51.78" vote_percentage_2="52" />
-				<cand id="107845" votes="326" vote_percentage="48.22" vote_percentage_2="48" />
+			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="3" precincts_percentage="60">
+				<cand id="175597" votes="541" vote_percentage="51.72" vote_percentage_2="52" />
+				<cand id="107845" votes="505" vote_percentage="48.28" vote_percentage_2="48" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="89" precincts_percentage="97">
 				<cand id="175597" votes="14915" vote_percentage="38.4" vote_percentage_2="38" />
@@ -920,17 +922,17 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="5" precincts_percentage="45">
-				<cand id="175597" votes="770" vote_percentage="48.64" vote_percentage_2="49" />
-				<cand id="107845" votes="813" vote_percentage="51.36" vote_percentage_2="51" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
+				<cand id="175597" votes="1616" vote_percentage="52.47" vote_percentage_2="52" />
+				<cand id="107845" votes="1464" vote_percentage="47.53" vote_percentage_2="48" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="144" precincts_percentage="55">
 				<cand id="175597" votes="10507" vote_percentage="33.4" vote_percentage_2="33" />
 				<cand id="107845" votes="20951" vote_percentage="66.6" vote_percentage_2="67" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="102" precincts_percentage="75">
-				<cand id="175597" votes="5927" vote_percentage="45.32" vote_percentage_2="45" />
-				<cand id="107845" votes="7151" vote_percentage="54.68" vote_percentage_2="55" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="120" precincts_percentage="88">
+				<cand id="175597" votes="7013" vote_percentage="45.55" vote_percentage_2="46" />
+				<cand id="107845" votes="8383" vote_percentage="54.45" vote_percentage_2="54" />
 			</reporting_unit>
 			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -938,13 +940,15 @@
 				<cand id="175597" votes="16585" vote_percentage="38.68" vote_percentage_2="39" />
 				<cand id="107845" votes="26296" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="260" precincts_percentage="90">
-				<cand id="175597" votes="26069" vote_percentage="36.17" vote_percentage_2="36" />
-				<cand id="107845" votes="46008" vote_percentage="63.83" vote_percentage_2="64" />
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="264" precincts_percentage="92">
+				<cand id="175597" votes="26518" vote_percentage="36.25" vote_percentage_2="36" />
+				<cand id="107845" votes="46633" vote_percentage="63.75" vote_percentage_2="64" />
 			</reporting_unit>
 			<reporting_unit id="10053" county="Polk" fips="12105" precincts_total="178" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10054" county="Putnam" fips="12107" precincts_total="37" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10054" county="Putnam" fips="12107" precincts_total="37" precincts_reporting="16" precincts_percentage="43">
+				<cand id="175597" votes="1535" vote_percentage="41.29" vote_percentage_2="41" />
+				<cand id="107845" votes="2183" vote_percentage="58.71" vote_percentage_2="59" />
 			</reporting_unit>
 			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -1041,13 +1045,13 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3607" precincts_percentage="63">
-				<cand id="175575" votes="62520" vote_percentage="7.42" vote_percentage_2="7" />
-				<cand id="175576" votes="31415" vote_percentage="3.73" vote_percentage_2="4" />
-				<cand id="175578" votes="117889" vote_percentage="14" />
-				<cand id="63159" votes="528083" vote_percentage="62.7" vote_percentage_2="63" />
-				<cand id="110345" votes="79974" vote_percentage="9.5" vote_percentage_2="9" />
-				<cand id="175580" votes="22334" vote_percentage="2.65" vote_percentage_2="3" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3747" precincts_percentage="66">
+				<cand id="175575" votes="65482" vote_percentage="7.48" vote_percentage_2="7" />
+				<cand id="175576" votes="32872" vote_percentage="3.76" vote_percentage_2="4" />
+				<cand id="175578" votes="123779" vote_percentage="14.15" vote_percentage_2="14" />
+				<cand id="63159" votes="546031" vote_percentage="62.41" vote_percentage_2="62" />
+				<cand id="110345" votes="83121" vote_percentage="9.5" vote_percentage_2="10" />
+				<cand id="175580" votes="23599" vote_percentage="2.7" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="38" precincts_percentage="60">
 				<cand id="175575" votes="769" vote_percentage="4.81" vote_percentage_2="5" />
@@ -1245,15 +1249,21 @@
 			</reporting_unit>
 			<reporting_unit id="10032" county="Jackson" fips="12063" precincts_total="14" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="8" precincts_percentage="50">
+				<cand id="175575" votes="51" vote_percentage="6.36" vote_percentage_2="6" />
+				<cand id="175576" votes="24" vote_percentage="2.99" vote_percentage_2="3" />
+				<cand id="175578" votes="56" vote_percentage="6.98" vote_percentage_2="7" />
+				<cand id="63159" votes="602" vote_percentage="75.06" vote_percentage_2="75" />
+				<cand id="110345" votes="47" vote_percentage="5.86" vote_percentage_2="6" />
+				<cand id="175580" votes="22" vote_percentage="2.74" vote_percentage_2="3" />
 			</reporting_unit>
-			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="1" precincts_percentage="20">
-				<cand id="175575" votes="13" vote_percentage="12.87" vote_percentage_2="13" />
-				<cand id="175576" votes="5" vote_percentage="4.95" vote_percentage_2="5" />
-				<cand id="175578" votes="16" vote_percentage="15.84" vote_percentage_2="16" />
-				<cand id="63159" votes="55" vote_percentage="54.46" vote_percentage_2="54" />
-				<cand id="110345" votes="7" vote_percentage="6.93" vote_percentage_2="7" />
-				<cand id="175580" votes="5" vote_percentage="4.95" vote_percentage_2="5" />
+			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="2" precincts_percentage="40">
+				<cand id="175575" votes="33" vote_percentage="18.54" vote_percentage_2="19" />
+				<cand id="175576" votes="19" vote_percentage="10.67" vote_percentage_2="11" />
+				<cand id="175578" votes="33" vote_percentage="18.54" vote_percentage_2="19" />
+				<cand id="63159" votes="74" vote_percentage="41.57" vote_percentage_2="42" />
+				<cand id="110345" votes="8" vote_percentage="4.49" vote_percentage_2="4" />
+				<cand id="175580" votes="11" vote_percentage="6.18" vote_percentage_2="6" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="89" precincts_percentage="97">
 				<cand id="175575" votes="1618" vote_percentage="8.53" vote_percentage_2="9" />
@@ -1339,13 +1349,13 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="6" precincts_percentage="55">
-				<cand id="175575" votes="47" vote_percentage="8.79" vote_percentage_2="9" />
-				<cand id="175576" votes="15" vote_percentage="2.8" vote_percentage_2="3" />
-				<cand id="175578" votes="57" vote_percentage="10.65" vote_percentage_2="11" />
-				<cand id="63159" votes="366" vote_percentage="68.41" vote_percentage_2="68" />
-				<cand id="110345" votes="37" vote_percentage="6.92" vote_percentage_2="7" />
-				<cand id="175580" votes="13" vote_percentage="2.43" vote_percentage_2="2" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="9" precincts_percentage="82">
+				<cand id="175575" votes="71" vote_percentage="9.38" vote_percentage_2="9" />
+				<cand id="175576" votes="29" vote_percentage="3.83" vote_percentage_2="4" />
+				<cand id="175578" votes="82" vote_percentage="10.83" vote_percentage_2="11" />
+				<cand id="63159" votes="499" vote_percentage="65.92" vote_percentage_2="66" />
+				<cand id="110345" votes="54" vote_percentage="7.13" vote_percentage_2="7" />
+				<cand id="175580" votes="22" vote_percentage="2.91" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="157" precincts_percentage="60">
 				<cand id="175575" votes="5083" vote_percentage="9.15" vote_percentage_2="9" />
@@ -1355,15 +1365,21 @@
 				<cand id="110345" votes="5884" vote_percentage="10.59" vote_percentage_2="11" />
 				<cand id="175580" votes="1954" vote_percentage="3.52" vote_percentage_2="4" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="111" precincts_percentage="82">
-				<cand id="175575" votes="2184" vote_percentage="13.95" vote_percentage_2="14" />
-				<cand id="175576" votes="1306" vote_percentage="8.34" vote_percentage_2="8" />
-				<cand id="175578" votes="2880" vote_percentage="18.39" vote_percentage_2="18" />
-				<cand id="63159" votes="7291" vote_percentage="46.56" vote_percentage_2="47" />
-				<cand id="110345" votes="1554" vote_percentage="9.92" vote_percentage_2="10" />
-				<cand id="175580" votes="444" vote_percentage="2.84" vote_percentage_2="3" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="123" precincts_percentage="90">
+				<cand id="175575" votes="2413" vote_percentage="13.92" vote_percentage_2="14" />
+				<cand id="175576" votes="1443" vote_percentage="8.33" vote_percentage_2="8" />
+				<cand id="175578" votes="3358" vote_percentage="19.38" vote_percentage_2="19" />
+				<cand id="63159" votes="7905" vote_percentage="45.61" vote_percentage_2="46" />
+				<cand id="110345" votes="1709" vote_percentage="9.86" vote_percentage_2="10" />
+				<cand id="175580" votes="502" vote_percentage="2.9" vote_percentage_2="3" />
 			</reporting_unit>
-			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="216" precincts_percentage="27">
+				<cand id="175575" votes="2550" vote_percentage="8.85" vote_percentage_2="9" />
+				<cand id="175576" votes="1237" vote_percentage="4.29" vote_percentage_2="4" />
+				<cand id="175578" votes="5037" vote_percentage="17.49" vote_percentage_2="17" />
+				<cand id="63159" votes="15995" vote_percentage="55.53" vote_percentage_2="56" />
+				<cand id="110345" votes="2832" vote_percentage="9.83" vote_percentage_2="10" />
+				<cand id="175580" votes="1152" vote_percentage="4" />
 			</reporting_unit>
 			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="112" precincts_percentage="92">
 				<cand id="175575" votes="1866" vote_percentage="7.3" vote_percentage_2="7" />
@@ -1373,13 +1389,13 @@
 				<cand id="110345" votes="2302" vote_percentage="9.01" vote_percentage_2="9" />
 				<cand id="175580" votes="424" vote_percentage="1.66" vote_percentage_2="2" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="258" precincts_percentage="90">
-				<cand id="175575" votes="4042" vote_percentage="5.8" vote_percentage_2="6" />
-				<cand id="175576" votes="1765" vote_percentage="2.53" vote_percentage_2="3" />
-				<cand id="175578" votes="7802" vote_percentage="11.19" vote_percentage_2="11" />
-				<cand id="63159" votes="50182" vote_percentage="72.01" vote_percentage_2="72" />
-				<cand id="110345" votes="4774" vote_percentage="6.85" vote_percentage_2="7" />
-				<cand id="175580" votes="1127" vote_percentage="1.62" vote_percentage_2="2" />
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="262" precincts_percentage="91">
+				<cand id="175575" votes="4130" vote_percentage="5.83" vote_percentage_2="6" />
+				<cand id="175576" votes="1796" vote_percentage="2.54" vote_percentage_2="3" />
+				<cand id="175578" votes="8079" vote_percentage="11.41" vote_percentage_2="11" />
+				<cand id="63159" votes="50767" vote_percentage="71.72" vote_percentage_2="72" />
+				<cand id="110345" votes="4869" vote_percentage="6.88" vote_percentage_2="7" />
+				<cand id="175580" votes="1145" vote_percentage="1.62" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10053" county="Polk" fips="12105" precincts_total="178" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -1552,18 +1568,18 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3277" precincts_percentage="58">
-				<cand id="111504" votes="251276" vote_percentage="24.7" vote_percentage_2="25" />
-				<cand id="62408" votes="509152" vote_percentage="50.04" vote_percentage_2="50" />
-				<cand id="175581" votes="94128" vote_percentage="9.25" vote_percentage_2="9" />
-				<cand id="175582" votes="7899" vote_percentage="0.78" />
-				<cand id="175583" votes="4424" vote_percentage="0.43" />
-				<cand id="175584" votes="3209" vote_percentage="0.32" />
-				<cand id="107807" votes="85434" vote_percentage="8.4" vote_percentage_2="8" />
-				<cand id="175585" votes="19320" vote_percentage="1.9" vote_percentage_2="2" />
-				<cand id="111393" votes="4799" vote_percentage="0.47" />
-				<cand id="175586" votes="4126" vote_percentage="0.41" />
-				<cand id="175587" votes="33683" vote_percentage="3.31" vote_percentage_2="3" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3298" precincts_percentage="58">
+				<cand id="111504" votes="253027" vote_percentage="24.7" vote_percentage_2="25" />
+				<cand id="62408" votes="511813" vote_percentage="49.97" vote_percentage_2="50" />
+				<cand id="175581" votes="95117" vote_percentage="9.29" vote_percentage_2="9" />
+				<cand id="175582" votes="7951" vote_percentage="0.78" />
+				<cand id="175583" votes="4446" vote_percentage="0.43" />
+				<cand id="175584" votes="3228" vote_percentage="0.32" />
+				<cand id="107807" votes="85924" vote_percentage="8.39" vote_percentage_2="8" />
+				<cand id="175585" votes="19426" vote_percentage="1.9" vote_percentage_2="2" />
+				<cand id="111393" votes="4831" vote_percentage="0.47" />
+				<cand id="175586" votes="4143" vote_percentage="0.4" />
+				<cand id="175587" votes="34288" vote_percentage="3.35" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="33" precincts_percentage="52">
 				<cand id="111504" votes="1931" vote_percentage="28.5" vote_percentage_2="28" />
@@ -1870,20 +1886,31 @@
 			</reporting_unit>
 			<reporting_unit id="10032" county="Jackson" fips="12063" precincts_total="14" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="10" precincts_percentage="62">
+				<cand id="111504" votes="402" vote_percentage="40.48" vote_percentage_2="40" />
+				<cand id="62408" votes="307" vote_percentage="30.92" vote_percentage_2="31" />
+				<cand id="175581" votes="70" vote_percentage="7.05" vote_percentage_2="7" />
+				<cand id="175582" votes="6" vote_percentage="0.6" />
+				<cand id="175583" votes="4" vote_percentage="0.4" />
+				<cand id="175584" votes="2" vote_percentage="0.2" />
+				<cand id="107807" votes="130" vote_percentage="13.09" vote_percentage_2="13" />
+				<cand id="175585" votes="9" vote_percentage="0.91" />
+				<cand id="111393" votes="3" vote_percentage="0.3" />
+				<cand id="175586" votes="4" vote_percentage="0.4" />
+				<cand id="175587" votes="56" vote_percentage="5.64" vote_percentage_2="6" />
 			</reporting_unit>
-			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="2" precincts_percentage="40">
-				<cand id="111504" votes="206" vote_percentage="28.65" vote_percentage_2="29" />
-				<cand id="62408" votes="149" vote_percentage="20.72" vote_percentage_2="21" />
-				<cand id="175581" votes="96" vote_percentage="13.35" vote_percentage_2="13" />
-				<cand id="175582" votes="2" vote_percentage="0.28" />
-				<cand id="175583" votes="2" vote_percentage="0.28" />
-				<cand id="175584" votes="1" vote_percentage="0.14" />
-				<cand id="107807" votes="58" vote_percentage="8.07" vote_percentage_2="8" />
-				<cand id="175585" votes="8" vote_percentage="1.11" vote_percentage_2="1" />
-				<cand id="111393" votes="3" vote_percentage="0.42" />
-				<cand id="175586" votes="3" vote_percentage="0.42" />
-				<cand id="175587" votes="191" vote_percentage="26.56" vote_percentage_2="27" />
+			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="3" precincts_percentage="60">
+				<cand id="111504" votes="337" vote_percentage="30.2" vote_percentage_2="30" />
+				<cand id="62408" votes="216" vote_percentage="19.35" vote_percentage_2="19" />
+				<cand id="175581" votes="155" vote_percentage="13.89" vote_percentage_2="14" />
+				<cand id="175582" votes="6" vote_percentage="0.54" />
+				<cand id="175583" votes="2" vote_percentage="0.18" />
+				<cand id="175584" votes="1" vote_percentage="0.09" />
+				<cand id="107807" votes="84" vote_percentage="7.53" vote_percentage_2="8" />
+				<cand id="175585" votes="10" vote_percentage="0.9" />
+				<cand id="111393" votes="5" vote_percentage="0.45" />
+				<cand id="175586" votes="3" vote_percentage="0.27" />
+				<cand id="175587" votes="297" vote_percentage="26.61" vote_percentage_2="27" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="74" precincts_percentage="80">
 				<cand id="111504" votes="12173" vote_percentage="28.92" vote_percentage_2="29" />
@@ -2008,18 +2035,18 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="5" precincts_percentage="45">
-				<cand id="111504" votes="452" vote_percentage="26.87" vote_percentage_2="27" />
-				<cand id="62408" votes="661" vote_percentage="39.3" vote_percentage_2="39" />
-				<cand id="175581" votes="129" vote_percentage="7.67" vote_percentage_2="8" />
-				<cand id="175582" votes="17" vote_percentage="1.01" />
-				<cand id="175583" votes="5" vote_percentage="0.3" />
-				<cand id="175584" votes="6" vote_percentage="0.36" />
-				<cand id="107807" votes="129" vote_percentage="7.67" vote_percentage_2="8" />
-				<cand id="175585" votes="14" vote_percentage="0.83" />
-				<cand id="111393" votes="7" vote_percentage="0.42" />
-				<cand id="175586" votes="3" vote_percentage="0.18" />
-				<cand id="175587" votes="259" vote_percentage="15.4" vote_percentage_2="15" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
+				<cand id="111504" votes="789" vote_percentage="23.67" vote_percentage_2="24" />
+				<cand id="62408" votes="1282" vote_percentage="38.46" vote_percentage_2="38" />
+				<cand id="175581" votes="355" vote_percentage="10.65" vote_percentage_2="11" />
+				<cand id="175582" votes="31" vote_percentage="0.93" />
+				<cand id="175583" votes="9" vote_percentage="0.27" />
+				<cand id="175584" votes="8" vote_percentage="0.24" />
+				<cand id="107807" votes="229" vote_percentage="6.87" vote_percentage_2="7" />
+				<cand id="175585" votes="27" vote_percentage="0.81" />
+				<cand id="111393" votes="22" vote_percentage="0.66" />
+				<cand id="175586" votes="5" vote_percentage="0.15" />
+				<cand id="175587" votes="576" vote_percentage="17.28" vote_percentage_2="17" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="152" precincts_percentage="58">
 				<cand id="111504" votes="7926" vote_percentage="23.94" vote_percentage_2="24" />
@@ -2034,18 +2061,18 @@
 				<cand id="175586" votes="221" vote_percentage="0.67" />
 				<cand id="175587" votes="733" vote_percentage="2.21" vote_percentage_2="2" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="102" precincts_percentage="75">
-				<cand id="111504" votes="3583" vote_percentage="26.08" vote_percentage_2="26" />
-				<cand id="62408" votes="6584" vote_percentage="47.93" vote_percentage_2="48" />
-				<cand id="175581" votes="1386" vote_percentage="10.09" vote_percentage_2="10" />
-				<cand id="175582" votes="104" vote_percentage="0.76" />
-				<cand id="175583" votes="95" vote_percentage="0.69" />
-				<cand id="175584" votes="44" vote_percentage="0.32" />
-				<cand id="107807" votes="821" vote_percentage="5.98" vote_percentage_2="6" />
-				<cand id="175585" votes="411" vote_percentage="2.99" vote_percentage_2="3" />
-				<cand id="111393" votes="89" vote_percentage="0.65" />
-				<cand id="175586" votes="57" vote_percentage="0.41" />
-				<cand id="175587" votes="564" vote_percentage="4.11" vote_percentage_2="4" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="120" precincts_percentage="88">
+				<cand id="111504" votes="4152" vote_percentage="25.57" vote_percentage_2="26" />
+				<cand id="62408" votes="7730" vote_percentage="47.61" vote_percentage_2="48" />
+				<cand id="175581" votes="1791" vote_percentage="11.03" vote_percentage_2="11" />
+				<cand id="175582" votes="122" vote_percentage="0.75" />
+				<cand id="175583" votes="103" vote_percentage="0.63" />
+				<cand id="175584" votes="53" vote_percentage="0.33" />
+				<cand id="107807" votes="995" vote_percentage="6.13" vote_percentage_2="6" />
+				<cand id="175585" votes="476" vote_percentage="2.93" vote_percentage_2="3" />
+				<cand id="111393" votes="92" vote_percentage="0.57" />
+				<cand id="175586" votes="64" vote_percentage="0.39" />
+				<cand id="175587" votes="659" vote_percentage="4.06" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -2062,18 +2089,18 @@
 				<cand id="175586" votes="132" vote_percentage="0.29" />
 				<cand id="175587" votes="2251" vote_percentage="4.91" vote_percentage_2="5" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="279" precincts_percentage="97">
-				<cand id="111504" votes="20959" vote_percentage="27.12" vote_percentage_2="27" />
-				<cand id="62408" votes="38657" vote_percentage="50.01" vote_percentage_2="50" />
-				<cand id="175581" votes="7437" vote_percentage="9.62" vote_percentage_2="10" />
-				<cand id="175582" votes="604" vote_percentage="0.78" />
-				<cand id="175583" votes="303" vote_percentage="0.39" />
-				<cand id="175584" votes="262" vote_percentage="0.34" />
-				<cand id="107807" votes="5580" vote_percentage="7.22" vote_percentage_2="7" />
-				<cand id="175585" votes="1238" vote_percentage="1.6" vote_percentage_2="2" />
-				<cand id="111393" votes="415" vote_percentage="0.54" />
-				<cand id="175586" votes="389" vote_percentage="0.5" />
-				<cand id="175587" votes="1452" vote_percentage="1.88" vote_percentage_2="2" />
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="284" precincts_percentage="99">
+				<cand id="111504" votes="21271" vote_percentage="27.1" vote_percentage_2="27" />
+				<cand id="62408" votes="39177" vote_percentage="49.91" vote_percentage_2="50" />
+				<cand id="175581" votes="7666" vote_percentage="9.77" vote_percentage_2="10" />
+				<cand id="175582" votes="614" vote_percentage="0.78" />
+				<cand id="175583" votes="309" vote_percentage="0.39" />
+				<cand id="175584" votes="268" vote_percentage="0.34" />
+				<cand id="107807" votes="5640" vote_percentage="7.18" vote_percentage_2="7" />
+				<cand id="175585" votes="1255" vote_percentage="1.6" vote_percentage_2="2" />
+				<cand id="111393" votes="424" vote_percentage="0.54" />
+				<cand id="175586" votes="393" vote_percentage="0.5" />
+				<cand id="175587" votes="1483" vote_percentage="1.89" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10053" county="Polk" fips="12105" precincts_total="178" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -2363,14 +2390,14 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="221" precincts_reporting="96" precincts_percentage="43">
-				<cand id="176342" votes="4721" vote_percentage="16.9" vote_percentage_2="17" />
-				<cand id="167869" votes="1106" vote_percentage="3.96" vote_percentage_2="4" />
-				<cand id="166310" votes="7085" vote_percentage="25.36" />
-				<cand id="175734" votes="7232" vote_percentage="25.89" />
-				<cand id="175735" votes="5790" vote_percentage="20.73" vote_percentage_2="21" />
-				<cand id="175736" votes="602" vote_percentage="2.15" vote_percentage_2="2" />
-				<cand id="175737" votes="1400" vote_percentage="5.01" vote_percentage_2="5" />
+			<reporting_unit id="0" precincts_total="221" precincts_reporting="109" precincts_percentage="49">
+				<cand id="176342" votes="6154" vote_percentage="19.48" vote_percentage_2="19" />
+				<cand id="167869" votes="1203" vote_percentage="3.81" vote_percentage_2="4" />
+				<cand id="166310" votes="7792" vote_percentage="24.66" vote_percentage_2="25" />
+				<cand id="175734" votes="7818" vote_percentage="24.75" vote_percentage_2="25" />
+				<cand id="175735" votes="6369" vote_percentage="20.16" vote_percentage_2="20" />
+				<cand id="175736" votes="658" vote_percentage="2.08" vote_percentage_2="2" />
+				<cand id="175737" votes="1598" vote_percentage="5.06" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10022" county="Glades" fips="12043" precincts_total="13" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -2385,14 +2412,14 @@
 				<cand id="175736" votes="220" vote_percentage="1.8" vote_percentage_2="2" />
 				<cand id="175737" votes="356" vote_percentage="2.92" vote_percentage_2="3" />
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="5" precincts_percentage="45">
-				<cand id="176342" votes="1135" vote_percentage="67.4" vote_percentage_2="67" />
-				<cand id="167869" votes="42" vote_percentage="2.49" vote_percentage_2="2" />
-				<cand id="166310" votes="148" vote_percentage="8.79" vote_percentage_2="9" />
-				<cand id="175734" votes="182" vote_percentage="10.81" vote_percentage_2="11" />
-				<cand id="175735" votes="139" vote_percentage="8.25" vote_percentage_2="8" />
-				<cand id="175736" votes="11" vote_percentage="0.65" />
-				<cand id="175737" votes="27" vote_percentage="1.6" vote_percentage_2="2" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
+				<cand id="176342" votes="2260" vote_percentage="68.22" vote_percentage_2="68" />
+				<cand id="167869" votes="70" vote_percentage="2.11" vote_percentage_2="2" />
+				<cand id="166310" votes="245" vote_percentage="7.4" vote_percentage_2="7" />
+				<cand id="175734" votes="388" vote_percentage="11.71" vote_percentage_2="12" />
+				<cand id="175735" votes="267" vote_percentage="8.06" vote_percentage_2="8" />
+				<cand id="175736" votes="28" vote_percentage="0.85" />
+				<cand id="175737" votes="55" vote_percentage="1.66" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="21" precincts_reporting="13" precincts_percentage="62">
 				<cand id="176342" votes="288" vote_percentage="11.21" vote_percentage_2="11" />
@@ -2403,14 +2430,14 @@
 				<cand id="175736" votes="92" vote_percentage="3.58" vote_percentage_2="4" />
 				<cand id="175737" votes="128" vote_percentage="4.98" vote_percentage_2="5" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="111" precincts_reporting="83" precincts_percentage="75">
-				<cand id="176342" votes="1480" vote_percentage="12.89" vote_percentage_2="13" />
-				<cand id="167869" votes="539" vote_percentage="4.69" vote_percentage_2="5" />
-				<cand id="166310" votes="3905" vote_percentage="34" />
-				<cand id="175734" votes="2069" vote_percentage="18.02" vote_percentage_2="18" />
-				<cand id="175735" votes="2323" vote_percentage="20.23" vote_percentage_2="20" />
-				<cand id="175736" votes="279" vote_percentage="2.43" vote_percentage_2="2" />
-				<cand id="175737" votes="889" vote_percentage="7.74" vote_percentage_2="8" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="111" precincts_reporting="97" precincts_percentage="87">
+				<cand id="176342" votes="1788" vote_percentage="13.23" vote_percentage_2="13" />
+				<cand id="167869" votes="608" vote_percentage="4.5" vote_percentage_2="5" />
+				<cand id="166310" votes="4515" vote_percentage="33.42" vote_percentage_2="33" />
+				<cand id="175734" votes="2449" vote_percentage="18.13" vote_percentage_2="18" />
+				<cand id="175735" votes="2774" vote_percentage="20.53" vote_percentage_2="21" />
+				<cand id="175736" votes="318" vote_percentage="2.35" vote_percentage_2="2" />
+				<cand id="175737" votes="1059" vote_percentage="7.84" vote_percentage_2="8" />
 			</reporting_unit>
 			<reporting_unit id="10053" county="Polk" fips="12105" precincts_total="5" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -2924,9 +2951,9 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="4041" precincts_percentage="71">
-				<cand id="110984" votes="507465" vote_percentage="53.85" vote_percentage_2="54" />
-				<cand id="175566" votes="434837" vote_percentage="46.15" vote_percentage_2="46" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="4106" precincts_percentage="72">
+				<cand id="110984" votes="515258" vote_percentage="53.81" vote_percentage_2="54" />
+				<cand id="175566" votes="442215" vote_percentage="46.19" vote_percentage_2="46" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="38" precincts_percentage="60">
 				<cand id="110984" votes="9041" vote_percentage="56.23" vote_percentage_2="56" />
@@ -2976,7 +3003,9 @@
 				<cand id="110984" votes="57846" vote_percentage="58.92" vote_percentage_2="59" />
 				<cand id="175566" votes="40325" vote_percentage="41.08" vote_percentage_2="41" />
 			</reporting_unit>
-			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="7" precincts_percentage="47">
+				<cand id="110984" votes="268" vote_percentage="50.38" vote_percentage_2="50" />
+				<cand id="175566" votes="264" vote_percentage="49.62" vote_percentage_2="50" />
 			</reporting_unit>
 			<reporting_unit id="10015" county="Dixie" fips="12029" precincts_total="10" precincts_reporting="5" precincts_percentage="50">
 				<cand id="110984" votes="182" vote_percentage="56.35" vote_percentage_2="56" />
@@ -3036,11 +3065,13 @@
 			</reporting_unit>
 			<reporting_unit id="10032" county="Jackson" fips="12063" precincts_total="14" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="8" precincts_percentage="50">
+				<cand id="110984" votes="498" vote_percentage="62.72" vote_percentage_2="63" />
+				<cand id="175566" votes="296" vote_percentage="37.28" vote_percentage_2="37" />
 			</reporting_unit>
-			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="1" precincts_percentage="20">
-				<cand id="110984" votes="62" vote_percentage="64.58" vote_percentage_2="65" />
-				<cand id="175566" votes="34" vote_percentage="35.42" vote_percentage_2="35" />
+			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="2" precincts_percentage="40">
+				<cand id="110984" votes="115" vote_percentage="66.09" vote_percentage_2="66" />
+				<cand id="175566" votes="59" vote_percentage="33.91" vote_percentage_2="34" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="89" precincts_percentage="97">
 				<cand id="110984" votes="9731" vote_percentage="51.07" vote_percentage_2="51" />
@@ -3070,7 +3101,9 @@
 				<cand id="110984" votes="6363" vote_percentage="39.32" vote_percentage_2="39" />
 				<cand id="175566" votes="9818" vote_percentage="60.68" vote_percentage_2="61" />
 			</reporting_unit>
-			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="62" precincts_percentage="58">
+				<cand id="110984" votes="5705" vote_percentage="48.04" vote_percentage_2="48" />
+				<cand id="175566" votes="6170" vote_percentage="51.96" vote_percentage_2="52" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="26" precincts_percentage="90">
 				<cand id="110984" votes="3498" vote_percentage="40.78" vote_percentage_2="41" />
@@ -3086,17 +3119,17 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="6" precincts_percentage="55">
-				<cand id="110984" votes="251" vote_percentage="46.83" vote_percentage_2="47" />
-				<cand id="175566" votes="285" vote_percentage="53.17" vote_percentage_2="53" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="9" precincts_percentage="82">
+				<cand id="110984" votes="358" vote_percentage="47.42" vote_percentage_2="47" />
+				<cand id="175566" votes="397" vote_percentage="52.58" vote_percentage_2="53" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="159" precincts_percentage="61">
 				<cand id="110984" votes="36487" vote_percentage="65.14" vote_percentage_2="65" />
 				<cand id="175566" votes="19530" vote_percentage="34.86" vote_percentage_2="35" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="111" precincts_percentage="82">
-				<cand id="110984" votes="9979" vote_percentage="63.09" vote_percentage_2="63" />
-				<cand id="175566" votes="5838" vote_percentage="36.91" vote_percentage_2="37" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="123" precincts_percentage="90">
+				<cand id="110984" votes="11141" vote_percentage="63.7" vote_percentage_2="64" />
+				<cand id="175566" votes="6349" vote_percentage="36.3" vote_percentage_2="36" />
 			</reporting_unit>
 			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="715" precincts_percentage="90">
 				<cand id="110984" votes="41448" vote_percentage="43.62" vote_percentage_2="44" />
@@ -3198,11 +3231,11 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3359" precincts_percentage="59">
-				<cand id="175565" votes="139496" vote_percentage="13.47" vote_percentage_2="13" />
-				<cand id="109657" votes="822911" vote_percentage="79.47" vote_percentage_2="79" />
-				<cand id="166322" votes="20555" vote_percentage="1.98" vote_percentage_2="2" />
-				<cand id="65724" votes="52558" vote_percentage="5.08" vote_percentage_2="5" />
+			<reporting_unit id="0" precincts_total="5641" precincts_reporting="3441" precincts_percentage="61">
+				<cand id="175565" votes="142586" vote_percentage="13.44" vote_percentage_2="13" />
+				<cand id="109657" votes="843591" vote_percentage="79.53" vote_percentage_2="80" />
+				<cand id="166322" votes="20982" vote_percentage="1.98" vote_percentage_2="2" />
+				<cand id="65724" votes="53625" vote_percentage="5.06" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="32" precincts_percentage="51">
 				<cand id="175565" votes="745" vote_percentage="11.15" vote_percentage_2="11" />
@@ -3274,7 +3307,11 @@
 				<cand id="166322" votes="1782" vote_percentage="2.31" vote_percentage_2="2" />
 				<cand id="65724" votes="11251" vote_percentage="14.56" vote_percentage_2="15" />
 			</reporting_unit>
-			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="6" precincts_percentage="40">
+				<cand id="175565" votes="126" vote_percentage="11.99" vote_percentage_2="12" />
+				<cand id="109657" votes="873" vote_percentage="83.06" vote_percentage_2="83" />
+				<cand id="166322" votes="17" vote_percentage="1.62" vote_percentage_2="2" />
+				<cand id="65724" votes="35" vote_percentage="3.33" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10015" county="Dixie" fips="12029" precincts_total="10" precincts_reporting="8" precincts_percentage="80">
 				<cand id="175565" votes="273" vote_percentage="14.89" vote_percentage_2="15" />
@@ -3356,13 +3393,17 @@
 			</reporting_unit>
 			<reporting_unit id="10032" county="Jackson" fips="12063" precincts_total="14" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="10" precincts_percentage="62">
+				<cand id="175565" votes="60" vote_percentage="6.06" vote_percentage_2="6" />
+				<cand id="109657" votes="889" vote_percentage="89.8" vote_percentage_2="90" />
+				<cand id="166322" votes="8" vote_percentage="0.81" />
+				<cand id="65724" votes="33" vote_percentage="3.33" vote_percentage_2="3" />
 			</reporting_unit>
-			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="2" precincts_percentage="40">
-				<cand id="175565" votes="96" vote_percentage="13.66" vote_percentage_2="14" />
-				<cand id="109657" votes="572" vote_percentage="81.37" vote_percentage_2="81" />
-				<cand id="166322" votes="10" vote_percentage="1.42" vote_percentage_2="1" />
-				<cand id="65724" votes="25" vote_percentage="3.56" vote_percentage_2="4" />
+			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="3" precincts_percentage="60">
+				<cand id="175565" votes="145" vote_percentage="13.43" vote_percentage_2="13" />
+				<cand id="109657" votes="878" vote_percentage="81.3" vote_percentage_2="81" />
+				<cand id="166322" votes="15" vote_percentage="1.39" vote_percentage_2="1" />
+				<cand id="65724" votes="42" vote_percentage="3.89" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="74" precincts_percentage="80">
 				<cand id="175565" votes="5331" vote_percentage="12.92" vote_percentage_2="13" />
@@ -3406,7 +3447,11 @@
 				<cand id="166322" votes="591" vote_percentage="2.39" vote_percentage_2="2" />
 				<cand id="65724" votes="1006" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
-			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="52" precincts_percentage="49">
+				<cand id="175565" votes="2045" vote_percentage="11.57" vote_percentage_2="12" />
+				<cand id="109657" votes="14640" vote_percentage="82.84" vote_percentage_2="83" />
+				<cand id="166322" votes="325" vote_percentage="1.84" vote_percentage_2="2" />
+				<cand id="65724" votes="663" vote_percentage="3.75" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="13" precincts_percentage="45">
 				<cand id="175565" votes="2828" vote_percentage="14.45" vote_percentage_2="14" />
@@ -3428,11 +3473,11 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
-			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="5" precincts_percentage="45">
-				<cand id="175565" votes="193" vote_percentage="11.72" vote_percentage_2="12" />
-				<cand id="109657" votes="1370" vote_percentage="83.18" vote_percentage_2="83" />
-				<cand id="166322" votes="22" vote_percentage="1.34" vote_percentage_2="1" />
-				<cand id="65724" votes="62" vote_percentage="3.76" vote_percentage_2="4" />
+			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
+				<cand id="175565" votes="423" vote_percentage="13.08" vote_percentage_2="13" />
+				<cand id="109657" votes="2637" vote_percentage="81.57" vote_percentage_2="82" />
+				<cand id="166322" votes="38" vote_percentage="1.18" vote_percentage_2="1" />
+				<cand id="65724" votes="135" vote_percentage="4.18" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="150" precincts_percentage="57">
 				<cand id="175565" votes="3985" vote_percentage="12.19" vote_percentage_2="12" />
@@ -3440,11 +3485,11 @@
 				<cand id="166322" votes="967" vote_percentage="2.96" vote_percentage_2="3" />
 				<cand id="65724" votes="1777" vote_percentage="5.43" vote_percentage_2="5" />
 			</reporting_unit>
-			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="102" precincts_percentage="75">
-				<cand id="175565" votes="2039" vote_percentage="15.03" vote_percentage_2="15" />
-				<cand id="109657" votes="10236" vote_percentage="75.43" vote_percentage_2="75" />
-				<cand id="166322" votes="278" vote_percentage="2.05" vote_percentage_2="2" />
-				<cand id="65724" votes="1017" vote_percentage="7.49" vote_percentage_2="7" />
+			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="120" precincts_percentage="88">
+				<cand id="175565" votes="2445" vote_percentage="15.28" vote_percentage_2="15" />
+				<cand id="109657" votes="12058" vote_percentage="75.35" vote_percentage_2="75" />
+				<cand id="166322" votes="309" vote_percentage="1.93" vote_percentage_2="2" />
+				<cand id="65724" votes="1190" vote_percentage="7.44" vote_percentage_2="7" />
 			</reporting_unit>
 			<reporting_unit id="10050" county="Palm Beach" fips="12099" precincts_total="798" precincts_reporting="363" precincts_percentage="45">
 				<cand id="175565" votes="5500" vote_percentage="16.1" vote_percentage_2="16" />
@@ -3458,11 +3503,11 @@
 				<cand id="166322" votes="723" vote_percentage="1.61" vote_percentage_2="2" />
 				<cand id="65724" votes="1842" vote_percentage="4.1" vote_percentage_2="4" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="274" precincts_percentage="95">
-				<cand id="175565" votes="9744" vote_percentage="12.85" vote_percentage_2="13" />
-				<cand id="109657" votes="61457" vote_percentage="81.03" vote_percentage_2="81" />
-				<cand id="166322" votes="1496" vote_percentage="1.97" vote_percentage_2="2" />
-				<cand id="65724" votes="3146" vote_percentage="4.15" vote_percentage_2="4" />
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="278" precincts_percentage="97">
+				<cand id="175565" votes="9918" vote_percentage="12.88" vote_percentage_2="13" />
+				<cand id="109657" votes="62340" vote_percentage="80.96" vote_percentage_2="81" />
+				<cand id="166322" votes="1521" vote_percentage="1.98" vote_percentage_2="2" />
+				<cand id="65724" votes="3219" vote_percentage="4.18" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10053" county="Polk" fips="12105" precincts_total="178" precincts_reporting="0" precincts_percentage="0">
 			</reporting_unit>
@@ -4353,7 +4398,9 @@
 			</candidate>
 		</candidates>
 		<reporting_units>
-			<reporting_unit id="0" precincts_total="36" precincts_reporting="0" precincts_percentage="0">
+			<reporting_unit id="0" precincts_total="36" precincts_reporting="0" precincts_percentage="">
+				<cand id="Y" votes="9942" vote_percentage="57.19" vote_percentage_2="57" />
+				<cand id="N" votes="7443" vote_percentage="42.81" vote_percentage_2="43" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
