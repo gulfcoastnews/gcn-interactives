@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/19/2026 6:22:02 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/19/2026 8:40:47 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="716467" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="472100" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="716585" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="472171" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -39,8 +39,8 @@
 				<cand id="175600" votes="2132" vote_percentage="35.63" vote_percentage_2="36" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="166341" votes="363" vote_percentage="63.24" vote_percentage_2="63" />
-				<cand id="175600" votes="211" vote_percentage="36.76" vote_percentage_2="37" />
+				<cand id="166341" votes="481" vote_percentage="63.04" vote_percentage_2="63" />
+				<cand id="175600" votes="282" vote_percentage="36.96" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="154" precincts_percentage="99">
 				<cand id="166341" votes="22060" vote_percentage="64.09" vote_percentage_2="64" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1110689" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501100" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1110927" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501160" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -337,8 +337,8 @@
 				<cand id="175601" votes="6641" vote_percentage="28.86" vote_percentage_2="29" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="106936" votes="2226" vote_percentage="68.12" vote_percentage_2="68" />
-				<cand id="175601" votes="1042" vote_percentage="31.88" vote_percentage_2="32" />
+				<cand id="106936" votes="2464" vote_percentage="69.1" vote_percentage_2="69" />
+				<cand id="175601" votes="1102" vote_percentage="30.9" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="155" precincts_percentage="99">
 				<cand id="106936" votes="42623" vote_percentage="67.15" vote_percentage_2="67" />
@@ -619,8 +619,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175596" votes="416578" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="795964" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="175596" votes="416646" vote_percentage="34.36" vote_percentage_2="34" />
+				<cand id="58627" votes="796088" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -635,8 +635,8 @@
 				<cand id="58627" votes="3935" vote_percentage="64.85" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175596" votes="212" vote_percentage="36.43" vote_percentage_2="36" />
-				<cand id="58627" votes="370" vote_percentage="63.57" vote_percentage_2="64" />
+				<cand id="175596" votes="280" vote_percentage="36.18" vote_percentage_2="36" />
+				<cand id="58627" votes="494" vote_percentage="63.82" vote_percentage_2="64" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="154" precincts_percentage="99">
 				<cand id="175596" votes="12154" vote_percentage="34.71" vote_percentage_2="35" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610348" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="967504" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="175597" votes="610468" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="967676" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -933,8 +933,8 @@
 				<cand id="107845" votes="13538" vote_percentage="59.84" vote_percentage_2="60" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175597" votes="1282" vote_percentage="41.5" vote_percentage_2="42" />
-				<cand id="107845" votes="1807" vote_percentage="58.5" vote_percentage_2="58" />
+				<cand id="175597" votes="1402" vote_percentage="41.47" vote_percentage_2="41" />
+				<cand id="107845" votes="1979" vote_percentage="58.53" vote_percentage_2="59" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="155" precincts_percentage="99">
 				<cand id="175597" votes="21251" vote_percentage="33.84" vote_percentage_2="34" />
@@ -1246,12 +1246,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175575" votes="96581" vote_percentage="7.73" vote_percentage_2="8" />
-				<cand id="175576" votes="47261" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="189205" vote_percentage="15.14" vote_percentage_2="15" />
-				<cand id="63159" votes="761558" winner="Y" vote_percentage="60.96" vote_percentage_2="61" />
-				<cand id="110345" votes="119825" vote_percentage="9.59" vote_percentage_2="10" />
-				<cand id="175580" votes="34922" vote_percentage="2.8" vote_percentage_2="3" />
+				<cand id="175575" votes="96602" vote_percentage="7.73" vote_percentage_2="8" />
+				<cand id="175576" votes="47272" vote_percentage="3.78" vote_percentage_2="4" />
+				<cand id="175578" votes="189234" vote_percentage="15.14" vote_percentage_2="15" />
+				<cand id="63159" votes="761674" winner="Y" vote_percentage="60.96" vote_percentage_2="61" />
+				<cand id="110345" votes="119837" vote_percentage="9.59" vote_percentage_2="10" />
+				<cand id="175580" votes="34929" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175575" votes="1419" vote_percentage="5.68" vote_percentage_2="6" />
@@ -1278,12 +1278,12 @@
 				<cand id="175580" votes="183" vote_percentage="2.91" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175575" votes="51" vote_percentage="8.9" vote_percentage_2="9" />
-				<cand id="175576" votes="23" vote_percentage="4.01" vote_percentage_2="4" />
-				<cand id="175578" votes="85" vote_percentage="14.83" vote_percentage_2="15" />
-				<cand id="63159" votes="332" vote_percentage="57.94" vote_percentage_2="58" />
-				<cand id="110345" votes="39" vote_percentage="6.81" vote_percentage_2="7" />
-				<cand id="175580" votes="43" vote_percentage="7.5" vote_percentage_2="8" />
+				<cand id="175575" votes="72" vote_percentage="9.36" vote_percentage_2="9" />
+				<cand id="175576" votes="34" vote_percentage="4.42" vote_percentage_2="4" />
+				<cand id="175578" votes="114" vote_percentage="14.82" vote_percentage_2="15" />
+				<cand id="63159" votes="448" vote_percentage="58.26" vote_percentage_2="58" />
+				<cand id="110345" votes="51" vote_percentage="6.63" vote_percentage_2="7" />
+				<cand id="175580" votes="50" vote_percentage="6.5" vote_percentage_2="7" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="154" precincts_percentage="99">
 				<cand id="175575" votes="2683" vote_percentage="7.46" vote_percentage_2="7" />
@@ -1883,17 +1883,17 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426696" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810552" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177660" vote_percentage="10.48" vote_percentage_2="10" />
-				<cand id="175582" votes="13172" vote_percentage="0.78" />
-				<cand id="175583" votes="7039" vote_percentage="0.42" />
-				<cand id="175584" votes="5188" vote_percentage="0.31" />
-				<cand id="107807" votes="144950" vote_percentage="8.55" vote_percentage_2="9" />
-				<cand id="175585" votes="27602" vote_percentage="1.63" vote_percentage_2="2" />
+				<cand id="111504" votes="426787" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810675" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177674" vote_percentage="10.47" vote_percentage_2="10" />
+				<cand id="175582" votes="13174" vote_percentage="0.78" />
+				<cand id="175583" votes="7040" vote_percentage="0.42" />
+				<cand id="175584" votes="5189" vote_percentage="0.31" />
+				<cand id="107807" votes="144989" vote_percentage="8.55" vote_percentage_2="9" />
+				<cand id="175585" votes="27605" vote_percentage="1.63" vote_percentage_2="2" />
 				<cand id="111393" votes="7878" vote_percentage="0.46" />
 				<cand id="175586" votes="6266" vote_percentage="0.37" />
-				<cand id="175587" votes="69026" vote_percentage="4.07" vote_percentage_2="4" />
+				<cand id="175587" votes="69058" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="111504" votes="3929" vote_percentage="27.67" vote_percentage_2="28" />
@@ -1935,17 +1935,17 @@
 				<cand id="175587" votes="691" vote_percentage="2.86" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="111504" votes="928" vote_percentage="27.33" vote_percentage_2="27" />
-				<cand id="62408" votes="1060" vote_percentage="31.21" vote_percentage_2="31" />
-				<cand id="175581" votes="382" vote_percentage="11.25" vote_percentage_2="11" />
-				<cand id="175582" votes="13" vote_percentage="0.38" />
-				<cand id="175583" votes="3" vote_percentage="0.09" />
-				<cand id="175584" votes="3" vote_percentage="0.09" />
-				<cand id="107807" votes="444" vote_percentage="13.07" vote_percentage_2="13" />
-				<cand id="175585" votes="21" vote_percentage="0.62" />
-				<cand id="111393" votes="17" vote_percentage="0.5" />
-				<cand id="175586" votes="3" vote_percentage="0.09" />
-				<cand id="175587" votes="522" vote_percentage="15.37" vote_percentage_2="15" />
+				<cand id="111504" votes="1019" vote_percentage="27.53" vote_percentage_2="28" />
+				<cand id="62408" votes="1183" vote_percentage="31.96" vote_percentage_2="32" />
+				<cand id="175581" votes="396" vote_percentage="10.7" vote_percentage_2="11" />
+				<cand id="175582" votes="15" vote_percentage="0.41" />
+				<cand id="175583" votes="4" vote_percentage="0.11" />
+				<cand id="175584" votes="4" vote_percentage="0.11" />
+				<cand id="107807" votes="483" vote_percentage="13.05" vote_percentage_2="13" />
+				<cand id="175585" votes="24" vote_percentage="0.65" />
+				<cand id="111393" votes="17" vote_percentage="0.46" />
+				<cand id="175586" votes="3" vote_percentage="0.08" />
+				<cand id="175587" votes="554" vote_percentage="14.96" vote_percentage_2="15" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="155" precincts_percentage="99">
 				<cand id="111504" votes="16835" vote_percentage="25.08" vote_percentage_2="25" />
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="705077" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
-				<cand id="175566" votes="552693" vote_percentage="43.94" vote_percentage_2="44" />
+				<cand id="110984" votes="705192" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="175566" votes="552774" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3590,8 +3590,8 @@
 				<cand id="175566" votes="2579" vote_percentage="40.74" vote_percentage_2="41" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="110984" votes="434" vote_percentage="73.31" vote_percentage_2="73" />
-				<cand id="175566" votes="158" vote_percentage="26.69" vote_percentage_2="27" />
+				<cand id="110984" votes="549" vote_percentage="69.67" vote_percentage_2="70" />
+				<cand id="175566" votes="239" vote_percentage="30.33" vote_percentage_2="30" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="154" precincts_percentage="99">
 				<cand id="110984" votes="18784" vote_percentage="51.85" vote_percentage_2="52" />
@@ -3888,10 +3888,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227832" vote_percentage="13.74" vote_percentage_2="14" />
-				<cand id="109657" votes="1319773" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
-				<cand id="166322" votes="31214" vote_percentage="1.88" vote_percentage_2="2" />
-				<cand id="65724" votes="79903" vote_percentage="4.82" vote_percentage_2="5" />
+				<cand id="175565" votes="227843" vote_percentage="13.73" vote_percentage_2="14" />
+				<cand id="109657" votes="1320048" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="166322" votes="31217" vote_percentage="1.88" vote_percentage_2="2" />
+				<cand id="65724" votes="79915" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175565" votes="1796" vote_percentage="12.93" vote_percentage_2="13" />
@@ -3912,10 +3912,10 @@
 				<cand id="65724" votes="785" vote_percentage="3.29" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175565" votes="413" vote_percentage="12.63" vote_percentage_2="13" />
-				<cand id="109657" votes="2740" vote_percentage="83.79" vote_percentage_2="84" />
-				<cand id="166322" votes="27" vote_percentage="0.83" />
-				<cand id="65724" votes="90" vote_percentage="2.75" vote_percentage_2="3" />
+				<cand id="175565" votes="424" vote_percentage="11.87" vote_percentage_2="12" />
+				<cand id="109657" votes="3015" vote_percentage="84.43" vote_percentage_2="84" />
+				<cand id="166322" votes="30" vote_percentage="0.84" />
+				<cand id="65724" votes="102" vote_percentage="2.86" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10005" county="Brevard" fips="12009" precincts_total="156" precincts_reporting="155" precincts_percentage="99">
 				<cand id="175565" votes="9089" vote_percentage="13.87" vote_percentage_2="14" />
