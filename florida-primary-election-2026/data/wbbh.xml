@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/19/2026 1:27:17 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/19/2026 1:53:32 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -214,7 +214,7 @@
 				<cand id="166341" votes="422" vote_percentage="53.69" vote_percentage_2="54" />
 				<cand id="175600" votes="364" vote_percentage="46.31" vote_percentage_2="46" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="259" precincts_percentage="99">
 				<cand id="166341" votes="54086" vote_percentage="63.28" vote_percentage_2="63" />
 				<cand id="175600" votes="31387" vote_percentage="36.72" vote_percentage_2="37" />
 			</reporting_unit>
@@ -242,7 +242,7 @@
 				<cand id="166341" votes="1626" vote_percentage="58.76" vote_percentage_2="59" />
 				<cand id="175600" votes="1141" vote_percentage="41.24" vote_percentage_2="41" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="166341" votes="10772" vote_percentage="69.93" vote_percentage_2="70" />
 				<cand id="175600" votes="4633" vote_percentage="30.07" vote_percentage_2="30" />
 			</reporting_unit>
@@ -512,7 +512,7 @@
 				<cand id="106936" votes="2548" vote_percentage="68.68" vote_percentage_2="69" />
 				<cand id="175601" votes="1162" vote_percentage="31.32" vote_percentage_2="31" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="260" precincts_percentage="99">
 				<cand id="106936" votes="40813" vote_percentage="71.19" vote_percentage_2="71" />
 				<cand id="175601" votes="16515" vote_percentage="28.81" vote_percentage_2="29" />
 			</reporting_unit>
@@ -528,7 +528,7 @@
 				<cand id="106936" votes="30750" vote_percentage="64.96" vote_percentage_2="65" />
 				<cand id="175601" votes="16588" vote_percentage="35.04" vote_percentage_2="35" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="282" precincts_percentage="98">
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="286" precincts_percentage="99">
 				<cand id="106936" votes="57312" vote_percentage="72.89" vote_percentage_2="73" />
 				<cand id="175601" votes="21318" vote_percentage="27.11" vote_percentage_2="27" />
 			</reporting_unit>
@@ -540,7 +540,7 @@
 				<cand id="106936" votes="5412" vote_percentage="63.88" vote_percentage_2="64" />
 				<cand id="175601" votes="3060" vote_percentage="36.12" vote_percentage_2="36" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="106936" votes="27225" vote_percentage="68.07" vote_percentage_2="68" />
 				<cand id="175601" votes="12771" vote_percentage="31.93" vote_percentage_2="32" />
 			</reporting_unit>
@@ -810,7 +810,7 @@
 				<cand id="175596" votes="274" vote_percentage="34.64" vote_percentage_2="35" />
 				<cand id="58627" votes="517" vote_percentage="65.36" vote_percentage_2="65" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="259" precincts_percentage="99">
 				<cand id="175596" votes="30098" vote_percentage="34.66" vote_percentage_2="35" />
 				<cand id="58627" votes="56743" vote_percentage="65.34" vote_percentage_2="65" />
 			</reporting_unit>
@@ -838,7 +838,7 @@
 				<cand id="175596" votes="1043" vote_percentage="37.12" vote_percentage_2="37" />
 				<cand id="58627" votes="1767" vote_percentage="62.88" vote_percentage_2="63" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="175596" votes="4707" vote_percentage="29.96" vote_percentage_2="30" />
 				<cand id="58627" votes="11002" vote_percentage="70.04" vote_percentage_2="70" />
 			</reporting_unit>
@@ -1108,7 +1108,7 @@
 				<cand id="175597" votes="1818" vote_percentage="52.11" vote_percentage_2="52" />
 				<cand id="107845" votes="1671" vote_percentage="47.89" vote_percentage_2="48" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="260" precincts_percentage="99">
 				<cand id="175597" votes="20241" vote_percentage="35.57" vote_percentage_2="36" />
 				<cand id="107845" votes="36664" vote_percentage="64.43" vote_percentage_2="64" />
 			</reporting_unit>
@@ -1124,7 +1124,7 @@
 				<cand id="175597" votes="17670" vote_percentage="38.76" vote_percentage_2="39" />
 				<cand id="107845" votes="27914" vote_percentage="61.24" vote_percentage_2="61" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="282" precincts_percentage="98">
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="286" precincts_percentage="99">
 				<cand id="175597" votes="27957" vote_percentage="36.25" vote_percentage_2="36" />
 				<cand id="107845" votes="49158" vote_percentage="63.75" vote_percentage_2="64" />
 			</reporting_unit>
@@ -1136,7 +1136,7 @@
 				<cand id="175597" votes="3584" vote_percentage="43.46" vote_percentage_2="43" />
 				<cand id="107845" votes="4663" vote_percentage="56.54" vote_percentage_2="57" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="175597" votes="13261" vote_percentage="33.62" vote_percentage_2="34" />
 				<cand id="107845" votes="26184" vote_percentage="66.38" vote_percentage_2="66" />
 			</reporting_unit>
@@ -1629,7 +1629,7 @@
 				<cand id="110345" votes="57" vote_percentage="7.01" vote_percentage_2="7" />
 				<cand id="175580" votes="27" vote_percentage="3.32" vote_percentage_2="3" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="259" precincts_percentage="99">
 				<cand id="175575" votes="8277" vote_percentage="9.3" vote_percentage_2="9" />
 				<cand id="175576" votes="3521" vote_percentage="3.96" vote_percentage_2="4" />
 				<cand id="175578" votes="19745" vote_percentage="22.19" vote_percentage_2="22" />
@@ -1685,7 +1685,7 @@
 				<cand id="110345" votes="264" vote_percentage="9.09" vote_percentage_2="9" />
 				<cand id="175580" votes="152" vote_percentage="5.24" vote_percentage_2="5" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="175575" votes="1184" vote_percentage="7.24" vote_percentage_2="7" />
 				<cand id="175576" votes="474" vote_percentage="2.9" vote_percentage_2="3" />
 				<cand id="175578" votes="2174" vote_percentage="13.3" vote_percentage_2="13" />
@@ -2506,7 +2506,7 @@
 				<cand id="175586" votes="5" vote_percentage="0.13" />
 				<cand id="175587" votes="656" vote_percentage="17.39" vote_percentage_2="17" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="260" precincts_percentage="99">
 				<cand id="111504" votes="14309" vote_percentage="23.52" vote_percentage_2="24" />
 				<cand id="62408" votes="29312" vote_percentage="48.18" vote_percentage_2="48" />
 				<cand id="175581" votes="7382" vote_percentage="12.13" vote_percentage_2="12" />
@@ -2558,7 +2558,7 @@
 				<cand id="175586" votes="139" vote_percentage="0.28" />
 				<cand id="175587" votes="2404" vote_percentage="4.92" vote_percentage_2="5" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="281" precincts_percentage="98">
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="286" precincts_percentage="99">
 				<cand id="111504" votes="22447" vote_percentage="27.11" vote_percentage_2="27" />
 				<cand id="62408" votes="41153" vote_percentage="49.7" vote_percentage_2="50" />
 				<cand id="175581" votes="8271" vote_percentage="9.99" vote_percentage_2="10" />
@@ -2597,7 +2597,7 @@
 				<cand id="175586" votes="16" vote_percentage="0.18" />
 				<cand id="175587" votes="809" vote_percentage="9.26" vote_percentage_2="9" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="111504" votes="10209" vote_percentage="23.99" vote_percentage_2="24" />
 				<cand id="62408" votes="18429" vote_percentage="43.31" vote_percentage_2="43" />
 				<cand id="175581" votes="5374" vote_percentage="12.63" vote_percentage_2="13" />
@@ -3765,7 +3765,7 @@
 				<cand id="110984" votes="395" vote_percentage="48.71" vote_percentage_2="49" />
 				<cand id="175566" votes="416" vote_percentage="51.29" vote_percentage_2="51" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="259" precincts_percentage="99">
 				<cand id="110984" votes="61149" vote_percentage="68.05" vote_percentage_2="68" />
 				<cand id="175566" votes="28709" vote_percentage="31.95" vote_percentage_2="32" />
 			</reporting_unit>
@@ -3793,7 +3793,7 @@
 				<cand id="110984" votes="1847" vote_percentage="63.02" vote_percentage_2="63" />
 				<cand id="175566" votes="1084" vote_percentage="36.98" vote_percentage_2="37" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="110984" votes="8617" vote_percentage="52.27" vote_percentage_2="52" />
 				<cand id="175566" votes="7870" vote_percentage="47.73" vote_percentage_2="48" />
 			</reporting_unit>
@@ -4175,7 +4175,7 @@
 				<cand id="166322" votes="39" vote_percentage="1.07" />
 				<cand id="65724" votes="156" vote_percentage="4.27" vote_percentage_2="4" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="260" precincts_percentage="99">
 				<cand id="175565" votes="8032" vote_percentage="13.46" vote_percentage_2="13" />
 				<cand id="109657" votes="46910" vote_percentage="78.62" vote_percentage_2="79" />
 				<cand id="166322" votes="1548" vote_percentage="2.59" vote_percentage_2="3" />
@@ -4199,7 +4199,7 @@
 				<cand id="166322" votes="761" vote_percentage="1.59" vote_percentage_2="2" />
 				<cand id="65724" votes="1967" vote_percentage="4.12" vote_percentage_2="4" />
 			</reporting_unit>
-			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="281" precincts_percentage="98">
+			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="286" precincts_percentage="99">
 				<cand id="175565" votes="10449" vote_percentage="12.87" vote_percentage_2="13" />
 				<cand id="109657" votes="65709" vote_percentage="80.96" vote_percentage_2="81" />
 				<cand id="166322" votes="1618" vote_percentage="1.99" vote_percentage_2="2" />
@@ -4217,7 +4217,7 @@
 				<cand id="166322" votes="112" vote_percentage="1.31" vote_percentage_2="1" />
 				<cand id="65724" votes="262" vote_percentage="3.06" vote_percentage_2="3" />
 			</reporting_unit>
-			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="53" precincts_percentage="96">
+			<reporting_unit id="10055" county="St. Johns" fips="12109" precincts_total="55" precincts_reporting="54" precincts_percentage="98">
 				<cand id="175565" votes="5870" vote_percentage="14.16" vote_percentage_2="14" />
 				<cand id="109657" votes="33058" vote_percentage="79.75" vote_percentage_2="80" />
 				<cand id="166322" votes="839" vote_percentage="2.02" vote_percentage_2="2" />
