@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/19/2026 4:01:47 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/19/2026 4:55:02 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="714560" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="470907" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="714863" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="471030" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -227,8 +227,8 @@
 				<cand id="175600" votes="38958" vote_percentage="40" />
 			</reporting_unit>
 			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="166341" votes="16515" vote_percentage="65.35" vote_percentage_2="65" />
-				<cand id="175600" votes="8755" vote_percentage="34.65" vote_percentage_2="35" />
+				<cand id="166341" votes="16818" vote_percentage="65.45" vote_percentage_2="65" />
+				<cand id="175600" votes="8878" vote_percentage="34.55" vote_percentage_2="35" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="285" precincts_percentage="99">
 				<cand id="166341" votes="44732" vote_percentage="62.11" vote_percentage_2="62" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1109692" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="500685" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1109886" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="500818" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -524,9 +524,9 @@
 				<cand id="106936" votes="55110" vote_percentage="71.42" vote_percentage_2="71" />
 				<cand id="175601" votes="22053" vote_percentage="28.58" vote_percentage_2="29" />
 			</reporting_unit>
-			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="106936" votes="30556" vote_percentage="65" />
-				<cand id="175601" votes="16455" vote_percentage="35" />
+			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="121" precincts_percentage="99">
+				<cand id="106936" votes="30750" vote_percentage="64.96" vote_percentage_2="65" />
+				<cand id="175601" votes="16588" vote_percentage="35.04" vote_percentage_2="35" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="282" precincts_percentage="98">
 				<cand id="106936" votes="57312" vote_percentage="72.89" vote_percentage_2="73" />
@@ -619,8 +619,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175596" votes="415513" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="793866" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="175596" votes="415678" vote_percentage="34.36" vote_percentage_2="34" />
+				<cand id="58627" votes="794137" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -823,8 +823,8 @@
 				<cand id="58627" votes="67665" vote_percentage="68.06" vote_percentage_2="68" />
 			</reporting_unit>
 			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="175596" votes="9442" vote_percentage="36.86" vote_percentage_2="37" />
-				<cand id="58627" votes="16173" vote_percentage="63.14" vote_percentage_2="63" />
+				<cand id="175596" votes="9607" vote_percentage="36.88" vote_percentage_2="37" />
+				<cand id="58627" votes="16444" vote_percentage="63.12" vote_percentage_2="63" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="285" precincts_percentage="99">
 				<cand id="175596" votes="26643" vote_percentage="36.23" vote_percentage_2="36" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="609915" vote_percentage="38.69" vote_percentage_2="39" />
-				<cand id="107845" votes="966548" winner="Y" vote_percentage="61.31" vote_percentage_2="61" />
+				<cand id="175597" votes="610011" vote_percentage="38.69" vote_percentage_2="39" />
+				<cand id="107845" votes="966771" winner="Y" vote_percentage="61.31" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -1120,9 +1120,9 @@
 				<cand id="175597" votes="31276" vote_percentage="41.57" vote_percentage_2="42" />
 				<cand id="107845" votes="43970" vote_percentage="58.43" vote_percentage_2="58" />
 			</reporting_unit>
-			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="175597" votes="17574" vote_percentage="38.82" vote_percentage_2="39" />
-				<cand id="107845" votes="27691" vote_percentage="61.18" vote_percentage_2="61" />
+			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="121" precincts_percentage="99">
+				<cand id="175597" votes="17670" vote_percentage="38.76" vote_percentage_2="39" />
+				<cand id="107845" votes="27914" vote_percentage="61.24" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="282" precincts_percentage="98">
 				<cand id="175597" votes="27957" vote_percentage="36.25" vote_percentage_2="36" />
@@ -1246,12 +1246,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175575" votes="96380" vote_percentage="7.73" vote_percentage_2="8" />
-				<cand id="175576" votes="47164" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="188554" vote_percentage="15.13" vote_percentage_2="15" />
-				<cand id="63159" votes="759776" winner="Y" vote_percentage="60.97" vote_percentage_2="61" />
-				<cand id="110345" votes="119358" vote_percentage="9.58" vote_percentage_2="10" />
-				<cand id="175580" votes="34870" vote_percentage="2.8" vote_percentage_2="3" />
+				<cand id="175575" votes="96393" vote_percentage="7.73" vote_percentage_2="8" />
+				<cand id="175576" votes="47180" vote_percentage="3.78" vote_percentage_2="4" />
+				<cand id="175578" votes="188623" vote_percentage="15.13" vote_percentage_2="15" />
+				<cand id="63159" votes="760073" winner="Y" vote_percentage="60.97" vote_percentage_2="61" />
+				<cand id="110345" votes="119410" vote_percentage="9.58" vote_percentage_2="10" />
+				<cand id="175580" votes="34875" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175575" votes="1419" vote_percentage="5.68" vote_percentage_2="6" />
@@ -1654,12 +1654,12 @@
 				<cand id="175580" votes="3229" vote_percentage="3.13" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="175575" votes="1935" vote_percentage="7.33" vote_percentage_2="7" />
-				<cand id="175576" votes="1018" vote_percentage="3.86" vote_percentage_2="4" />
-				<cand id="175578" votes="4246" vote_percentage="16.09" vote_percentage_2="16" />
-				<cand id="63159" votes="16377" vote_percentage="62.05" vote_percentage_2="62" />
-				<cand id="110345" votes="2366" vote_percentage="8.96" vote_percentage_2="9" />
-				<cand id="175580" votes="450" vote_percentage="1.71" vote_percentage_2="2" />
+				<cand id="175575" votes="1948" vote_percentage="7.26" vote_percentage_2="7" />
+				<cand id="175576" votes="1034" vote_percentage="3.85" vote_percentage_2="4" />
+				<cand id="175578" votes="4315" vote_percentage="16.07" vote_percentage_2="16" />
+				<cand id="63159" votes="16674" vote_percentage="62.11" vote_percentage_2="62" />
+				<cand id="110345" votes="2418" vote_percentage="9.01" vote_percentage_2="9" />
+				<cand id="175580" votes="455" vote_percentage="1.69" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="285" precincts_percentage="99">
 				<cand id="175575" votes="4472" vote_percentage="5.86" vote_percentage_2="6" />
@@ -1883,17 +1883,17 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426321" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="809892" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177494" vote_percentage="10.47" vote_percentage_2="10" />
+				<cand id="111504" votes="426413" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810033" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177526" vote_percentage="10.47" vote_percentage_2="10" />
 				<cand id="175582" votes="13165" vote_percentage="0.78" />
-				<cand id="175583" votes="7033" vote_percentage="0.42" />
+				<cand id="175583" votes="7034" vote_percentage="0.42" />
 				<cand id="175584" votes="5181" vote_percentage="0.31" />
-				<cand id="107807" votes="144797" vote_percentage="8.54" vote_percentage_2="9" />
-				<cand id="175585" votes="27567" vote_percentage="1.63" vote_percentage_2="2" />
-				<cand id="111393" votes="7868" vote_percentage="0.46" />
-				<cand id="175586" votes="6252" vote_percentage="0.37" />
-				<cand id="175587" votes="68978" vote_percentage="4.07" vote_percentage_2="4" />
+				<cand id="107807" votes="144830" vote_percentage="8.55" vote_percentage_2="9" />
+				<cand id="175585" votes="27571" vote_percentage="1.63" vote_percentage_2="2" />
+				<cand id="111393" votes="7872" vote_percentage="0.46" />
+				<cand id="175586" votes="6253" vote_percentage="0.37" />
+				<cand id="175587" votes="68999" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="111504" votes="3929" vote_percentage="27.67" vote_percentage_2="28" />
@@ -2545,18 +2545,18 @@
 				<cand id="175586" votes="310" vote_percentage="0.38" />
 				<cand id="175587" votes="1602" vote_percentage="1.96" vote_percentage_2="2" />
 			</reporting_unit>
-			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="111504" votes="14391" vote_percentage="29.68" vote_percentage_2="30" />
-				<cand id="62408" votes="21512" vote_percentage="44.37" vote_percentage_2="44" />
-				<cand id="175581" votes="5945" vote_percentage="12.26" vote_percentage_2="12" />
+			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="121" precincts_percentage="99">
+				<cand id="111504" votes="14483" vote_percentage="29.67" vote_percentage_2="30" />
+				<cand id="62408" votes="21653" vote_percentage="44.36" vote_percentage_2="44" />
+				<cand id="175581" votes="5977" vote_percentage="12.24" vote_percentage_2="12" />
 				<cand id="175582" votes="273" vote_percentage="0.56" />
-				<cand id="175583" votes="152" vote_percentage="0.31" />
+				<cand id="175583" votes="153" vote_percentage="0.31" />
 				<cand id="175584" votes="106" vote_percentage="0.22" />
-				<cand id="107807" votes="2856" vote_percentage="5.89" vote_percentage_2="6" />
-				<cand id="175585" votes="553" vote_percentage="1.14" vote_percentage_2="1" />
-				<cand id="111393" votes="177" vote_percentage="0.37" />
-				<cand id="175586" votes="138" vote_percentage="0.28" />
-				<cand id="175587" votes="2383" vote_percentage="4.91" vote_percentage_2="5" />
+				<cand id="107807" votes="2889" vote_percentage="5.92" vote_percentage_2="6" />
+				<cand id="175585" votes="557" vote_percentage="1.14" vote_percentage_2="1" />
+				<cand id="111393" votes="181" vote_percentage="0.37" />
+				<cand id="175586" votes="139" vote_percentage="0.28" />
+				<cand id="175587" votes="2404" vote_percentage="4.92" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="281" precincts_percentage="98">
 				<cand id="111504" votes="22447" vote_percentage="27.11" vote_percentage_2="27" />
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="702873" winner="Y" vote_percentage="56.03" vote_percentage_2="56" />
-				<cand id="175566" votes="551623" vote_percentage="43.97" vote_percentage_2="44" />
+				<cand id="110984" votes="703126" winner="Y" vote_percentage="56.03" vote_percentage_2="56" />
+				<cand id="175566" votes="551823" vote_percentage="43.97" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3778,8 +3778,8 @@
 				<cand id="175566" votes="57740" vote_percentage="55.44" vote_percentage_2="55" />
 			</reporting_unit>
 			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="110984" votes="14244" vote_percentage="53.62" vote_percentage_2="54" />
-				<cand id="175566" votes="12319" vote_percentage="46.38" vote_percentage_2="46" />
+				<cand id="110984" votes="14497" vote_percentage="53.66" vote_percentage_2="54" />
+				<cand id="175566" votes="12519" vote_percentage="46.34" vote_percentage_2="46" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="285" precincts_percentage="99">
 				<cand id="110984" votes="39805" vote_percentage="51.95" vote_percentage_2="52" />
@@ -3888,10 +3888,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227660" vote_percentage="13.74" vote_percentage_2="14" />
-				<cand id="109657" votes="1318619" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
-				<cand id="166322" votes="31168" vote_percentage="1.88" vote_percentage_2="2" />
-				<cand id="65724" votes="79813" vote_percentage="4.82" vote_percentage_2="5" />
+				<cand id="175565" votes="227708" vote_percentage="13.74" vote_percentage_2="14" />
+				<cand id="109657" votes="1318867" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="166322" votes="31177" vote_percentage="1.88" vote_percentage_2="2" />
+				<cand id="65724" votes="79837" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175565" votes="1796" vote_percentage="12.93" vote_percentage_2="13" />
@@ -4193,11 +4193,11 @@
 				<cand id="166322" votes="1557" vote_percentage="1.95" vote_percentage_2="2" />
 				<cand id="65724" votes="3588" vote_percentage="4.49" vote_percentage_2="4" />
 			</reporting_unit>
-			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="120" precincts_percentage="98">
-				<cand id="175565" votes="6678" vote_percentage="14.08" vote_percentage_2="14" />
-				<cand id="109657" votes="38040" vote_percentage="80.23" vote_percentage_2="80" />
-				<cand id="166322" votes="752" vote_percentage="1.59" vote_percentage_2="2" />
-				<cand id="65724" votes="1943" vote_percentage="4.1" vote_percentage_2="4" />
+			<reporting_unit id="10051" county="Pasco" fips="12101" precincts_total="122" precincts_reporting="121" precincts_percentage="99">
+				<cand id="175565" votes="6726" vote_percentage="14.09" vote_percentage_2="14" />
+				<cand id="109657" votes="38288" vote_percentage="80.2" vote_percentage_2="80" />
+				<cand id="166322" votes="761" vote_percentage="1.59" vote_percentage_2="2" />
+				<cand id="65724" votes="1967" vote_percentage="4.12" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10052" county="Pinellas" fips="12103" precincts_total="288" precincts_reporting="281" precincts_percentage="98">
 				<cand id="175565" votes="10449" vote_percentage="12.87" vote_percentage_2="13" />
