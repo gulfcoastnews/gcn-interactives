@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/19/2026 4:55:02 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/19/2026 6:22:02 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="714863" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="471030" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="716467" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="472100" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -214,9 +214,9 @@
 				<cand id="166341" votes="422" vote_percentage="53.69" vote_percentage_2="54" />
 				<cand id="175600" votes="364" vote_percentage="46.31" vote_percentage_2="46" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="166341" votes="52482" vote_percentage="63.38" vote_percentage_2="63" />
-				<cand id="175600" votes="30317" vote_percentage="36.62" vote_percentage_2="37" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+				<cand id="166341" votes="54086" vote_percentage="63.28" vote_percentage_2="63" />
+				<cand id="175600" votes="31387" vote_percentage="36.72" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="134" precincts_percentage="99">
 				<cand id="166341" votes="12125" vote_percentage="68.28" vote_percentage_2="68" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1109886" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="500818" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1110689" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501100" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -512,9 +512,9 @@
 				<cand id="106936" votes="2548" vote_percentage="68.68" vote_percentage_2="69" />
 				<cand id="175601" votes="1162" vote_percentage="31.32" vote_percentage_2="31" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="106936" votes="40010" vote_percentage="71.14" vote_percentage_2="71" />
-				<cand id="175601" votes="16233" vote_percentage="28.86" vote_percentage_2="29" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+				<cand id="106936" votes="40813" vote_percentage="71.19" vote_percentage_2="71" />
+				<cand id="175601" votes="16515" vote_percentage="28.81" vote_percentage_2="29" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="135" precincts_percentage="99">
 				<cand id="106936" votes="10767" vote_percentage="66.61" vote_percentage_2="67" />
@@ -619,8 +619,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175596" votes="415678" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="794137" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="175596" votes="416578" vote_percentage="34.36" vote_percentage_2="34" />
+				<cand id="58627" votes="795964" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -810,9 +810,9 @@
 				<cand id="175596" votes="274" vote_percentage="34.64" vote_percentage_2="35" />
 				<cand id="58627" votes="517" vote_percentage="65.36" vote_percentage_2="65" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="175596" votes="29198" vote_percentage="34.71" vote_percentage_2="35" />
-				<cand id="58627" votes="54916" vote_percentage="65.29" vote_percentage_2="65" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+				<cand id="175596" votes="30098" vote_percentage="34.66" vote_percentage_2="35" />
+				<cand id="58627" votes="56743" vote_percentage="65.34" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="134" precincts_percentage="99">
 				<cand id="175596" votes="6863" vote_percentage="38.38" vote_percentage_2="38" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610011" vote_percentage="38.69" vote_percentage_2="39" />
-				<cand id="107845" votes="966771" winner="Y" vote_percentage="61.31" vote_percentage_2="61" />
+				<cand id="175597" votes="610348" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="967504" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -1108,9 +1108,9 @@
 				<cand id="175597" votes="1818" vote_percentage="52.11" vote_percentage_2="52" />
 				<cand id="107845" votes="1671" vote_percentage="47.89" vote_percentage_2="48" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="175597" votes="19904" vote_percentage="35.65" vote_percentage_2="36" />
-				<cand id="107845" votes="35931" vote_percentage="64.35" vote_percentage_2="64" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+				<cand id="175597" votes="20241" vote_percentage="35.57" vote_percentage_2="36" />
+				<cand id="107845" votes="36664" vote_percentage="64.43" vote_percentage_2="64" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="135" precincts_percentage="99">
 				<cand id="175597" votes="7298" vote_percentage="45.63" vote_percentage_2="46" />
@@ -1246,12 +1246,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175575" votes="96393" vote_percentage="7.73" vote_percentage_2="8" />
-				<cand id="175576" votes="47180" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="188623" vote_percentage="15.13" vote_percentage_2="15" />
-				<cand id="63159" votes="760073" winner="Y" vote_percentage="60.97" vote_percentage_2="61" />
-				<cand id="110345" votes="119410" vote_percentage="9.58" vote_percentage_2="10" />
-				<cand id="175580" votes="34875" vote_percentage="2.8" vote_percentage_2="3" />
+				<cand id="175575" votes="96581" vote_percentage="7.73" vote_percentage_2="8" />
+				<cand id="175576" votes="47261" vote_percentage="3.78" vote_percentage_2="4" />
+				<cand id="175578" votes="189205" vote_percentage="15.14" vote_percentage_2="15" />
+				<cand id="63159" votes="761558" winner="Y" vote_percentage="60.96" vote_percentage_2="61" />
+				<cand id="110345" votes="119825" vote_percentage="9.59" vote_percentage_2="10" />
+				<cand id="175580" votes="34922" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175575" votes="1419" vote_percentage="5.68" vote_percentage_2="6" />
@@ -1629,13 +1629,13 @@
 				<cand id="110345" votes="57" vote_percentage="7.01" vote_percentage_2="7" />
 				<cand id="175580" votes="27" vote_percentage="3.32" vote_percentage_2="3" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="175575" votes="8089" vote_percentage="9.38" vote_percentage_2="9" />
-				<cand id="175576" votes="3440" vote_percentage="3.99" vote_percentage_2="4" />
-				<cand id="175578" votes="19163" vote_percentage="22.23" vote_percentage_2="22" />
-				<cand id="63159" votes="43431" vote_percentage="50.39" vote_percentage_2="50" />
-				<cand id="110345" votes="9072" vote_percentage="10.52" vote_percentage_2="11" />
-				<cand id="175580" votes="3001" vote_percentage="3.48" vote_percentage_2="3" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+				<cand id="175575" votes="8277" vote_percentage="9.3" vote_percentage_2="9" />
+				<cand id="175576" votes="3521" vote_percentage="3.96" vote_percentage_2="4" />
+				<cand id="175578" votes="19745" vote_percentage="22.19" vote_percentage_2="22" />
+				<cand id="63159" votes="44916" vote_percentage="50.47" vote_percentage_2="50" />
+				<cand id="110345" votes="9487" vote_percentage="10.66" vote_percentage_2="11" />
+				<cand id="175580" votes="3048" vote_percentage="3.42" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="134" precincts_percentage="99">
 				<cand id="175575" votes="2510" vote_percentage="13.93" vote_percentage_2="14" />
@@ -1883,17 +1883,17 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426413" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810033" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177526" vote_percentage="10.47" vote_percentage_2="10" />
-				<cand id="175582" votes="13165" vote_percentage="0.78" />
-				<cand id="175583" votes="7034" vote_percentage="0.42" />
-				<cand id="175584" votes="5181" vote_percentage="0.31" />
-				<cand id="107807" votes="144830" vote_percentage="8.55" vote_percentage_2="9" />
-				<cand id="175585" votes="27571" vote_percentage="1.63" vote_percentage_2="2" />
-				<cand id="111393" votes="7872" vote_percentage="0.46" />
-				<cand id="175586" votes="6253" vote_percentage="0.37" />
-				<cand id="175587" votes="68999" vote_percentage="4.07" vote_percentage_2="4" />
+				<cand id="111504" votes="426696" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810552" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177660" vote_percentage="10.48" vote_percentage_2="10" />
+				<cand id="175582" votes="13172" vote_percentage="0.78" />
+				<cand id="175583" votes="7039" vote_percentage="0.42" />
+				<cand id="175584" votes="5188" vote_percentage="0.31" />
+				<cand id="107807" votes="144950" vote_percentage="8.55" vote_percentage_2="9" />
+				<cand id="175585" votes="27602" vote_percentage="1.63" vote_percentage_2="2" />
+				<cand id="111393" votes="7878" vote_percentage="0.46" />
+				<cand id="175586" votes="6266" vote_percentage="0.37" />
+				<cand id="175587" votes="69026" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="111504" votes="3929" vote_percentage="27.67" vote_percentage_2="28" />
@@ -2506,18 +2506,18 @@
 				<cand id="175586" votes="5" vote_percentage="0.13" />
 				<cand id="175587" votes="656" vote_percentage="17.39" vote_percentage_2="17" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="111504" votes="14026" vote_percentage="23.5" vote_percentage_2="24" />
-				<cand id="62408" votes="28793" vote_percentage="48.24" vote_percentage_2="48" />
-				<cand id="175581" votes="7248" vote_percentage="12.14" vote_percentage_2="12" />
-				<cand id="175582" votes="568" vote_percentage="0.95" />
-				<cand id="175583" votes="317" vote_percentage="0.53" />
-				<cand id="175584" votes="196" vote_percentage="0.33" />
-				<cand id="107807" votes="5095" vote_percentage="8.54" vote_percentage_2="9" />
-				<cand id="175585" votes="1434" vote_percentage="2.4" vote_percentage_2="2" />
-				<cand id="111393" votes="311" vote_percentage="0.52" />
-				<cand id="175586" votes="340" vote_percentage="0.57" />
-				<cand id="175587" votes="1355" vote_percentage="2.27" vote_percentage_2="2" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+				<cand id="111504" votes="14309" vote_percentage="23.52" vote_percentage_2="24" />
+				<cand id="62408" votes="29312" vote_percentage="48.18" vote_percentage_2="48" />
+				<cand id="175581" votes="7382" vote_percentage="12.13" vote_percentage_2="12" />
+				<cand id="175582" votes="575" vote_percentage="0.95" />
+				<cand id="175583" votes="322" vote_percentage="0.53" />
+				<cand id="175584" votes="203" vote_percentage="0.33" />
+				<cand id="107807" votes="5215" vote_percentage="8.57" vote_percentage_2="9" />
+				<cand id="175585" votes="1465" vote_percentage="2.41" vote_percentage_2="2" />
+				<cand id="111393" votes="317" vote_percentage="0.52" />
+				<cand id="175586" votes="353" vote_percentage="0.58" />
+				<cand id="175587" votes="1382" vote_percentage="2.27" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="135" precincts_percentage="99">
 				<cand id="111504" votes="4304" vote_percentage="25.5" vote_percentage_2="26" />
@@ -2944,13 +2944,13 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="221" precincts_reporting="218" precincts_percentage="99">
-				<cand id="176342" votes="14137" vote_percentage="24.38" />
-				<cand id="167869" votes="2239" vote_percentage="3.86" vote_percentage_2="4" />
-				<cand id="166310" votes="11781" vote_percentage="20.32" vote_percentage_2="20" />
-				<cand id="175734" votes="14717" vote_percentage="25.39" />
-				<cand id="175735" votes="11300" vote_percentage="19.49" vote_percentage_2="19" />
-				<cand id="175736" votes="1328" vote_percentage="2.29" vote_percentage_2="2" />
-				<cand id="175737" votes="2473" vote_percentage="4.27" vote_percentage_2="4" />
+				<cand id="176342" votes="14151" vote_percentage="24.37" />
+				<cand id="167869" votes="2246" vote_percentage="3.87" vote_percentage_2="4" />
+				<cand id="166310" votes="11799" vote_percentage="20.32" vote_percentage_2="20" />
+				<cand id="175734" votes="14740" vote_percentage="25.38" />
+				<cand id="175735" votes="11318" vote_percentage="19.49" vote_percentage_2="19" />
+				<cand id="175736" votes="1333" vote_percentage="2.3" vote_percentage_2="2" />
+				<cand id="175737" votes="2481" vote_percentage="4.27" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10022" county="Glades" fips="12043" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="176342" votes="812" vote_percentage="51.23" vote_percentage_2="51" />
@@ -2988,14 +2988,14 @@
 				<cand id="175736" votes="31" vote_percentage="0.83" />
 				<cand id="175737" votes="63" vote_percentage="1.68" vote_percentage_2="2" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="21" precincts_reporting="19" precincts_percentage="90">
-				<cand id="176342" votes="556" vote_percentage="11.76" vote_percentage_2="12" />
-				<cand id="167869" votes="209" vote_percentage="4.42" vote_percentage_2="4" />
-				<cand id="166310" votes="1397" vote_percentage="29.54" vote_percentage_2="30" />
-				<cand id="175734" votes="1034" vote_percentage="21.87" vote_percentage_2="22" />
-				<cand id="175735" votes="1168" vote_percentage="24.7" vote_percentage_2="25" />
-				<cand id="175736" votes="162" vote_percentage="3.43" vote_percentage_2="3" />
-				<cand id="175737" votes="203" vote_percentage="4.29" vote_percentage_2="4" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="21" precincts_reporting="20" precincts_percentage="95">
+				<cand id="176342" votes="570" vote_percentage="11.82" vote_percentage_2="12" />
+				<cand id="167869" votes="216" vote_percentage="4.48" vote_percentage_2="4" />
+				<cand id="166310" votes="1415" vote_percentage="29.34" vote_percentage_2="29" />
+				<cand id="175734" votes="1057" vote_percentage="21.92" vote_percentage_2="22" />
+				<cand id="175735" votes="1186" vote_percentage="24.6" vote_percentage_2="25" />
+				<cand id="175736" votes="167" vote_percentage="3.46" vote_percentage_2="3" />
+				<cand id="175737" votes="211" vote_percentage="4.38" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="111" precincts_reporting="110" precincts_percentage="99">
 				<cand id="176342" votes="1855" vote_percentage="13.32" vote_percentage_2="13" />
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="703126" winner="Y" vote_percentage="56.03" vote_percentage_2="56" />
-				<cand id="175566" votes="551823" vote_percentage="43.97" vote_percentage_2="44" />
+				<cand id="110984" votes="705077" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="175566" votes="552693" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3765,9 +3765,9 @@
 				<cand id="110984" votes="395" vote_percentage="48.71" vote_percentage_2="49" />
 				<cand id="175566" votes="416" vote_percentage="51.29" vote_percentage_2="51" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="110984" votes="59198" vote_percentage="68.01" vote_percentage_2="68" />
-				<cand id="175566" votes="27839" vote_percentage="31.99" vote_percentage_2="32" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="256" precincts_percentage="98">
+				<cand id="110984" votes="61149" vote_percentage="68.05" vote_percentage_2="68" />
+				<cand id="175566" votes="28709" vote_percentage="31.95" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="134" precincts_percentage="99">
 				<cand id="110984" votes="11610" vote_percentage="63.86" vote_percentage_2="64" />
@@ -3888,10 +3888,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227708" vote_percentage="13.74" vote_percentage_2="14" />
-				<cand id="109657" votes="1318867" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
-				<cand id="166322" votes="31177" vote_percentage="1.88" vote_percentage_2="2" />
-				<cand id="65724" votes="79837" vote_percentage="4.82" vote_percentage_2="5" />
+				<cand id="175565" votes="227832" vote_percentage="13.74" vote_percentage_2="14" />
+				<cand id="109657" votes="1319773" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="166322" votes="31214" vote_percentage="1.88" vote_percentage_2="2" />
+				<cand id="65724" votes="79903" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175565" votes="1796" vote_percentage="12.93" vote_percentage_2="13" />
@@ -4175,11 +4175,11 @@
 				<cand id="166322" votes="39" vote_percentage="1.07" />
 				<cand id="65724" votes="156" vote_percentage="4.27" vote_percentage_2="4" />
 			</reporting_unit>
-			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="248" precincts_percentage="95">
-				<cand id="175565" votes="7908" vote_percentage="13.51" vote_percentage_2="14" />
-				<cand id="109657" votes="46004" vote_percentage="78.6" vote_percentage_2="79" />
-				<cand id="166322" votes="1511" vote_percentage="2.58" vote_percentage_2="3" />
-				<cand id="65724" votes="3108" vote_percentage="5.31" vote_percentage_2="5" />
+			<reporting_unit id="10048" county="Orange" fips="12095" precincts_total="262" precincts_reporting="253" precincts_percentage="97">
+				<cand id="175565" votes="8032" vote_percentage="13.46" vote_percentage_2="13" />
+				<cand id="109657" votes="46910" vote_percentage="78.62" vote_percentage_2="79" />
+				<cand id="166322" votes="1548" vote_percentage="2.59" vote_percentage_2="3" />
+				<cand id="65724" votes="3174" vote_percentage="5.32" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10049" county="Osceola" fips="12097" precincts_total="136" precincts_reporting="135" precincts_percentage="99">
 				<cand id="175565" votes="2554" vote_percentage="15.36" vote_percentage_2="15" />
