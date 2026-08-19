@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/19/2026 8:40:47 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/19/2026 1:27:17 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -4320,8 +4320,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="34" precincts_reporting="34" precincts_percentage="100">
-				<cand id="CC" votes="17256" vote_percentage="44.71" vote_percentage_2="45" />
-				<cand id="JF" votes="21338" winner="Y" vote_percentage="55.29" vote_percentage_2="55" />
+				<cand id="CC" votes="17552" vote_percentage="44.71" vote_percentage_2="45" />
+				<cand id="JF" votes="21702" winner="Y" vote_percentage="55.29" vote_percentage_2="55" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4347,8 +4347,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="34" precincts_reporting="34" precincts_percentage="100">
-				<cand id="KA" votes="16030" winner="Y" vote_percentage="60.96" vote_percentage_2="61" />
-				<cand id="SRD" votes="10268" vote_percentage="39.04" vote_percentage_2="39" />
+				<cand id="KA" votes="16293" winner="Y" vote_percentage="61" />
+				<cand id="SRD" votes="10417" vote_percentage="39" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4524,8 +4524,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="3" precincts_reporting="3" precincts_percentage="100">
-				<cand id="RG" votes="356" vote_percentage="32.57" vote_percentage_2="33" />
-				<cand id="RI" votes="737" winner="Y" vote_percentage="67.43" vote_percentage_2="67" />
+				<cand id="RG" votes="426" vote_percentage="27.59" vote_percentage_2="28" />
+				<cand id="RI" votes="1118" winner="Y" vote_percentage="72.41" vote_percentage_2="72" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4551,9 +4551,9 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="10" precincts_reporting="10" precincts_percentage="100">
-				<cand id="JC" votes="1219" vote_percentage="29.67" vote_percentage_2="30" />
-				<cand id="RO" votes="2233" winner="Y" vote_percentage="54.34" vote_percentage_2="54" />
-				<cand id="ATP" votes="657" vote_percentage="15.99" vote_percentage_2="16" />
+				<cand id="JC" votes="1391" vote_percentage="28.79" vote_percentage_2="29" />
+				<cand id="RO" votes="2689" winner="Y" vote_percentage="55.66" vote_percentage_2="56" />
+				<cand id="ATP" votes="751" vote_percentage="15.55" vote_percentage_2="16" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4603,8 +4603,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="99" precincts_reporting="99" precincts_percentage="100">
-				<cand id="MC" votes="68089" winner="Y" vote_percentage="56.63" vote_percentage_2="57" />
-				<cand id="JAP" votes="52155" vote_percentage="43.37" vote_percentage_2="43" />
+				<cand id="MC" votes="70298" winner="Y" vote_percentage="56.56" vote_percentage_2="57" />
+				<cand id="JAP" votes="54002" vote_percentage="43.44" vote_percentage_2="43" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4630,8 +4630,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="22" precincts_reporting="22" precincts_percentage="100">
-				<cand id="SF" votes="16895" winner="Y" vote_percentage="57.93" vote_percentage_2="58" />
-				<cand id="JM" votes="12268" vote_percentage="42.07" vote_percentage_2="42" />
+				<cand id="SF" votes="17510" winner="Y" vote_percentage="57.59" vote_percentage_2="58" />
+				<cand id="JM" votes="12892" vote_percentage="42.41" vote_percentage_2="42" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4672,10 +4672,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="17" precincts_reporting="17" precincts_percentage="100">
-				<cand id="CB" votes="2342" vote_percentage="12.2" vote_percentage_2="12" />
-				<cand id="TB" votes="6090" winner="Y" vote_percentage="31.73" vote_percentage_2="32" />
-				<cand id="GGG" votes="3260" vote_percentage="16.99" vote_percentage_2="17" />
-				<cand id="DJ" votes="7499" winner="Y" vote_percentage="39.08" vote_percentage_2="39" />
+				<cand id="CB" votes="2416" vote_percentage="12.13" vote_percentage_2="12" />
+				<cand id="TB" votes="6277" winner="Y" vote_percentage="31.52" vote_percentage_2="32" />
+				<cand id="GGG" votes="3399" vote_percentage="17.07" vote_percentage_2="17" />
+				<cand id="DJ" votes="7823" winner="Y" vote_percentage="39.28" vote_percentage_2="39" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4709,9 +4709,9 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="17" precincts_reporting="17" precincts_percentage="100">
-				<cand id="CJ" votes="5161" winner="Y" vote_percentage="31.42" vote_percentage_2="31" />
-				<cand id="AP" votes="7151" winner="Y" vote_percentage="43.53" vote_percentage_2="44" />
-				<cand id="CS" votes="4116" vote_percentage="25.05" vote_percentage_2="25" />
+				<cand id="CJ" votes="5315" winner="Y" vote_percentage="31.42" vote_percentage_2="31" />
+				<cand id="AP" votes="7337" winner="Y" vote_percentage="43.38" vote_percentage_2="43" />
+				<cand id="CS" votes="4263" vote_percentage="25.2" vote_percentage_2="25" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4737,8 +4737,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="99" precincts_reporting="99" precincts_percentage="100">
-				<cand id="JLF" votes="80754" winner="Y" vote_percentage="66.41" vote_percentage_2="66" />
-				<cand id="IP" votes="40853" vote_percentage="33.59" vote_percentage_2="34" />
+				<cand id="JLF" votes="83165" winner="Y" vote_percentage="66.1" vote_percentage_2="66" />
+				<cand id="IP" votes="42645" vote_percentage="33.9" vote_percentage_2="34" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4759,8 +4759,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="8" precincts_reporting="8" precincts_percentage="100">
-				<cand id="Y" votes="8749" winner="Y" vote_percentage="68.28" vote_percentage_2="68" />
-				<cand id="N" votes="4065" vote_percentage="31.72" vote_percentage_2="32" />
+				<cand id="Y" votes="8968" winner="Y" vote_percentage="68.23" vote_percentage_2="68" />
+				<cand id="N" votes="4175" vote_percentage="31.77" vote_percentage_2="32" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4781,8 +4781,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="26" precincts_reporting="26" precincts_percentage="100">
-				<cand id="Y" votes="26322" winner="Y" vote_percentage="74.23" vote_percentage_2="74" />
-				<cand id="N" votes="9137" vote_percentage="25.77" vote_percentage_2="26" />
+				<cand id="Y" votes="27571" winner="Y" vote_percentage="74.22" vote_percentage_2="74" />
+				<cand id="N" votes="9575" vote_percentage="25.78" vote_percentage_2="26" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4804,8 +4804,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="26" precincts_reporting="26" precincts_percentage="100">
-				<cand id="Y" votes="33522" winner="Y" vote_percentage="92.95" vote_percentage_2="93" />
-				<cand id="N" votes="2541" vote_percentage="7.05" vote_percentage_2="7" />
+				<cand id="Y" votes="35133" winner="Y" vote_percentage="92.94" vote_percentage_2="93" />
+				<cand id="N" votes="2669" vote_percentage="7.06" vote_percentage_2="7" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4827,8 +4827,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="26" precincts_reporting="26" precincts_percentage="100">
-				<cand id="Y" votes="32603" winner="Y" vote_percentage="95.01" vote_percentage_2="95" />
-				<cand id="N" votes="1713" vote_percentage="4.99" vote_percentage_2="5" />
+				<cand id="Y" votes="34184" winner="Y" vote_percentage="94.97" vote_percentage_2="95" />
+				<cand id="N" votes="1809" vote_percentage="5.03" vote_percentage_2="5" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4869,10 +4869,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="26" precincts_reporting="26" precincts_percentage="100">
-				<cand id="SH" votes="6792" vote_percentage="20.48" vote_percentage_2="20" />
-				<cand id="DN" votes="9811" winner="Y" vote_percentage="29.58" vote_percentage_2="30" />
-				<cand id="TJS" votes="4774" vote_percentage="14.4" vote_percentage_2="14" />
-				<cand id="TS" votes="11786" winner="Y" vote_percentage="35.54" vote_percentage_2="36" />
+				<cand id="SH" votes="7146" vote_percentage="20.58" vote_percentage_2="21" />
+				<cand id="DN" votes="10296" winner="Y" vote_percentage="29.65" vote_percentage_2="30" />
+				<cand id="TJS" votes="5000" vote_percentage="14.4" vote_percentage_2="14" />
+				<cand id="TS" votes="12279" winner="Y" vote_percentage="35.36" vote_percentage_2="35" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4920,11 +4920,11 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="26" precincts_reporting="26" precincts_percentage="100">
-				<cand id="JA" votes="6008" vote_percentage="18.07" vote_percentage_2="18" />
-				<cand id="JH" votes="3329" vote_percentage="10.01" vote_percentage_2="10" />
-				<cand id="LK" votes="9570" winner="Y" vote_percentage="28.79" vote_percentage_2="29" />
-				<cand id="RM" votes="5520" vote_percentage="16.6" vote_percentage_2="17" />
-				<cand id="AW" votes="8817" winner="Y" vote_percentage="26.52" vote_percentage_2="27" />
+				<cand id="JA" votes="6303" vote_percentage="18.11" vote_percentage_2="18" />
+				<cand id="JH" votes="3437" vote_percentage="9.87" vote_percentage_2="10" />
+				<cand id="LK" votes="9984" winner="Y" vote_percentage="28.68" vote_percentage_2="29" />
+				<cand id="RM" votes="5816" vote_percentage="16.71" vote_percentage_2="17" />
+				<cand id="AW" votes="9273" winner="Y" vote_percentage="26.64" vote_percentage_2="27" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -4978,12 +4978,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="26" precincts_reporting="26" precincts_percentage="100">
-				<cand id="LCA" votes="8907" winner="Y" vote_percentage="24.61" vote_percentage_2="25" />
-				<cand id="RE" votes="11663" winner="Y" vote_percentage="32.22" vote_percentage_2="32" />
-				<cand id="JG" votes="5428" vote_percentage="15" />
-				<cand id="RL" votes="2192" vote_percentage="6.06" vote_percentage_2="6" />
-				<cand id="KR" votes="5092" vote_percentage="14.07" vote_percentage_2="14" />
-				<cand id="DS" votes="2913" vote_percentage="8.05" vote_percentage_2="8" />
+				<cand id="LCA" votes="9280" winner="Y" vote_percentage="24.46" vote_percentage_2="24" />
+				<cand id="RE" votes="12160" winner="Y" vote_percentage="32.05" vote_percentage_2="32" />
+				<cand id="JG" votes="5665" vote_percentage="14.93" vote_percentage_2="15" />
+				<cand id="RL" votes="2301" vote_percentage="6.07" vote_percentage_2="6" />
+				<cand id="KR" votes="5489" vote_percentage="14.47" vote_percentage_2="14" />
+				<cand id="DS" votes="3040" vote_percentage="8.01" vote_percentage_2="8" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -5027,8 +5027,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="2" precincts_reporting="2" precincts_percentage="100">
-				<cand id="VR" votes="394" winner="Y" vote_percentage="58.98" vote_percentage_2="59" />
-				<cand id="JCW" votes="274" vote_percentage="41.02" vote_percentage_2="41" />
+				<cand id="VR" votes="408" winner="Y" vote_percentage="58.37" vote_percentage_2="58" />
+				<cand id="JCW" votes="291" vote_percentage="41.63" vote_percentage_2="42" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -5050,8 +5050,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="2" precincts_reporting="2" precincts_percentage="100">
-				<cand id="AP" votes="320" vote_percentage="48.85" vote_percentage_2="49" />
-				<cand id="JMR" votes="335" winner="Y" vote_percentage="51.15" vote_percentage_2="51" />
+				<cand id="AP" votes="329" vote_percentage="48.03" vote_percentage_2="48" />
+				<cand id="JMR" votes="356" winner="Y" vote_percentage="51.97" vote_percentage_2="52" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -5072,8 +5072,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="3" precincts_reporting="3" precincts_percentage="100">
-				<cand id="Y" votes="2251" winner="Y" vote_percentage="50.04" vote_percentage_2="50" />
-				<cand id="N" votes="2247" vote_percentage="49.96" vote_percentage_2="50" />
+				<cand id="Y" votes="2257" winner="Y" vote_percentage="50.01" vote_percentage_2="50" />
+				<cand id="N" votes="2256" vote_percentage="49.99" vote_percentage_2="50" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -5137,8 +5137,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="7" precincts_reporting="7" precincts_percentage="100">
-				<cand id="Y" votes="1988" vote_percentage="44.71" vote_percentage_2="45" />
-				<cand id="N" votes="2458" winner="Y" vote_percentage="55.29" vote_percentage_2="55" />
+				<cand id="Y" votes="1995" vote_percentage="44.69" vote_percentage_2="45" />
+				<cand id="N" votes="2469" winner="Y" vote_percentage="55.31" vote_percentage_2="55" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
