@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/20/2026 10:28:49 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/20/2026 10:52:49 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="716697" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="472224" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="716751" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="472251" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -175,8 +175,8 @@
 				<cand id="175600" votes="13222" vote_percentage="37.36" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="166341" votes="1088" vote_percentage="61.16" vote_percentage_2="61" />
-				<cand id="175600" votes="691" vote_percentage="38.84" vote_percentage_2="39" />
+				<cand id="166341" votes="1090" vote_percentage="61.06" vote_percentage_2="61" />
+				<cand id="175600" votes="695" vote_percentage="38.94" vote_percentage_2="39" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="166341" votes="151" vote_percentage="43.14" vote_percentage_2="43" />
@@ -191,8 +191,8 @@
 				<cand id="175600" votes="7116" vote_percentage="33.55" vote_percentage_2="34" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="104" precincts_percentage="98">
-				<cand id="166341" votes="10394" vote_percentage="56.1" vote_percentage_2="56" />
-				<cand id="175600" votes="8134" vote_percentage="43.9" vote_percentage_2="44" />
+				<cand id="166341" votes="10399" vote_percentage="56.1" vote_percentage_2="56" />
+				<cand id="175600" votes="8136" vote_percentage="43.9" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="166341" votes="4743" vote_percentage="58.85" vote_percentage_2="59" />
@@ -259,12 +259,12 @@
 				<cand id="175600" votes="11790" vote_percentage="35.32" vote_percentage_2="35" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="166341" votes="17821" vote_percentage="63.18" vote_percentage_2="63" />
-				<cand id="175600" votes="10386" vote_percentage="36.82" vote_percentage_2="37" />
+				<cand id="166341" votes="17865" vote_percentage="63.19" vote_percentage_2="63" />
+				<cand id="175600" votes="10406" vote_percentage="36.81" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="166341" votes="5304" vote_percentage="59.18" vote_percentage_2="59" />
-				<cand id="175600" votes="3658" vote_percentage="40.82" vote_percentage_2="41" />
+				<cand id="166341" votes="5307" vote_percentage="59.19" vote_percentage_2="59" />
+				<cand id="175600" votes="3659" vote_percentage="40.81" vote_percentage_2="41" />
 			</reporting_unit>
 			<reporting_unit id="10061" county="Suwannee" fips="12121" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="166341" votes="710" vote_percentage="52.05" vote_percentage_2="52" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1111035" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501206" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1111081" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501228" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -473,8 +473,8 @@
 				<cand id="175601" votes="4993" vote_percentage="23.39" vote_percentage_2="23" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="106936" votes="4490" vote_percentage="65.17" vote_percentage_2="65" />
-				<cand id="175601" votes="2400" vote_percentage="34.83" vote_percentage_2="35" />
+				<cand id="106936" votes="4493" vote_percentage="65.16" vote_percentage_2="65" />
+				<cand id="175601" votes="2402" vote_percentage="34.84" vote_percentage_2="35" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="106936" votes="1031" vote_percentage="67.39" vote_percentage_2="67" />
@@ -489,8 +489,8 @@
 				<cand id="175601" votes="13783" vote_percentage="31.64" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="105" precincts_percentage="99">
-				<cand id="106936" votes="29263" vote_percentage="66.59" vote_percentage_2="67" />
-				<cand id="175601" votes="14684" vote_percentage="33.41" vote_percentage_2="33" />
+				<cand id="106936" votes="29269" vote_percentage="66.58" vote_percentage_2="67" />
+				<cand id="175601" votes="14689" vote_percentage="33.42" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="106936" votes="13178" vote_percentage="68.36" vote_percentage_2="68" />
@@ -557,12 +557,12 @@
 				<cand id="175601" votes="17814" vote_percentage="33.15" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="106936" votes="24799" vote_percentage="73.03" vote_percentage_2="73" />
-				<cand id="175601" votes="9159" vote_percentage="26.97" vote_percentage_2="27" />
+				<cand id="106936" votes="24826" vote_percentage="73.02" vote_percentage_2="73" />
+				<cand id="175601" votes="9171" vote_percentage="26.98" vote_percentage_2="27" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="106936" votes="20764" vote_percentage="69.6" vote_percentage_2="70" />
-				<cand id="175601" votes="9070" vote_percentage="30.4" vote_percentage_2="30" />
+				<cand id="106936" votes="20774" vote_percentage="69.6" vote_percentage_2="70" />
+				<cand id="175601" votes="9073" vote_percentage="30.4" vote_percentage_2="30" />
 			</reporting_unit>
 			<reporting_unit id="10061" county="Suwannee" fips="12121" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="106936" votes="4042" vote_percentage="63.98" vote_percentage_2="64" />
@@ -619,8 +619,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175596" votes="416697" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="796209" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="175596" votes="416725" vote_percentage="34.36" vote_percentage_2="34" />
+				<cand id="58627" votes="796264" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -771,8 +771,8 @@
 				<cand id="58627" votes="24736" vote_percentage="67.25" vote_percentage_2="67" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175596" votes="634" vote_percentage="35.11" vote_percentage_2="35" />
-				<cand id="58627" votes="1172" vote_percentage="64.89" vote_percentage_2="65" />
+				<cand id="175596" votes="636" vote_percentage="35.1" vote_percentage_2="35" />
+				<cand id="58627" votes="1176" vote_percentage="64.9" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="175596" votes="190" vote_percentage="53.07" vote_percentage_2="53" />
@@ -787,8 +787,8 @@
 				<cand id="58627" votes="14413" vote_percentage="66.95" vote_percentage_2="67" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="104" precincts_percentage="98">
-				<cand id="175596" votes="6349" vote_percentage="33.87" vote_percentage_2="34" />
-				<cand id="58627" votes="12398" vote_percentage="66.13" vote_percentage_2="66" />
+				<cand id="175596" votes="6353" vote_percentage="33.88" vote_percentage_2="34" />
+				<cand id="58627" votes="12401" vote_percentage="66.12" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="175596" votes="2582" vote_percentage="31.49" vote_percentage_2="31" />
@@ -855,12 +855,12 @@
 				<cand id="58627" votes="24577" vote_percentage="71.1" vote_percentage_2="71" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="175596" votes="9376" vote_percentage="32.58" vote_percentage_2="33" />
-				<cand id="58627" votes="19405" vote_percentage="67.42" vote_percentage_2="67" />
+				<cand id="175596" votes="9395" vote_percentage="32.57" vote_percentage_2="33" />
+				<cand id="58627" votes="19451" vote_percentage="67.43" vote_percentage_2="67" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="175596" votes="2887" vote_percentage="31.43" vote_percentage_2="31" />
-				<cand id="58627" votes="6299" vote_percentage="68.57" vote_percentage_2="69" />
+				<cand id="175596" votes="2890" vote_percentage="31.44" vote_percentage_2="31" />
+				<cand id="58627" votes="6301" vote_percentage="68.56" vote_percentage_2="69" />
 			</reporting_unit>
 			<reporting_unit id="10061" county="Suwannee" fips="12121" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="175596" votes="615" vote_percentage="44.21" vote_percentage_2="44" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610541" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="967770" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="175597" votes="610566" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="967812" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -1069,8 +1069,8 @@
 				<cand id="107845" votes="14194" vote_percentage="68.11" vote_percentage_2="68" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175597" votes="3488" vote_percentage="52.69" vote_percentage_2="53" />
-				<cand id="107845" votes="3132" vote_percentage="47.31" vote_percentage_2="47" />
+				<cand id="175597" votes="3492" vote_percentage="52.71" vote_percentage_2="53" />
+				<cand id="107845" votes="3133" vote_percentage="47.29" vote_percentage_2="47" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="175597" votes="746" vote_percentage="50.17" vote_percentage_2="50" />
@@ -1085,8 +1085,8 @@
 				<cand id="107845" votes="27063" vote_percentage="62.97" vote_percentage_2="63" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="105" precincts_percentage="99">
-				<cand id="175597" votes="16301" vote_percentage="38.26" vote_percentage_2="38" />
-				<cand id="107845" votes="26303" vote_percentage="61.74" vote_percentage_2="62" />
+				<cand id="175597" votes="16307" vote_percentage="38.27" vote_percentage_2="38" />
+				<cand id="107845" votes="26308" vote_percentage="61.73" vote_percentage_2="62" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="175597" votes="7596" vote_percentage="41.14" vote_percentage_2="41" />
@@ -1153,12 +1153,12 @@
 				<cand id="107845" votes="34474" vote_percentage="65.7" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="175597" votes="10664" vote_percentage="31.84" vote_percentage_2="32" />
-				<cand id="107845" votes="22825" vote_percentage="68.16" vote_percentage_2="68" />
+				<cand id="175597" votes="10676" vote_percentage="31.84" vote_percentage_2="32" />
+				<cand id="107845" votes="22852" vote_percentage="68.16" vote_percentage_2="68" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="175597" votes="9217" vote_percentage="30.93" vote_percentage_2="31" />
-				<cand id="107845" votes="20583" vote_percentage="69.07" vote_percentage_2="69" />
+				<cand id="175597" votes="9220" vote_percentage="30.93" vote_percentage_2="31" />
+				<cand id="107845" votes="20592" vote_percentage="69.07" vote_percentage_2="69" />
 			</reporting_unit>
 			<reporting_unit id="10061" county="Suwannee" fips="12121" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="175597" votes="3038" vote_percentage="49.71" vote_percentage_2="50" />
@@ -1246,12 +1246,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175575" votes="96624" vote_percentage="7.73" vote_percentage_2="8" />
+				<cand id="175575" votes="96630" vote_percentage="7.73" vote_percentage_2="8" />
 				<cand id="175576" votes="47280" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="189266" vote_percentage="15.14" vote_percentage_2="15" />
-				<cand id="63159" votes="761759" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
-				<cand id="110345" votes="119859" vote_percentage="9.59" vote_percentage_2="10" />
-				<cand id="175580" votes="34935" vote_percentage="2.8" vote_percentage_2="3" />
+				<cand id="175578" votes="189288" vote_percentage="15.15" vote_percentage_2="15" />
+				<cand id="63159" votes="761802" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
+				<cand id="110345" votes="119871" vote_percentage="9.59" vote_percentage_2="10" />
+				<cand id="175580" votes="34937" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175575" votes="1419" vote_percentage="5.68" vote_percentage_2="6" />
@@ -1550,12 +1550,12 @@
 				<cand id="175580" votes="681" vote_percentage="1.75" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175575" votes="203" vote_percentage="10.99" vote_percentage_2="11" />
-				<cand id="175576" votes="100" vote_percentage="5.41" vote_percentage_2="5" />
-				<cand id="175578" votes="259" vote_percentage="14.02" vote_percentage_2="14" />
-				<cand id="63159" votes="1055" vote_percentage="57.12" vote_percentage_2="57" />
-				<cand id="110345" votes="129" vote_percentage="6.98" vote_percentage_2="7" />
-				<cand id="175580" votes="101" vote_percentage="5.47" vote_percentage_2="5" />
+				<cand id="175575" votes="203" vote_percentage="10.96" vote_percentage_2="11" />
+				<cand id="175576" votes="100" vote_percentage="5.4" vote_percentage_2="5" />
+				<cand id="175578" votes="262" vote_percentage="14.14" vote_percentage_2="14" />
+				<cand id="63159" votes="1058" vote_percentage="57.1" vote_percentage_2="57" />
+				<cand id="110345" votes="129" vote_percentage="6.96" vote_percentage_2="7" />
+				<cand id="175580" votes="101" vote_percentage="5.45" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="175575" votes="37" vote_percentage="10.39" vote_percentage_2="10" />
@@ -1582,12 +1582,12 @@
 				<cand id="175580" votes="324" vote_percentage="1.45" vote_percentage_2="1" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="104" precincts_percentage="98">
-				<cand id="175575" votes="1694" vote_percentage="8.78" vote_percentage_2="9" />
+				<cand id="175575" votes="1695" vote_percentage="8.78" vote_percentage_2="9" />
 				<cand id="175576" votes="896" vote_percentage="4.64" vote_percentage_2="5" />
-				<cand id="175578" votes="2507" vote_percentage="12.99" vote_percentage_2="13" />
-				<cand id="63159" votes="12011" vote_percentage="62.25" vote_percentage_2="62" />
-				<cand id="110345" votes="1706" vote_percentage="8.84" vote_percentage_2="9" />
-				<cand id="175580" votes="481" vote_percentage="2.49" vote_percentage_2="2" />
+				<cand id="175578" votes="2509" vote_percentage="13" />
+				<cand id="63159" votes="12014" vote_percentage="62.24" vote_percentage_2="62" />
+				<cand id="110345" votes="1707" vote_percentage="8.84" vote_percentage_2="9" />
+				<cand id="175580" votes="482" vote_percentage="2.5" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="175575" votes="607" vote_percentage="7.02" vote_percentage_2="7" />
@@ -1718,19 +1718,19 @@
 				<cand id="175580" votes="617" vote_percentage="1.72" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="175575" votes="2160" vote_percentage="7.24" vote_percentage_2="7" />
+				<cand id="175575" votes="2164" vote_percentage="7.24" vote_percentage_2="7" />
 				<cand id="175576" votes="842" vote_percentage="2.82" vote_percentage_2="3" />
-				<cand id="175578" votes="6035" vote_percentage="20.23" vote_percentage_2="20" />
-				<cand id="63159" votes="17109" vote_percentage="57.35" vote_percentage_2="57" />
-				<cand id="110345" votes="3158" vote_percentage="10.59" vote_percentage_2="11" />
-				<cand id="175580" votes="530" vote_percentage="1.78" vote_percentage_2="2" />
+				<cand id="175578" votes="6052" vote_percentage="20.24" vote_percentage_2="20" />
+				<cand id="63159" votes="17145" vote_percentage="57.34" vote_percentage_2="57" />
+				<cand id="110345" votes="3168" vote_percentage="10.59" vote_percentage_2="11" />
+				<cand id="175580" votes="531" vote_percentage="1.78" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="175575" votes="777" vote_percentage="8.06" vote_percentage_2="8" />
-				<cand id="175576" votes="365" vote_percentage="3.79" vote_percentage_2="4" />
+				<cand id="175575" votes="778" vote_percentage="8.07" vote_percentage_2="8" />
+				<cand id="175576" votes="365" vote_percentage="3.78" vote_percentage_2="4" />
 				<cand id="175578" votes="814" vote_percentage="8.44" vote_percentage_2="8" />
-				<cand id="63159" votes="6719" vote_percentage="69.68" vote_percentage_2="70" />
-				<cand id="110345" votes="755" vote_percentage="7.83" vote_percentage_2="8" />
+				<cand id="63159" votes="6720" vote_percentage="69.67" vote_percentage_2="70" />
+				<cand id="110345" votes="756" vote_percentage="7.84" vote_percentage_2="8" />
 				<cand id="175580" votes="212" vote_percentage="2.2" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10061" county="Suwannee" fips="12121" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
@@ -1883,17 +1883,17 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426825" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810770" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177700" vote_percentage="10.47" vote_percentage_2="10" />
+				<cand id="111504" votes="426847" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810802" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177706" vote_percentage="10.47" vote_percentage_2="10" />
 				<cand id="175582" votes="13175" vote_percentage="0.78" />
-				<cand id="175583" votes="7041" vote_percentage="0.42" />
+				<cand id="175583" votes="7042" vote_percentage="0.42" />
 				<cand id="175584" votes="5189" vote_percentage="0.31" />
-				<cand id="107807" votes="145000" vote_percentage="8.55" vote_percentage_2="9" />
-				<cand id="175585" votes="27607" vote_percentage="1.63" vote_percentage_2="2" />
+				<cand id="107807" votes="145003" vote_percentage="8.55" vote_percentage_2="9" />
+				<cand id="175585" votes="27608" vote_percentage="1.63" vote_percentage_2="2" />
 				<cand id="111393" votes="7878" vote_percentage="0.46" />
 				<cand id="175586" votes="6266" vote_percentage="0.37" />
-				<cand id="175587" votes="69064" vote_percentage="4.07" vote_percentage_2="4" />
+				<cand id="175587" votes="69066" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="111504" votes="3929" vote_percentage="27.67" vote_percentage_2="28" />
@@ -2377,17 +2377,17 @@
 				<cand id="175587" votes="499" vote_percentage="2.24" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="111504" votes="2473" vote_percentage="35.2" vote_percentage_2="35" />
-				<cand id="62408" votes="1926" vote_percentage="27.42" vote_percentage_2="27" />
-				<cand id="175581" votes="738" vote_percentage="10.51" vote_percentage_2="11" />
+				<cand id="111504" votes="2473" vote_percentage="35.18" vote_percentage_2="35" />
+				<cand id="62408" votes="1928" vote_percentage="27.43" vote_percentage_2="27" />
+				<cand id="175581" votes="741" vote_percentage="10.54" vote_percentage_2="11" />
 				<cand id="175582" votes="69" vote_percentage="0.98" />
 				<cand id="175583" votes="20" vote_percentage="0.28" />
 				<cand id="175584" votes="21" vote_percentage="0.3" />
-				<cand id="107807" votes="550" vote_percentage="7.83" vote_percentage_2="8" />
+				<cand id="107807" votes="550" vote_percentage="7.82" vote_percentage_2="8" />
 				<cand id="175585" votes="66" vote_percentage="0.94" />
 				<cand id="111393" votes="26" vote_percentage="0.37" />
 				<cand id="175586" votes="17" vote_percentage="0.24" />
-				<cand id="175587" votes="1119" vote_percentage="15.93" vote_percentage_2="16" />
+				<cand id="175587" votes="1119" vote_percentage="15.92" vote_percentage_2="16" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="111504" votes="520" vote_percentage="33.02" vote_percentage_2="33" />
@@ -2429,14 +2429,14 @@
 				<cand id="175587" votes="1934" vote_percentage="4.25" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="105" precincts_percentage="99">
-				<cand id="111504" votes="13740" vote_percentage="29.78" vote_percentage_2="30" />
-				<cand id="62408" votes="19713" vote_percentage="42.73" vote_percentage_2="43" />
-				<cand id="175581" votes="4091" vote_percentage="8.87" vote_percentage_2="9" />
+				<cand id="111504" votes="13747" vote_percentage="29.79" vote_percentage_2="30" />
+				<cand id="62408" votes="19714" vote_percentage="42.73" vote_percentage_2="43" />
+				<cand id="175581" votes="4092" vote_percentage="8.87" vote_percentage_2="9" />
 				<cand id="175582" votes="292" vote_percentage="0.63" />
 				<cand id="175583" votes="140" vote_percentage="0.3" />
 				<cand id="175584" votes="147" vote_percentage="0.32" />
-				<cand id="107807" votes="4390" vote_percentage="9.52" vote_percentage_2="10" />
-				<cand id="175585" votes="436" vote_percentage="0.95" />
+				<cand id="107807" votes="4390" vote_percentage="9.51" vote_percentage_2="10" />
+				<cand id="175585" votes="436" vote_percentage="0.94" />
 				<cand id="111393" votes="196" vote_percentage="0.42" />
 				<cand id="175586" votes="107" vote_percentage="0.23" />
 				<cand id="175587" votes="2880" vote_percentage="6.24" vote_percentage_2="6" />
@@ -2650,27 +2650,27 @@
 				<cand id="175587" votes="1964" vote_percentage="3.48" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="111504" votes="9074" vote_percentage="25" />
-				<cand id="62408" votes="17250" vote_percentage="47.52" vote_percentage_2="48" />
-				<cand id="175581" votes="4619" vote_percentage="12.72" vote_percentage_2="13" />
+				<cand id="111504" votes="9083" vote_percentage="24.99" vote_percentage_2="25" />
+				<cand id="62408" votes="17270" vote_percentage="47.52" vote_percentage_2="48" />
+				<cand id="175581" votes="4621" vote_percentage="12.72" vote_percentage_2="13" />
 				<cand id="175582" votes="272" vote_percentage="0.75" />
-				<cand id="175583" votes="110" vote_percentage="0.3" />
+				<cand id="175583" votes="111" vote_percentage="0.31" />
 				<cand id="175584" votes="96" vote_percentage="0.26" />
-				<cand id="107807" votes="3041" vote_percentage="8.38" vote_percentage_2="8" />
-				<cand id="175585" votes="643" vote_percentage="1.77" vote_percentage_2="2" />
+				<cand id="107807" votes="3044" vote_percentage="8.38" vote_percentage_2="8" />
+				<cand id="175585" votes="644" vote_percentage="1.77" vote_percentage_2="2" />
 				<cand id="111393" votes="136" vote_percentage="0.37" />
 				<cand id="175586" votes="196" vote_percentage="0.54" />
-				<cand id="175587" votes="865" vote_percentage="2.38" vote_percentage_2="2" />
+				<cand id="175587" votes="867" vote_percentage="2.39" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="111504" votes="9907" vote_percentage="30.83" vote_percentage_2="31" />
-				<cand id="62408" votes="17231" vote_percentage="53.62" vote_percentage_2="54" />
+				<cand id="111504" votes="9913" vote_percentage="30.83" vote_percentage_2="31" />
+				<cand id="62408" votes="17240" vote_percentage="53.62" vote_percentage_2="54" />
 				<cand id="175581" votes="1240" vote_percentage="3.86" vote_percentage_2="4" />
 				<cand id="175582" votes="224" vote_percentage="0.7" />
 				<cand id="175583" votes="125" vote_percentage="0.39" />
 				<cand id="175584" votes="69" vote_percentage="0.21" />
-				<cand id="107807" votes="2085" vote_percentage="6.49" vote_percentage_2="6" />
-				<cand id="175585" votes="278" vote_percentage="0.87" />
+				<cand id="107807" votes="2085" vote_percentage="6.48" vote_percentage_2="6" />
+				<cand id="175585" votes="278" vote_percentage="0.86" />
 				<cand id="111393" votes="107" vote_percentage="0.33" />
 				<cand id="175586" votes="75" vote_percentage="0.23" />
 				<cand id="175587" votes="796" vote_percentage="2.48" vote_percentage_2="2" />
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="705300" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
-				<cand id="175566" votes="552841" vote_percentage="43.94" vote_percentage_2="44" />
+				<cand id="110984" votes="705355" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="175566" votes="552873" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3726,8 +3726,8 @@
 				<cand id="175566" votes="14516" vote_percentage="37.64" vote_percentage_2="38" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="110984" votes="1070" vote_percentage="57.62" vote_percentage_2="58" />
-				<cand id="175566" votes="787" vote_percentage="42.38" vote_percentage_2="42" />
+				<cand id="110984" votes="1072" vote_percentage="57.54" vote_percentage_2="58" />
+				<cand id="175566" votes="791" vote_percentage="42.46" vote_percentage_2="42" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="110984" votes="240" vote_percentage="68.38" vote_percentage_2="68" />
@@ -3742,8 +3742,8 @@
 				<cand id="175566" votes="12506" vote_percentage="56.05" vote_percentage_2="56" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="104" precincts_percentage="98">
-				<cand id="110984" votes="10172" vote_percentage="52.46" vote_percentage_2="52" />
-				<cand id="175566" votes="9219" vote_percentage="47.54" vote_percentage_2="48" />
+				<cand id="110984" votes="10178" vote_percentage="52.46" vote_percentage_2="52" />
+				<cand id="175566" votes="9222" vote_percentage="47.54" vote_percentage_2="48" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="110984" votes="3596" vote_percentage="41.27" vote_percentage_2="41" />
@@ -3810,12 +3810,12 @@
 				<cand id="175566" votes="22822" vote_percentage="62.65" vote_percentage_2="63" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="110984" votes="17675" vote_percentage="58.57" vote_percentage_2="59" />
-				<cand id="175566" votes="12501" vote_percentage="41.43" vote_percentage_2="41" />
+				<cand id="110984" votes="17718" vote_percentage="58.59" vote_percentage_2="59" />
+				<cand id="175566" votes="12525" vote_percentage="41.41" vote_percentage_2="41" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="110984" votes="3248" vote_percentage="33.23" vote_percentage_2="33" />
-				<cand id="175566" votes="6526" vote_percentage="66.77" vote_percentage_2="67" />
+				<cand id="110984" votes="3252" vote_percentage="33.25" vote_percentage_2="33" />
+				<cand id="175566" votes="6527" vote_percentage="66.75" vote_percentage_2="67" />
 			</reporting_unit>
 			<reporting_unit id="10061" county="Suwannee" fips="12121" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="110984" votes="845" vote_percentage="59.68" vote_percentage_2="60" />
@@ -3888,10 +3888,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227872" vote_percentage="13.73" vote_percentage_2="14" />
-				<cand id="109657" votes="1320180" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
-				<cand id="166322" votes="31220" vote_percentage="1.88" vote_percentage_2="2" />
-				<cand id="65724" votes="79924" vote_percentage="4.82" vote_percentage_2="5" />
+				<cand id="175565" votes="227878" vote_percentage="13.73" vote_percentage_2="14" />
+				<cand id="109657" votes="1320239" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="166322" votes="31222" vote_percentage="1.88" vote_percentage_2="2" />
+				<cand id="65724" votes="79927" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175565" votes="1796" vote_percentage="12.93" vote_percentage_2="13" />
@@ -4116,10 +4116,10 @@
 				<cand id="65724" votes="954" vote_percentage="4.35" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10038" county="Levy" fips="12075" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
-				<cand id="175565" votes="1028" vote_percentage="14.95" vote_percentage_2="15" />
-				<cand id="109657" votes="5524" vote_percentage="80.35" vote_percentage_2="80" />
+				<cand id="175565" votes="1028" vote_percentage="14.94" vote_percentage_2="15" />
+				<cand id="109657" votes="5529" vote_percentage="80.36" vote_percentage_2="80" />
 				<cand id="166322" votes="84" vote_percentage="1.22" vote_percentage_2="1" />
-				<cand id="65724" votes="239" vote_percentage="3.48" vote_percentage_2="3" />
+				<cand id="65724" votes="239" vote_percentage="3.47" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10039" county="Liberty" fips="12077" precincts_total="8" precincts_reporting="7" precincts_percentage="88">
 				<cand id="175565" votes="250" vote_percentage="16.08" vote_percentage_2="16" />
@@ -4140,8 +4140,8 @@
 				<cand id="65724" votes="1817" vote_percentage="4.06" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10042" county="Marion" fips="12083" precincts_total="106" precincts_reporting="105" precincts_percentage="99">
-				<cand id="175565" votes="5818" vote_percentage="12.87" vote_percentage_2="13" />
-				<cand id="109657" votes="36918" vote_percentage="81.68" vote_percentage_2="82" />
+				<cand id="175565" votes="5823" vote_percentage="12.88" vote_percentage_2="13" />
+				<cand id="109657" votes="36924" vote_percentage="81.67" vote_percentage_2="82" />
 				<cand id="166322" votes="702" vote_percentage="1.55" vote_percentage_2="2" />
 				<cand id="65724" votes="1763" vote_percentage="3.9" vote_percentage_2="4" />
 			</reporting_unit>
@@ -4242,14 +4242,14 @@
 				<cand id="65724" votes="2269" vote_percentage="4.08" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10059" county="Seminole" fips="12117" precincts_total="82" precincts_reporting="81" precincts_percentage="99">
-				<cand id="175565" votes="3960" vote_percentage="11.17" vote_percentage_2="11" />
-				<cand id="109657" votes="29142" vote_percentage="82.17" vote_percentage_2="82" />
-				<cand id="166322" votes="763" vote_percentage="2.15" vote_percentage_2="2" />
-				<cand id="65724" votes="1599" vote_percentage="4.51" vote_percentage_2="5" />
+				<cand id="175565" votes="3961" vote_percentage="11.16" vote_percentage_2="11" />
+				<cand id="109657" votes="29175" vote_percentage="82.18" vote_percentage_2="82" />
+				<cand id="166322" votes="765" vote_percentage="2.15" vote_percentage_2="2" />
+				<cand id="65724" votes="1602" vote_percentage="4.51" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10060" county="Sumter" fips="12119" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
-				<cand id="175565" votes="3858" vote_percentage="12.18" vote_percentage_2="12" />
-				<cand id="109657" votes="26533" vote_percentage="83.77" vote_percentage_2="84" />
+				<cand id="175565" votes="3858" vote_percentage="12.17" vote_percentage_2="12" />
+				<cand id="109657" votes="26548" vote_percentage="83.78" vote_percentage_2="84" />
 				<cand id="166322" votes="438" vote_percentage="1.38" vote_percentage_2="1" />
 				<cand id="65724" votes="845" vote_percentage="2.67" vote_percentage_2="3" />
 			</reporting_unit>
