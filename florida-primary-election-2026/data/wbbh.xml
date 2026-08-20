@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/20/2026 10:52:49 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/20/2026 11:30:19 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="716751" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="472251" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="716754" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="472254" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -35,8 +35,8 @@
 				<cand id="175600" votes="318" vote_percentage="48.85" vote_percentage_2="49" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="166341" votes="3852" vote_percentage="64.37" vote_percentage_2="64" />
-				<cand id="175600" votes="2132" vote_percentage="35.63" vote_percentage_2="36" />
+				<cand id="166341" votes="3853" vote_percentage="64.36" vote_percentage_2="64" />
+				<cand id="175600" votes="2134" vote_percentage="35.64" vote_percentage_2="36" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="166341" votes="481" vote_percentage="63.04" vote_percentage_2="63" />
@@ -207,8 +207,8 @@
 				<cand id="175600" votes="1496" vote_percentage="34.44" vote_percentage_2="34" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
-				<cand id="166341" votes="3627" vote_percentage="68.01" vote_percentage_2="68" />
-				<cand id="175600" votes="1706" vote_percentage="31.99" vote_percentage_2="32" />
+				<cand id="166341" votes="3628" vote_percentage="68.02" vote_percentage_2="68" />
+				<cand id="175600" votes="1706" vote_percentage="31.98" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
 				<cand id="166341" votes="422" vote_percentage="53.69" vote_percentage_2="54" />
@@ -291,8 +291,8 @@
 				<cand id="175600" votes="680" vote_percentage="38.97" vote_percentage_2="39" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="166341" votes="430" vote_percentage="52.38" vote_percentage_2="52" />
-				<cand id="175600" votes="391" vote_percentage="47.62" vote_percentage_2="48" />
+				<cand id="166341" votes="431" vote_percentage="52.37" vote_percentage_2="52" />
+				<cand id="175600" votes="392" vote_percentage="47.63" vote_percentage_2="48" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1111081" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501228" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1111108" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501235" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -333,8 +333,8 @@
 				<cand id="175601" votes="1867" vote_percentage="37.49" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="106936" votes="16373" vote_percentage="71.14" vote_percentage_2="71" />
-				<cand id="175601" votes="6641" vote_percentage="28.86" vote_percentage_2="29" />
+				<cand id="106936" votes="16389" vote_percentage="71.15" vote_percentage_2="71" />
+				<cand id="175601" votes="6645" vote_percentage="28.85" vote_percentage_2="29" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="106936" votes="2464" vote_percentage="69.1" vote_percentage_2="69" />
@@ -505,8 +505,8 @@
 				<cand id="175601" votes="5271" vote_percentage="33.32" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
-				<cand id="106936" votes="15765" vote_percentage="69.43" vote_percentage_2="69" />
-				<cand id="175601" votes="6940" vote_percentage="30.57" vote_percentage_2="31" />
+				<cand id="106936" votes="15772" vote_percentage="69.43" vote_percentage_2="69" />
+				<cand id="175601" votes="6943" vote_percentage="30.57" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
 				<cand id="106936" votes="2548" vote_percentage="68.68" vote_percentage_2="69" />
@@ -589,8 +589,8 @@
 				<cand id="175601" votes="4492" vote_percentage="35.01" vote_percentage_2="35" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="106936" votes="2856" vote_percentage="66.74" vote_percentage_2="67" />
-				<cand id="175601" votes="1423" vote_percentage="33.26" vote_percentage_2="33" />
+				<cand id="106936" votes="2860" vote_percentage="66.78" vote_percentage_2="67" />
+				<cand id="175601" votes="1423" vote_percentage="33.22" vote_percentage_2="33" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -620,7 +620,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175596" votes="416725" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="796264" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="58627" votes="796270" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -631,8 +631,8 @@
 				<cand id="58627" votes="345" vote_percentage="52.27" vote_percentage_2="52" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="175596" votes="2133" vote_percentage="35.15" vote_percentage_2="35" />
-				<cand id="58627" votes="3935" vote_percentage="64.85" vote_percentage_2="65" />
+				<cand id="175596" votes="2133" vote_percentage="35.13" vote_percentage_2="35" />
+				<cand id="58627" votes="3938" vote_percentage="64.87" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="175596" votes="280" vote_percentage="36.18" vote_percentage_2="36" />
@@ -804,7 +804,7 @@
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
 				<cand id="175596" votes="2033" vote_percentage="37.72" vote_percentage_2="38" />
-				<cand id="58627" votes="3356" vote_percentage="62.28" vote_percentage_2="62" />
+				<cand id="58627" votes="3357" vote_percentage="62.28" vote_percentage_2="62" />
 			</reporting_unit>
 			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
 				<cand id="175596" votes="274" vote_percentage="34.64" vote_percentage_2="35" />
@@ -887,8 +887,8 @@
 				<cand id="58627" votes="1259" vote_percentage="70.73" vote_percentage_2="71" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="175596" votes="364" vote_percentage="43.86" vote_percentage_2="44" />
-				<cand id="58627" votes="466" vote_percentage="56.14" vote_percentage_2="56" />
+				<cand id="175596" votes="364" vote_percentage="43.75" vote_percentage_2="44" />
+				<cand id="58627" votes="468" vote_percentage="56.25" vote_percentage_2="56" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610566" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="967812" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="175597" votes="610582" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="967831" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -929,8 +929,8 @@
 				<cand id="107845" votes="2609" vote_percentage="53.69" vote_percentage_2="54" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="175597" votes="9086" vote_percentage="40.16" vote_percentage_2="40" />
-				<cand id="107845" votes="13538" vote_percentage="59.84" vote_percentage_2="60" />
+				<cand id="175597" votes="9096" vote_percentage="40.17" vote_percentage_2="40" />
+				<cand id="107845" votes="13548" vote_percentage="59.83" vote_percentage_2="60" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="175597" votes="1402" vote_percentage="41.47" vote_percentage_2="41" />
@@ -1101,8 +1101,8 @@
 				<cand id="107845" votes="10338" vote_percentage="65.44" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
-				<cand id="175597" votes="9856" vote_percentage="44.5" vote_percentage_2="44" />
-				<cand id="107845" votes="12294" vote_percentage="55.5" vote_percentage_2="56" />
+				<cand id="175597" votes="9862" vote_percentage="44.5" vote_percentage_2="45" />
+				<cand id="107845" votes="12299" vote_percentage="55.5" vote_percentage_2="55" />
 			</reporting_unit>
 			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
 				<cand id="175597" votes="1818" vote_percentage="52.11" vote_percentage_2="52" />
@@ -1185,8 +1185,8 @@
 				<cand id="107845" votes="6955" vote_percentage="56.03" vote_percentage_2="56" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="175597" votes="1852" vote_percentage="44.35" vote_percentage_2="44" />
-				<cand id="107845" votes="2324" vote_percentage="55.65" vote_percentage_2="56" />
+				<cand id="175597" votes="1852" vote_percentage="44.31" vote_percentage_2="44" />
+				<cand id="107845" votes="2328" vote_percentage="55.69" vote_percentage_2="56" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -1246,12 +1246,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175575" votes="96630" vote_percentage="7.73" vote_percentage_2="8" />
+				<cand id="175575" votes="96632" vote_percentage="7.73" vote_percentage_2="8" />
 				<cand id="175576" votes="47280" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="189288" vote_percentage="15.15" vote_percentage_2="15" />
-				<cand id="63159" votes="761802" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
+				<cand id="175578" votes="189289" vote_percentage="15.15" vote_percentage_2="15" />
+				<cand id="63159" votes="761803" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
 				<cand id="110345" votes="119871" vote_percentage="9.59" vote_percentage_2="10" />
-				<cand id="175580" votes="34937" vote_percentage="2.8" vote_percentage_2="3" />
+				<cand id="175580" votes="34939" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175575" votes="1419" vote_percentage="5.68" vote_percentage_2="6" />
@@ -1270,12 +1270,12 @@
 				<cand id="175580" votes="82" vote_percentage="11.87" vote_percentage_2="12" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="175575" votes="623" vote_percentage="9.92" vote_percentage_2="10" />
+				<cand id="175575" votes="623" vote_percentage="9.91" vote_percentage_2="10" />
 				<cand id="175576" votes="282" vote_percentage="4.49" vote_percentage_2="4" />
-				<cand id="175578" votes="970" vote_percentage="15.44" vote_percentage_2="15" />
-				<cand id="63159" votes="3702" vote_percentage="58.93" vote_percentage_2="59" />
+				<cand id="175578" votes="971" vote_percentage="15.45" vote_percentage_2="15" />
+				<cand id="63159" votes="3702" vote_percentage="58.9" vote_percentage_2="59" />
 				<cand id="110345" votes="522" vote_percentage="8.31" vote_percentage_2="8" />
-				<cand id="175580" votes="183" vote_percentage="2.91" vote_percentage_2="3" />
+				<cand id="175580" votes="185" vote_percentage="2.94" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="175575" votes="72" vote_percentage="9.36" vote_percentage_2="9" />
@@ -1614,10 +1614,10 @@
 				<cand id="175580" votes="124" vote_percentage="2.64" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
-				<cand id="175575" votes="575" vote_percentage="10.38" vote_percentage_2="10" />
+				<cand id="175575" votes="576" vote_percentage="10.39" vote_percentage_2="10" />
 				<cand id="175576" votes="302" vote_percentage="5.45" vote_percentage_2="5" />
 				<cand id="175578" votes="888" vote_percentage="16.02" vote_percentage_2="16" />
-				<cand id="63159" votes="3041" vote_percentage="54.87" vote_percentage_2="55" />
+				<cand id="63159" votes="3041" vote_percentage="54.86" vote_percentage_2="55" />
 				<cand id="110345" votes="599" vote_percentage="10.81" vote_percentage_2="11" />
 				<cand id="175580" votes="137" vote_percentage="2.47" vote_percentage_2="2" />
 			</reporting_unit>
@@ -1782,12 +1782,12 @@
 				<cand id="175580" votes="55" vote_percentage="3.01" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="175575" votes="99" vote_percentage="11.7" vote_percentage_2="12" />
-				<cand id="175576" votes="59" vote_percentage="6.97" vote_percentage_2="7" />
-				<cand id="175578" votes="122" vote_percentage="14.42" vote_percentage_2="14" />
-				<cand id="63159" votes="452" vote_percentage="53.43" vote_percentage_2="53" />
-				<cand id="110345" votes="65" vote_percentage="7.68" vote_percentage_2="8" />
-				<cand id="175580" votes="49" vote_percentage="5.79" vote_percentage_2="6" />
+				<cand id="175575" votes="100" vote_percentage="11.79" vote_percentage_2="12" />
+				<cand id="175576" votes="59" vote_percentage="6.96" vote_percentage_2="7" />
+				<cand id="175578" votes="122" vote_percentage="14.39" vote_percentage_2="14" />
+				<cand id="63159" votes="453" vote_percentage="53.42" vote_percentage_2="53" />
+				<cand id="110345" votes="65" vote_percentage="7.67" vote_percentage_2="8" />
+				<cand id="175580" votes="49" vote_percentage="5.78" vote_percentage_2="6" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -1883,16 +1883,16 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426847" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810802" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177706" vote_percentage="10.47" vote_percentage_2="10" />
-				<cand id="175582" votes="13175" vote_percentage="0.78" />
+				<cand id="111504" votes="426856" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810818" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177710" vote_percentage="10.47" vote_percentage_2="10" />
+				<cand id="175582" votes="13176" vote_percentage="0.78" />
 				<cand id="175583" votes="7042" vote_percentage="0.42" />
-				<cand id="175584" votes="5189" vote_percentage="0.31" />
-				<cand id="107807" votes="145003" vote_percentage="8.55" vote_percentage_2="9" />
+				<cand id="175584" votes="5190" vote_percentage="0.31" />
+				<cand id="107807" votes="145007" vote_percentage="8.55" vote_percentage_2="9" />
 				<cand id="175585" votes="27608" vote_percentage="1.63" vote_percentage_2="2" />
 				<cand id="111393" votes="7878" vote_percentage="0.46" />
-				<cand id="175586" votes="6266" vote_percentage="0.37" />
+				<cand id="175586" votes="6267" vote_percentage="0.37" />
 				<cand id="175587" votes="69066" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -1922,16 +1922,16 @@
 				<cand id="175587" votes="644" vote_percentage="12.54" vote_percentage_2="13" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="111504" votes="7408" vote_percentage="30.67" vote_percentage_2="31" />
-				<cand id="62408" votes="10211" vote_percentage="42.28" vote_percentage_2="42" />
-				<cand id="175581" votes="2323" vote_percentage="9.62" vote_percentage_2="10" />
-				<cand id="175582" votes="284" vote_percentage="1.18" vote_percentage_2="1" />
+				<cand id="111504" votes="7413" vote_percentage="30.67" vote_percentage_2="31" />
+				<cand id="62408" votes="10218" vote_percentage="42.27" vote_percentage_2="42" />
+				<cand id="175581" votes="2327" vote_percentage="9.63" vote_percentage_2="10" />
+				<cand id="175582" votes="285" vote_percentage="1.18" vote_percentage_2="1" />
 				<cand id="175583" votes="113" vote_percentage="0.47" />
 				<cand id="175584" votes="71" vote_percentage="0.29" />
-				<cand id="107807" votes="2619" vote_percentage="10.84" vote_percentage_2="11" />
+				<cand id="107807" votes="2622" vote_percentage="10.85" vote_percentage_2="11" />
 				<cand id="175585" votes="257" vote_percentage="1.06" />
 				<cand id="111393" votes="96" vote_percentage="0.4" />
-				<cand id="175586" votes="80" vote_percentage="0.33" />
+				<cand id="175586" votes="81" vote_percentage="0.34" />
 				<cand id="175587" votes="691" vote_percentage="2.86" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
@@ -2481,13 +2481,13 @@
 				<cand id="175587" votes="565" vote_percentage="3.39" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
-				<cand id="111504" votes="6715" vote_percentage="28.08" vote_percentage_2="28" />
-				<cand id="62408" votes="10034" vote_percentage="41.95" vote_percentage_2="42" />
-				<cand id="175581" votes="2750" vote_percentage="11.5" vote_percentage_2="11" />
+				<cand id="111504" votes="6718" vote_percentage="28.08" vote_percentage_2="28" />
+				<cand id="62408" votes="10040" vote_percentage="41.96" vote_percentage_2="42" />
+				<cand id="175581" votes="2750" vote_percentage="11.49" vote_percentage_2="11" />
 				<cand id="175582" votes="311" vote_percentage="1.3" vote_percentage_2="1" />
 				<cand id="175583" votes="85" vote_percentage="0.36" />
-				<cand id="175584" votes="81" vote_percentage="0.34" />
-				<cand id="107807" votes="2825" vote_percentage="11.81" vote_percentage_2="12" />
+				<cand id="175584" votes="82" vote_percentage="0.34" />
+				<cand id="107807" votes="2826" vote_percentage="11.81" vote_percentage_2="12" />
 				<cand id="175585" votes="308" vote_percentage="1.29" vote_percentage_2="1" />
 				<cand id="111393" votes="107" vote_percentage="0.45" />
 				<cand id="175586" votes="123" vote_percentage="0.51" />
@@ -2754,17 +2754,17 @@
 				<cand id="175587" votes="546" vote_percentage="4.05" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="111504" votes="1692" vote_percentage="38.75" vote_percentage_2="39" />
-				<cand id="62408" votes="1195" vote_percentage="27.37" vote_percentage_2="27" />
-				<cand id="175581" votes="454" vote_percentage="10.4" vote_percentage_2="10" />
+				<cand id="111504" votes="1693" vote_percentage="38.74" vote_percentage_2="39" />
+				<cand id="62408" votes="1198" vote_percentage="27.41" vote_percentage_2="27" />
+				<cand id="175581" votes="454" vote_percentage="10.39" vote_percentage_2="10" />
 				<cand id="175582" votes="37" vote_percentage="0.85" />
 				<cand id="175583" votes="15" vote_percentage="0.34" />
 				<cand id="175584" votes="13" vote_percentage="0.3" />
-				<cand id="107807" votes="416" vote_percentage="9.53" vote_percentage_2="10" />
+				<cand id="107807" votes="416" vote_percentage="9.52" vote_percentage_2="10" />
 				<cand id="175585" votes="30" vote_percentage="0.69" />
 				<cand id="111393" votes="37" vote_percentage="0.85" />
 				<cand id="175586" votes="4" vote_percentage="0.09" />
-				<cand id="175587" votes="473" vote_percentage="10.83" vote_percentage_2="11" />
+				<cand id="175587" votes="473" vote_percentage="10.82" vote_percentage_2="11" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="705355" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
-				<cand id="175566" votes="552873" vote_percentage="43.94" vote_percentage_2="44" />
+				<cand id="110984" votes="705359" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="175566" votes="552875" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3586,8 +3586,8 @@
 				<cand id="175566" votes="226" vote_percentage="33.24" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="110984" votes="3752" vote_percentage="59.26" vote_percentage_2="59" />
-				<cand id="175566" votes="2579" vote_percentage="40.74" vote_percentage_2="41" />
+				<cand id="110984" votes="3753" vote_percentage="59.25" vote_percentage_2="59" />
+				<cand id="175566" votes="2581" vote_percentage="40.75" vote_percentage_2="41" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="110984" votes="549" vote_percentage="69.67" vote_percentage_2="70" />
@@ -3758,7 +3758,7 @@
 				<cand id="175566" votes="2366" vote_percentage="49.92" vote_percentage_2="50" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
-				<cand id="110984" votes="3147" vote_percentage="56.28" vote_percentage_2="56" />
+				<cand id="110984" votes="3148" vote_percentage="56.28" vote_percentage_2="56" />
 				<cand id="175566" votes="2445" vote_percentage="43.72" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
@@ -3842,8 +3842,8 @@
 				<cand id="175566" votes="1020" vote_percentage="55.11" vote_percentage_2="55" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="110984" votes="576" vote_percentage="67.37" vote_percentage_2="67" />
-				<cand id="175566" votes="279" vote_percentage="32.63" vote_percentage_2="33" />
+				<cand id="110984" votes="578" vote_percentage="67.44" vote_percentage_2="67" />
+				<cand id="175566" votes="279" vote_percentage="32.56" vote_percentage_2="33" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -3888,10 +3888,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227878" vote_percentage="13.73" vote_percentage_2="14" />
-				<cand id="109657" votes="1320239" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
-				<cand id="166322" votes="31222" vote_percentage="1.88" vote_percentage_2="2" />
-				<cand id="65724" votes="79927" vote_percentage="4.82" vote_percentage_2="5" />
+				<cand id="175565" votes="227882" vote_percentage="13.73" vote_percentage_2="14" />
+				<cand id="109657" votes="1320267" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="166322" votes="31225" vote_percentage="1.88" vote_percentage_2="2" />
+				<cand id="65724" votes="79928" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175565" votes="1796" vote_percentage="12.93" vote_percentage_2="13" />
@@ -3906,9 +3906,9 @@
 				<cand id="65724" votes="169" vote_percentage="3.39" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10003" county="Bay" fips="12005" precincts_total="30" precincts_reporting="29" precincts_percentage="97">
-				<cand id="175565" votes="2840" vote_percentage="11.9" vote_percentage_2="12" />
-				<cand id="109657" votes="19885" vote_percentage="83.31" vote_percentage_2="83" />
-				<cand id="166322" votes="359" vote_percentage="1.5" vote_percentage_2="2" />
+				<cand id="175565" votes="2842" vote_percentage="11.9" vote_percentage_2="12" />
+				<cand id="109657" votes="19902" vote_percentage="83.31" vote_percentage_2="83" />
+				<cand id="166322" votes="361" vote_percentage="1.51" vote_percentage_2="2" />
 				<cand id="65724" votes="785" vote_percentage="3.29" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10004" county="Bradford" fips="12007" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
@@ -4164,10 +4164,10 @@
 				<cand id="65724" votes="623" vote_percentage="3.81" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
-				<cand id="175565" votes="3498" vote_percentage="15" />
-				<cand id="109657" votes="18192" vote_percentage="78.01" vote_percentage_2="78" />
-				<cand id="166322" votes="512" vote_percentage="2.2" vote_percentage_2="2" />
-				<cand id="65724" votes="1117" vote_percentage="4.79" vote_percentage_2="5" />
+				<cand id="175565" votes="3500" vote_percentage="15" />
+				<cand id="109657" votes="18199" vote_percentage="78.01" vote_percentage_2="78" />
+				<cand id="166322" votes="513" vote_percentage="2.2" vote_percentage_2="2" />
+				<cand id="65724" votes="1118" vote_percentage="4.79" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10047" county="Okeechobee" fips="12093" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
 				<cand id="175565" votes="483" vote_percentage="13.21" vote_percentage_2="13" />
@@ -4290,8 +4290,8 @@
 				<cand id="65724" votes="510" vote_percentage="3.88" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
-				<cand id="175565" votes="574" vote_percentage="13.32" vote_percentage_2="13" />
-				<cand id="109657" votes="3527" vote_percentage="81.85" vote_percentage_2="82" />
+				<cand id="175565" votes="574" vote_percentage="13.31" vote_percentage_2="13" />
+				<cand id="109657" votes="3531" vote_percentage="81.87" vote_percentage_2="82" />
 				<cand id="166322" votes="57" vote_percentage="1.32" vote_percentage_2="1" />
 				<cand id="65724" votes="151" vote_percentage="3.5" vote_percentage_2="4" />
 			</reporting_unit>
