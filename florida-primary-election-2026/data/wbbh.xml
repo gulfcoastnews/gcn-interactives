@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/20/2026 7:37:04 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/20/2026 8:09:19 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,7 +23,7 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="716585" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="166341" votes="716586" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
 				<cand id="175600" votes="472171" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -51,8 +51,8 @@
 				<cand id="175600" votes="69160" vote_percentage="53.11" vote_percentage_2="53" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="166341" votes="275" vote_percentage="50.74" vote_percentage_2="51" />
-				<cand id="175600" votes="267" vote_percentage="49.26" vote_percentage_2="49" />
+				<cand id="166341" votes="276" vote_percentage="50.83" vote_percentage_2="51" />
+				<cand id="175600" votes="267" vote_percentage="49.17" vote_percentage_2="49" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="166341" votes="6464" vote_percentage="65.56" vote_percentage_2="66" />
@@ -322,7 +322,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="106936" votes="1110927" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501160" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="175601" votes="501162" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -349,8 +349,8 @@
 				<cand id="175601" votes="15324" vote_percentage="28.59" vote_percentage_2="29" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="106936" votes="1538" vote_percentage="67.69" vote_percentage_2="68" />
-				<cand id="175601" votes="734" vote_percentage="32.31" vote_percentage_2="32" />
+				<cand id="106936" votes="1538" vote_percentage="67.63" vote_percentage_2="68" />
+				<cand id="175601" votes="736" vote_percentage="32.37" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="106936" votes="16242" vote_percentage="62.09" vote_percentage_2="62" />
@@ -620,7 +620,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175596" votes="416646" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="796088" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="58627" votes="796089" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -647,8 +647,8 @@
 				<cand id="58627" votes="86574" vote_percentage="65.42" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="175596" votes="242" vote_percentage="44.24" vote_percentage_2="44" />
-				<cand id="58627" votes="305" vote_percentage="55.76" vote_percentage_2="56" />
+				<cand id="175596" votes="242" vote_percentage="44.16" vote_percentage_2="44" />
+				<cand id="58627" votes="306" vote_percentage="55.84" vote_percentage_2="56" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="175596" votes="3087" vote_percentage="30.73" vote_percentage_2="31" />
@@ -918,7 +918,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175597" votes="610468" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="967676" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="107845" votes="967678" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -945,8 +945,8 @@
 				<cand id="107845" votes="30641" vote_percentage="58.2" vote_percentage_2="58" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="175597" votes="1110" vote_percentage="50.16" vote_percentage_2="50" />
-				<cand id="107845" votes="1103" vote_percentage="49.84" vote_percentage_2="50" />
+				<cand id="175597" votes="1110" vote_percentage="50.11" vote_percentage_2="50" />
+				<cand id="107845" votes="1105" vote_percentage="49.89" vote_percentage_2="50" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="175597" votes="10985" vote_percentage="42.58" vote_percentage_2="43" />
@@ -1248,7 +1248,7 @@
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175575" votes="96602" vote_percentage="7.73" vote_percentage_2="8" />
 				<cand id="175576" votes="47272" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="189234" vote_percentage="15.14" vote_percentage_2="15" />
+				<cand id="175578" votes="189235" vote_percentage="15.14" vote_percentage_2="15" />
 				<cand id="63159" votes="761674" winner="Y" vote_percentage="60.96" vote_percentage_2="61" />
 				<cand id="110345" votes="119837" vote_percentage="9.59" vote_percentage_2="10" />
 				<cand id="175580" votes="34929" vote_percentage="2.8" vote_percentage_2="3" />
@@ -1302,12 +1302,12 @@
 				<cand id="175580" votes="4400" vote_percentage="3.25" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="175575" votes="71" vote_percentage="12.89" vote_percentage_2="13" />
-				<cand id="175576" votes="40" vote_percentage="7.26" vote_percentage_2="7" />
-				<cand id="175578" votes="90" vote_percentage="16.33" vote_percentage_2="16" />
-				<cand id="63159" votes="259" vote_percentage="47.01" vote_percentage_2="47" />
-				<cand id="110345" votes="32" vote_percentage="5.81" vote_percentage_2="6" />
-				<cand id="175580" votes="59" vote_percentage="10.71" vote_percentage_2="11" />
+				<cand id="175575" votes="71" vote_percentage="12.86" vote_percentage_2="13" />
+				<cand id="175576" votes="40" vote_percentage="7.25" vote_percentage_2="7" />
+				<cand id="175578" votes="91" vote_percentage="16.49" vote_percentage_2="16" />
+				<cand id="63159" votes="259" vote_percentage="46.92" vote_percentage_2="47" />
+				<cand id="110345" votes="32" vote_percentage="5.8" vote_percentage_2="6" />
+				<cand id="175580" votes="59" vote_percentage="10.69" vote_percentage_2="11" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="175575" votes="889" vote_percentage="8.68" vote_percentage_2="9" />
@@ -1883,8 +1883,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426787" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810675" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="111504" votes="426788" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810676" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
 				<cand id="175581" votes="177674" vote_percentage="10.47" vote_percentage_2="10" />
 				<cand id="175582" votes="13174" vote_percentage="0.78" />
 				<cand id="175583" votes="7040" vote_percentage="0.42" />
@@ -1974,17 +1974,17 @@
 				<cand id="175587" votes="826" vote_percentage="1.45" vote_percentage_2="1" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="111504" votes="932" vote_percentage="39.88" vote_percentage_2="40" />
-				<cand id="62408" votes="550" vote_percentage="23.53" vote_percentage_2="24" />
-				<cand id="175581" votes="237" vote_percentage="10.14" vote_percentage_2="10" />
+				<cand id="111504" votes="933" vote_percentage="39.89" vote_percentage_2="40" />
+				<cand id="62408" votes="551" vote_percentage="23.56" vote_percentage_2="24" />
+				<cand id="175581" votes="237" vote_percentage="10.13" vote_percentage_2="10" />
 				<cand id="175582" votes="31" vote_percentage="1.33" vote_percentage_2="1" />
 				<cand id="175583" votes="17" vote_percentage="0.73" />
 				<cand id="175584" votes="7" vote_percentage="0.3" />
-				<cand id="107807" votes="201" vote_percentage="8.6" vote_percentage_2="9" />
+				<cand id="107807" votes="201" vote_percentage="8.59" vote_percentage_2="9" />
 				<cand id="175585" votes="25" vote_percentage="1.07" />
 				<cand id="111393" votes="19" vote_percentage="0.81" />
 				<cand id="175586" votes="2" vote_percentage="0.09" />
-				<cand id="175587" votes="316" vote_percentage="13.52" vote_percentage_2="14" />
+				<cand id="175587" votes="316" vote_percentage="13.51" vote_percentage_2="14" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="111504" votes="6981" vote_percentage="25.19" vote_percentage_2="25" />
@@ -3574,7 +3574,7 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="705192" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="110984" votes="705193" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
 				<cand id="175566" votes="552774" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -3602,8 +3602,8 @@
 				<cand id="175566" votes="58024" vote_percentage="42.65" vote_percentage_2="43" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="110984" votes="404" vote_percentage="71.38" vote_percentage_2="71" />
-				<cand id="175566" votes="162" vote_percentage="28.62" vote_percentage_2="29" />
+				<cand id="110984" votes="405" vote_percentage="71.43" vote_percentage_2="71" />
+				<cand id="175566" votes="162" vote_percentage="28.57" vote_percentage_2="29" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="110984" votes="4090" vote_percentage="39.43" vote_percentage_2="39" />
@@ -3888,8 +3888,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227843" vote_percentage="13.73" vote_percentage_2="14" />
-				<cand id="109657" votes="1320048" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="175565" votes="227844" vote_percentage="13.73" vote_percentage_2="14" />
+				<cand id="109657" votes="1320049" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
 				<cand id="166322" votes="31217" vote_percentage="1.88" vote_percentage_2="2" />
 				<cand id="65724" votes="79915" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
@@ -3930,10 +3930,10 @@
 				<cand id="65724" votes="3700" vote_percentage="6.68" vote_percentage_2="7" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="175565" votes="331" vote_percentage="14.37" vote_percentage_2="14" />
-				<cand id="109657" votes="1882" vote_percentage="81.72" vote_percentage_2="82" />
+				<cand id="175565" votes="332" vote_percentage="14.4" vote_percentage_2="14" />
+				<cand id="109657" votes="1883" vote_percentage="81.69" vote_percentage_2="82" />
 				<cand id="166322" votes="24" vote_percentage="1.04" />
-				<cand id="65724" votes="66" vote_percentage="2.87" vote_percentage_2="3" />
+				<cand id="65724" votes="66" vote_percentage="2.86" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="175565" votes="4642" vote_percentage="17.16" vote_percentage_2="17" />
