@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/19/2026 1:53:32 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/20/2026 7:37:04 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -2947,7 +2947,7 @@
 				<cand id="176342" votes="14151" vote_percentage="24.37" />
 				<cand id="167869" votes="2246" vote_percentage="3.87" vote_percentage_2="4" />
 				<cand id="166310" votes="11799" vote_percentage="20.32" vote_percentage_2="20" />
-				<cand id="175734" votes="14740" vote_percentage="25.38" />
+				<cand id="175734" votes="14740" winner="Y" vote_percentage="25.38" />
 				<cand id="175735" votes="11318" vote_percentage="19.49" vote_percentage_2="19" />
 				<cand id="175736" votes="1333" vote_percentage="2.3" vote_percentage_2="2" />
 				<cand id="175737" votes="2481" vote_percentage="4.27" vote_percentage_2="4" />
