@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/20/2026 8:09:19 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/20/2026 9:37:04 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -322,7 +322,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="106936" votes="1110927" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501162" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="175601" votes="501163" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -381,8 +381,8 @@
 				<cand id="175601" votes="831" vote_percentage="34.8" vote_percentage_2="35" />
 			</reporting_unit>
 			<reporting_unit id="10015" county="Dixie" fips="12029" precincts_total="10" precincts_reporting="9" precincts_percentage="90">
-				<cand id="106936" votes="2136" vote_percentage="64.07" vote_percentage_2="64" />
-				<cand id="175601" votes="1198" vote_percentage="35.93" vote_percentage_2="36" />
+				<cand id="106936" votes="2136" vote_percentage="64.05" vote_percentage_2="64" />
+				<cand id="175601" votes="1199" vote_percentage="35.95" vote_percentage_2="36" />
 			</reporting_unit>
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
 				<cand id="106936" votes="43389" vote_percentage="67.17" vote_percentage_2="67" />
@@ -917,7 +917,7 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610468" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="175597" votes="610469" vote_percentage="38.68" vote_percentage_2="39" />
 				<cand id="107845" votes="967678" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -977,8 +977,8 @@
 				<cand id="107845" votes="1248" vote_percentage="53.93" vote_percentage_2="54" />
 			</reporting_unit>
 			<reporting_unit id="10015" county="Dixie" fips="12029" precincts_total="10" precincts_reporting="9" precincts_percentage="90">
-				<cand id="175597" votes="1797" vote_percentage="56.56" vote_percentage_2="57" />
-				<cand id="107845" votes="1380" vote_percentage="43.44" vote_percentage_2="43" />
+				<cand id="175597" votes="1798" vote_percentage="56.58" vote_percentage_2="57" />
+				<cand id="107845" votes="1380" vote_percentage="43.42" vote_percentage_2="43" />
 			</reporting_unit>
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
 				<cand id="175597" votes="22404" vote_percentage="35.01" vote_percentage_2="35" />
@@ -1883,7 +1883,7 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426788" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="111504" votes="426789" vote_percentage="25.16" vote_percentage_2="25" />
 				<cand id="62408" votes="810676" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
 				<cand id="175581" votes="177674" vote_percentage="10.47" vote_percentage_2="10" />
 				<cand id="175582" votes="13174" vote_percentage="0.78" />
@@ -2078,7 +2078,7 @@
 				<cand id="175587" votes="392" vote_percentage="15.88" vote_percentage_2="16" />
 			</reporting_unit>
 			<reporting_unit id="10015" county="Dixie" fips="12029" precincts_total="10" precincts_reporting="9" precincts_percentage="90">
-				<cand id="111504" votes="1276" vote_percentage="37.43" vote_percentage_2="37" />
+				<cand id="111504" votes="1277" vote_percentage="37.45" vote_percentage_2="37" />
 				<cand id="62408" votes="689" vote_percentage="20.21" vote_percentage_2="20" />
 				<cand id="175581" votes="354" vote_percentage="10.38" vote_percentage_2="10" />
 				<cand id="175582" votes="26" vote_percentage="0.76" />
@@ -2088,7 +2088,7 @@
 				<cand id="175585" votes="22" vote_percentage="0.65" />
 				<cand id="111393" votes="16" vote_percentage="0.47" />
 				<cand id="175586" votes="3" vote_percentage="0.09" />
-				<cand id="175587" votes="816" vote_percentage="23.94" vote_percentage_2="24" />
+				<cand id="175587" votes="816" vote_percentage="23.93" vote_percentage_2="24" />
 			</reporting_unit>
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
 				<cand id="111504" votes="15436" vote_percentage="22.7" vote_percentage_2="23" />
@@ -3889,7 +3889,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175565" votes="227844" vote_percentage="13.73" vote_percentage_2="14" />
-				<cand id="109657" votes="1320049" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="109657" votes="1320050" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
 				<cand id="166322" votes="31217" vote_percentage="1.88" vote_percentage_2="2" />
 				<cand id="65724" votes="79915" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
@@ -3978,8 +3978,8 @@
 				<cand id="65724" votes="97" vote_percentage="4.05" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10015" county="Dixie" fips="12029" precincts_total="10" precincts_reporting="9" precincts_percentage="90">
-				<cand id="175565" votes="517" vote_percentage="15.62" vote_percentage_2="16" />
-				<cand id="109657" votes="2615" vote_percentage="79" />
+				<cand id="175565" votes="517" vote_percentage="15.61" vote_percentage_2="16" />
+				<cand id="109657" votes="2616" vote_percentage="79.01" vote_percentage_2="79" />
 				<cand id="166322" votes="45" vote_percentage="1.36" vote_percentage_2="1" />
 				<cand id="65724" votes="133" vote_percentage="4.02" vote_percentage_2="4" />
 			</reporting_unit>
@@ -5182,8 +5182,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="223" precincts_reporting="223" precincts_percentage="100">
-				<cand id="VB" votes="91426" vote_percentage="39.86" vote_percentage_2="40" />
-				<cand id="JS" votes="137967" winner="Y" vote_percentage="60.14" vote_percentage_2="60" />
+				<cand id="VB" votes="93800" vote_percentage="40.05" vote_percentage_2="40" />
+				<cand id="JS" votes="140416" winner="Y" vote_percentage="59.95" vote_percentage_2="60" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -5205,8 +5205,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="223" precincts_reporting="223" precincts_percentage="100">
-				<cand id="RK" votes="84903" vote_percentage="37.33" vote_percentage_2="37" />
-				<cand id="ALR" votes="142511" winner="Y" vote_percentage="62.67" vote_percentage_2="63" />
+				<cand id="RK" votes="86758" vote_percentage="37.37" vote_percentage_2="37" />
+				<cand id="ALR" votes="145377" winner="Y" vote_percentage="62.63" vote_percentage_2="63" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
