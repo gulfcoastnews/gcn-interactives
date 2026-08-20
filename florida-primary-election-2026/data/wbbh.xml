@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/20/2026 11:30:19 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/20/2026 11:51:19 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -24,7 +24,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="166341" votes="716754" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="472254" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="175600" votes="472255" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -135,8 +135,8 @@
 				<cand id="175600" votes="3525" vote_percentage="37.27" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="166341" votes="1699" vote_percentage="53.68" vote_percentage_2="54" />
-				<cand id="175600" votes="1466" vote_percentage="46.32" vote_percentage_2="46" />
+				<cand id="166341" votes="1699" vote_percentage="53.66" vote_percentage_2="54" />
+				<cand id="175600" votes="1467" vote_percentage="46.34" vote_percentage_2="46" />
 			</reporting_unit>
 			<reporting_unit id="10029" county="Hillsborough" fips="12057" precincts_total="447" precincts_reporting="442" precincts_percentage="99">
 				<cand id="166341" votes="51636" vote_percentage="62.76" vote_percentage_2="63" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1111108" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501235" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1111113" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501239" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -433,8 +433,8 @@
 				<cand id="175601" votes="7854" vote_percentage="34.42" vote_percentage_2="34" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="106936" votes="7745" vote_percentage="67.81" vote_percentage_2="68" />
-				<cand id="175601" votes="3677" vote_percentage="32.19" vote_percentage_2="32" />
+				<cand id="106936" votes="7748" vote_percentage="67.79" vote_percentage_2="68" />
+				<cand id="175601" votes="3681" vote_percentage="32.21" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10029" county="Hillsborough" fips="12057" precincts_total="447" precincts_reporting="444" precincts_percentage="99">
 				<cand id="106936" votes="58646" vote_percentage="66.24" vote_percentage_2="66" />
@@ -585,8 +585,8 @@
 				<cand id="175601" votes="1698" vote_percentage="33.76" vote_percentage_2="34" />
 			</reporting_unit>
 			<reporting_unit id="10066" county="Walton" fips="12131" precincts_total="22" precincts_reporting="21" precincts_percentage="95">
-				<cand id="106936" votes="8340" vote_percentage="64.99" vote_percentage_2="65" />
-				<cand id="175601" votes="4492" vote_percentage="35.01" vote_percentage_2="35" />
+				<cand id="106936" votes="8342" vote_percentage="65" />
+				<cand id="175601" votes="4492" vote_percentage="35" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
 				<cand id="106936" votes="2860" vote_percentage="66.78" vote_percentage_2="67" />
@@ -620,7 +620,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175596" votes="416725" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="796270" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="58627" votes="796271" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -731,8 +731,8 @@
 				<cand id="58627" votes="6478" vote_percentage="67.49" vote_percentage_2="67" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="175596" votes="1097" vote_percentage="34.35" vote_percentage_2="34" />
-				<cand id="58627" votes="2097" vote_percentage="65.65" vote_percentage_2="66" />
+				<cand id="175596" votes="1097" vote_percentage="34.33" vote_percentage_2="34" />
+				<cand id="58627" votes="2098" vote_percentage="65.67" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10029" county="Hillsborough" fips="12057" precincts_total="447" precincts_reporting="442" precincts_percentage="99">
 				<cand id="175596" votes="32183" vote_percentage="38.35" vote_percentage_2="38" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610582" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="967831" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="175597" votes="610586" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="967836" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -1029,8 +1029,8 @@
 				<cand id="107845" votes="14736" vote_percentage="65.47" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="175597" votes="5060" vote_percentage="45.73" vote_percentage_2="46" />
-				<cand id="107845" votes="6006" vote_percentage="54.27" vote_percentage_2="54" />
+				<cand id="175597" votes="5063" vote_percentage="45.72" vote_percentage_2="46" />
+				<cand id="107845" votes="6010" vote_percentage="54.28" vote_percentage_2="54" />
 			</reporting_unit>
 			<reporting_unit id="10029" county="Hillsborough" fips="12057" precincts_total="447" precincts_reporting="444" precincts_percentage="99">
 				<cand id="175597" votes="31143" vote_percentage="35.93" vote_percentage_2="36" />
@@ -1181,8 +1181,8 @@
 				<cand id="107845" votes="2610" vote_percentage="54.79" vote_percentage_2="55" />
 			</reporting_unit>
 			<reporting_unit id="10066" county="Walton" fips="12131" precincts_total="22" precincts_reporting="21" precincts_percentage="95">
-				<cand id="175597" votes="5458" vote_percentage="43.97" vote_percentage_2="44" />
-				<cand id="107845" votes="6955" vote_percentage="56.03" vote_percentage_2="56" />
+				<cand id="175597" votes="5459" vote_percentage="43.97" vote_percentage_2="44" />
+				<cand id="107845" votes="6956" vote_percentage="56.03" vote_percentage_2="56" />
 			</reporting_unit>
 			<reporting_unit id="10067" county="Washington" fips="12133" precincts_total="12" precincts_reporting="11" precincts_percentage="92">
 				<cand id="175597" votes="1852" vote_percentage="44.31" vote_percentage_2="44" />
@@ -1249,7 +1249,7 @@
 				<cand id="175575" votes="96632" vote_percentage="7.73" vote_percentage_2="8" />
 				<cand id="175576" votes="47280" vote_percentage="3.78" vote_percentage_2="4" />
 				<cand id="175578" votes="189289" vote_percentage="15.15" vote_percentage_2="15" />
-				<cand id="63159" votes="761803" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
+				<cand id="63159" votes="761804" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
 				<cand id="110345" votes="119871" vote_percentage="9.59" vote_percentage_2="10" />
 				<cand id="175580" votes="34939" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
@@ -1472,8 +1472,8 @@
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
 				<cand id="175575" votes="279" vote_percentage="8.39" vote_percentage_2="8" />
 				<cand id="175576" votes="132" vote_percentage="3.97" vote_percentage_2="4" />
-				<cand id="175578" votes="433" vote_percentage="13.03" vote_percentage_2="13" />
-				<cand id="63159" votes="2166" vote_percentage="65.16" vote_percentage_2="65" />
+				<cand id="175578" votes="433" vote_percentage="13.02" vote_percentage_2="13" />
+				<cand id="63159" votes="2167" vote_percentage="65.17" vote_percentage_2="65" />
 				<cand id="110345" votes="206" vote_percentage="6.2" vote_percentage_2="6" />
 				<cand id="175580" votes="108" vote_percentage="3.25" vote_percentage_2="3" />
 			</reporting_unit>
@@ -1883,13 +1883,13 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426856" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810818" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177710" vote_percentage="10.47" vote_percentage_2="10" />
+				<cand id="111504" votes="426858" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810822" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177712" vote_percentage="10.47" vote_percentage_2="10" />
 				<cand id="175582" votes="13176" vote_percentage="0.78" />
 				<cand id="175583" votes="7042" vote_percentage="0.42" />
 				<cand id="175584" votes="5190" vote_percentage="0.31" />
-				<cand id="107807" votes="145007" vote_percentage="8.55" vote_percentage_2="9" />
+				<cand id="107807" votes="145008" vote_percentage="8.55" vote_percentage_2="9" />
 				<cand id="175585" votes="27608" vote_percentage="1.63" vote_percentage_2="2" />
 				<cand id="111393" votes="7878" vote_percentage="0.46" />
 				<cand id="175586" votes="6267" vote_percentage="0.37" />
@@ -2247,17 +2247,17 @@
 				<cand id="175587" votes="1784" vote_percentage="7.67" vote_percentage_2="8" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="111504" votes="3381" vote_percentage="28.38" vote_percentage_2="28" />
-				<cand id="62408" votes="4827" vote_percentage="40.52" vote_percentage_2="41" />
-				<cand id="175581" votes="1111" vote_percentage="9.33" vote_percentage_2="9" />
+				<cand id="111504" votes="3382" vote_percentage="28.37" vote_percentage_2="28" />
+				<cand id="62408" votes="4830" vote_percentage="40.52" vote_percentage_2="41" />
+				<cand id="175581" votes="1113" vote_percentage="9.34" vote_percentage_2="9" />
 				<cand id="175582" votes="82" vote_percentage="0.69" />
 				<cand id="175583" votes="67" vote_percentage="0.56" />
 				<cand id="175584" votes="29" vote_percentage="0.24" />
-				<cand id="107807" votes="1172" vote_percentage="9.84" vote_percentage_2="10" />
-				<cand id="175585" votes="115" vote_percentage="0.97" />
+				<cand id="107807" votes="1173" vote_percentage="9.84" vote_percentage_2="10" />
+				<cand id="175585" votes="115" vote_percentage="0.96" />
 				<cand id="111393" votes="66" vote_percentage="0.55" />
 				<cand id="175586" votes="23" vote_percentage="0.19" />
-				<cand id="175587" votes="1041" vote_percentage="8.74" vote_percentage_2="9" />
+				<cand id="175587" votes="1041" vote_percentage="8.73" vote_percentage_2="9" />
 			</reporting_unit>
 			<reporting_unit id="10029" county="Hillsborough" fips="12057" precincts_total="447" precincts_reporting="444" precincts_percentage="99">
 				<cand id="111504" votes="27908" vote_percentage="30.38" vote_percentage_2="30" />
@@ -2741,8 +2741,8 @@
 				<cand id="175587" votes="435" vote_percentage="8.35" vote_percentage_2="8" />
 			</reporting_unit>
 			<reporting_unit id="10066" county="Walton" fips="12131" precincts_total="22" precincts_reporting="21" precincts_percentage="95">
-				<cand id="111504" votes="3824" vote_percentage="28.39" vote_percentage_2="28" />
-				<cand id="62408" votes="5450" vote_percentage="40.46" vote_percentage_2="40" />
+				<cand id="111504" votes="3825" vote_percentage="28.39" vote_percentage_2="28" />
+				<cand id="62408" votes="5451" vote_percentage="40.46" vote_percentage_2="40" />
 				<cand id="175581" votes="1568" vote_percentage="11.64" vote_percentage_2="12" />
 				<cand id="175582" votes="138" vote_percentage="1.02" />
 				<cand id="175583" votes="68" vote_percentage="0.5" />
@@ -2944,12 +2944,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="221" precincts_reporting="218" precincts_percentage="99">
-				<cand id="176342" votes="14157" vote_percentage="24.37" />
-				<cand id="167869" votes="2246" vote_percentage="3.87" vote_percentage_2="4" />
+				<cand id="176342" votes="14159" vote_percentage="24.37" />
+				<cand id="167869" votes="2247" vote_percentage="3.87" vote_percentage_2="4" />
 				<cand id="166310" votes="11802" vote_percentage="20.32" vote_percentage_2="20" />
-				<cand id="175734" votes="14744" winner="Y" vote_percentage="25.38" />
-				<cand id="175735" votes="11321" vote_percentage="19.49" vote_percentage_2="19" />
-				<cand id="175736" votes="1333" vote_percentage="2.29" vote_percentage_2="2" />
+				<cand id="175734" votes="14745" winner="Y" vote_percentage="25.38" />
+				<cand id="175735" votes="11322" vote_percentage="19.49" vote_percentage_2="19" />
+				<cand id="175736" votes="1335" vote_percentage="2.3" vote_percentage_2="2" />
 				<cand id="175737" votes="2483" vote_percentage="4.27" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10022" county="Glades" fips="12043" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
@@ -2962,12 +2962,12 @@
 				<cand id="175737" votes="75" vote_percentage="4.73" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="176342" votes="4169" vote_percentage="36.37" vote_percentage_2="36" />
-				<cand id="167869" votes="526" vote_percentage="4.59" vote_percentage_2="5" />
+				<cand id="176342" votes="4171" vote_percentage="36.36" vote_percentage_2="36" />
+				<cand id="167869" votes="527" vote_percentage="4.59" vote_percentage_2="5" />
 				<cand id="166310" votes="1650" vote_percentage="14.39" vote_percentage_2="14" />
-				<cand id="175734" votes="2513" vote_percentage="21.92" vote_percentage_2="22" />
-				<cand id="175735" votes="1927" vote_percentage="16.81" vote_percentage_2="17" />
-				<cand id="175736" votes="326" vote_percentage="2.84" vote_percentage_2="3" />
+				<cand id="175734" votes="2514" vote_percentage="21.92" vote_percentage_2="22" />
+				<cand id="175735" votes="1928" vote_percentage="16.81" vote_percentage_2="17" />
+				<cand id="175736" votes="328" vote_percentage="2.86" vote_percentage_2="3" />
 				<cand id="175737" votes="352" vote_percentage="3.07" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10031" county="Indian River" fips="12061" precincts_total="35" precincts_reporting="34" precincts_percentage="97">
@@ -3575,7 +3575,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="110984" votes="705359" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
-				<cand id="175566" votes="552875" vote_percentage="43.94" vote_percentage_2="44" />
+				<cand id="175566" votes="552876" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3686,8 +3686,8 @@
 				<cand id="175566" votes="4920" vote_percentage="49.79" vote_percentage_2="50" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="110984" votes="1705" vote_percentage="51.48" vote_percentage_2="51" />
-				<cand id="175566" votes="1607" vote_percentage="48.52" vote_percentage_2="49" />
+				<cand id="110984" votes="1705" vote_percentage="51.46" vote_percentage_2="51" />
+				<cand id="175566" votes="1608" vote_percentage="48.54" vote_percentage_2="49" />
 			</reporting_unit>
 			<reporting_unit id="10029" county="Hillsborough" fips="12057" precincts_total="447" precincts_reporting="442" precincts_percentage="99">
 				<cand id="110984" votes="49473" vote_percentage="57.55" vote_percentage_2="58" />
@@ -3888,8 +3888,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227882" vote_percentage="13.73" vote_percentage_2="14" />
-				<cand id="109657" votes="1320267" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="175565" votes="227884" vote_percentage="13.73" vote_percentage_2="14" />
+				<cand id="109657" votes="1320275" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
 				<cand id="166322" votes="31225" vote_percentage="1.88" vote_percentage_2="2" />
 				<cand id="65724" votes="79928" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
@@ -4056,8 +4056,8 @@
 				<cand id="65724" votes="1017" vote_percentage="4.46" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
-				<cand id="175565" votes="1531" vote_percentage="13.13" vote_percentage_2="13" />
-				<cand id="109657" votes="9548" vote_percentage="81.89" vote_percentage_2="82" />
+				<cand id="175565" votes="1532" vote_percentage="13.13" vote_percentage_2="13" />
+				<cand id="109657" votes="9554" vote_percentage="81.9" vote_percentage_2="82" />
 				<cand id="166322" votes="129" vote_percentage="1.11" vote_percentage_2="1" />
 				<cand id="65724" votes="451" vote_percentage="3.87" vote_percentage_2="4" />
 			</reporting_unit>
@@ -4284,8 +4284,8 @@
 				<cand id="65724" votes="199" vote_percentage="3.92" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10066" county="Walton" fips="12131" precincts_total="22" precincts_reporting="21" precincts_percentage="95">
-				<cand id="175565" votes="1996" vote_percentage="15.18" vote_percentage_2="15" />
-				<cand id="109657" votes="10414" vote_percentage="79.22" vote_percentage_2="79" />
+				<cand id="175565" votes="1997" vote_percentage="15.19" vote_percentage_2="15" />
+				<cand id="109657" votes="10416" vote_percentage="79.22" vote_percentage_2="79" />
 				<cand id="166322" votes="225" vote_percentage="1.71" vote_percentage_2="2" />
 				<cand id="65724" votes="510" vote_percentage="3.88" vote_percentage_2="4" />
 			</reporting_unit>
