@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/21/2026 1:01:04 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/21/2026 11:57:19 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="716798" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="472279" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="716886" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="472322" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -47,8 +47,8 @@
 				<cand id="175600" votes="12364" vote_percentage="35.91" vote_percentage_2="36" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="352" precincts_percentage="99">
-				<cand id="166341" votes="61060" vote_percentage="46.89" vote_percentage_2="47" />
-				<cand id="175600" votes="69160" vote_percentage="53.11" vote_percentage_2="53" />
+				<cand id="166341" votes="61114" vote_percentage="46.9" vote_percentage_2="47" />
+				<cand id="175600" votes="69187" vote_percentage="53.1" vote_percentage_2="53" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="166341" votes="276" vote_percentage="50.83" vote_percentage_2="51" />
@@ -75,8 +75,8 @@
 				<cand id="175600" votes="1397" vote_percentage="49.59" vote_percentage_2="50" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="710" precincts_percentage="99">
-				<cand id="166341" votes="58243" vote_percentage="55.79" vote_percentage_2="56" />
-				<cand id="175600" votes="46148" vote_percentage="44.21" vote_percentage_2="44" />
+				<cand id="166341" votes="58270" vote_percentage="55.8" vote_percentage_2="56" />
+				<cand id="175600" votes="46159" vote_percentage="44.2" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="166341" votes="546" vote_percentage="61.56" vote_percentage_2="62" />
@@ -87,8 +87,8 @@
 				<cand id="175600" votes="244" vote_percentage="46.48" vote_percentage_2="46" />
 			</reporting_unit>
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
-				<cand id="166341" votes="39843" vote_percentage="61.18" vote_percentage_2="61" />
-				<cand id="175600" votes="25277" vote_percentage="38.82" vote_percentage_2="39" />
+				<cand id="166341" votes="39850" vote_percentage="61.18" vote_percentage_2="61" />
+				<cand id="175600" votes="25281" vote_percentage="38.82" vote_percentage_2="39" />
 			</reporting_unit>
 			<reporting_unit id="10017" county="Escambia" fips="12033" precincts_total="80" precincts_reporting="79" precincts_percentage="99">
 				<cand id="166341" votes="10545" vote_percentage="63.04" vote_percentage_2="63" />
@@ -195,8 +195,8 @@
 				<cand id="175600" votes="8136" vote_percentage="43.9" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
-				<cand id="166341" votes="4743" vote_percentage="58.85" vote_percentage_2="59" />
-				<cand id="175600" votes="3317" vote_percentage="41.15" vote_percentage_2="41" />
+				<cand id="166341" votes="4743" vote_percentage="58.84" vote_percentage_2="59" />
+				<cand id="175600" votes="3318" vote_percentage="41.16" vote_percentage_2="41" />
 			</reporting_unit>
 			<reporting_unit id="10044" county="Monroe" fips="12087" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
 				<cand id="166341" votes="3185" vote_percentage="56.37" vote_percentage_2="56" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1111181" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501281" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1111225" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501311" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -345,8 +345,8 @@
 				<cand id="175601" votes="20857" vote_percentage="32.84" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="354" precincts_percentage="99">
-				<cand id="106936" votes="38280" vote_percentage="71.41" vote_percentage_2="71" />
-				<cand id="175601" votes="15324" vote_percentage="28.59" vote_percentage_2="29" />
+				<cand id="106936" votes="38299" vote_percentage="71.41" vote_percentage_2="71" />
+				<cand id="175601" votes="15332" vote_percentage="28.59" vote_percentage_2="29" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="106936" votes="1538" vote_percentage="67.63" vote_percentage_2="68" />
@@ -373,8 +373,8 @@
 				<cand id="175601" votes="2737" vote_percentage="31.79" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="714" precincts_percentage="99">
-				<cand id="106936" votes="61769" vote_percentage="72.64" vote_percentage_2="73" />
-				<cand id="175601" votes="23263" vote_percentage="27.36" vote_percentage_2="27" />
+				<cand id="106936" votes="61787" vote_percentage="72.64" vote_percentage_2="73" />
+				<cand id="175601" votes="23273" vote_percentage="27.36" vote_percentage_2="27" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="106936" votes="1557" vote_percentage="65.2" vote_percentage_2="65" />
@@ -493,16 +493,16 @@
 				<cand id="175601" votes="14689" vote_percentage="33.42" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
-				<cand id="106936" votes="13178" vote_percentage="68.36" vote_percentage_2="68" />
-				<cand id="175601" votes="6099" vote_percentage="31.64" vote_percentage_2="32" />
+				<cand id="106936" votes="13179" vote_percentage="68.35" vote_percentage_2="68" />
+				<cand id="175601" votes="6103" vote_percentage="31.65" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10044" county="Monroe" fips="12087" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
 				<cand id="106936" votes="4892" vote_percentage="67.39" vote_percentage_2="67" />
 				<cand id="175601" votes="2367" vote_percentage="32.61" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10045" county="Nassau" fips="12089" precincts_total="18" precincts_reporting="17" precincts_percentage="94">
-				<cand id="106936" votes="10546" vote_percentage="66.68" vote_percentage_2="67" />
-				<cand id="175601" votes="5271" vote_percentage="33.32" vote_percentage_2="33" />
+				<cand id="106936" votes="10552" vote_percentage="66.65" vote_percentage_2="67" />
+				<cand id="175601" votes="5279" vote_percentage="33.35" vote_percentage_2="33" />
 			</reporting_unit>
 			<reporting_unit id="10046" county="Okaloosa" fips="12091" precincts_total="52" precincts_reporting="51" precincts_percentage="98">
 				<cand id="106936" votes="15772" vote_percentage="69.43" vote_percentage_2="69" />
@@ -619,8 +619,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175596" votes="416745" vote_percentage="34.35" vote_percentage_2="34" />
-				<cand id="58627" votes="796322" winner="Y" vote_percentage="65.65" vote_percentage_2="66" />
+				<cand id="175596" votes="416803" vote_percentage="34.36" vote_percentage_2="34" />
+				<cand id="58627" votes="796400" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -643,8 +643,8 @@
 				<cand id="58627" votes="22871" vote_percentage="65.29" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="352" precincts_percentage="99">
-				<cand id="175596" votes="45769" vote_percentage="34.58" vote_percentage_2="35" />
-				<cand id="58627" votes="86574" vote_percentage="65.42" vote_percentage_2="65" />
+				<cand id="175596" votes="45800" vote_percentage="34.59" vote_percentage_2="35" />
+				<cand id="58627" votes="86627" vote_percentage="65.41" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="175596" votes="242" vote_percentage="44.16" vote_percentage_2="44" />
@@ -671,8 +671,8 @@
 				<cand id="58627" votes="1682" vote_percentage="60.16" vote_percentage_2="60" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="710" precincts_percentage="99">
-				<cand id="175596" votes="34343" vote_percentage="31.53" vote_percentage_2="32" />
-				<cand id="58627" votes="74576" vote_percentage="68.47" vote_percentage_2="68" />
+				<cand id="175596" votes="34362" vote_percentage="31.54" vote_percentage_2="32" />
+				<cand id="58627" votes="74597" vote_percentage="68.46" vote_percentage_2="68" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="175596" votes="337" vote_percentage="38.08" vote_percentage_2="38" />
@@ -683,8 +683,8 @@
 				<cand id="58627" votes="295" vote_percentage="57.5" vote_percentage_2="58" />
 			</reporting_unit>
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
-				<cand id="175596" votes="25793" vote_percentage="39.26" vote_percentage_2="39" />
-				<cand id="58627" votes="39903" vote_percentage="60.74" vote_percentage_2="61" />
+				<cand id="175596" votes="25800" vote_percentage="39.27" vote_percentage_2="39" />
+				<cand id="58627" votes="39907" vote_percentage="60.73" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10017" county="Escambia" fips="12033" precincts_total="80" precincts_reporting="79" precincts_percentage="99">
 				<cand id="175596" votes="6357" vote_percentage="37.35" vote_percentage_2="37" />
@@ -791,8 +791,8 @@
 				<cand id="58627" votes="12401" vote_percentage="66.12" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
-				<cand id="175596" votes="2582" vote_percentage="31.49" vote_percentage_2="31" />
-				<cand id="58627" votes="5618" vote_percentage="68.51" vote_percentage_2="69" />
+				<cand id="175596" votes="2583" vote_percentage="31.5" vote_percentage_2="31" />
+				<cand id="58627" votes="5618" vote_percentage="68.5" vote_percentage_2="69" />
 			</reporting_unit>
 			<reporting_unit id="10044" county="Monroe" fips="12087" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
 				<cand id="175596" votes="1621" vote_percentage="27.38" vote_percentage_2="27" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610624" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="967906" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="175597" votes="610652" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="967935" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -941,8 +941,8 @@
 				<cand id="107845" votes="41560" vote_percentage="66.16" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="354" precincts_percentage="99">
-				<cand id="175597" votes="22006" vote_percentage="41.8" vote_percentage_2="42" />
-				<cand id="107845" votes="30641" vote_percentage="58.2" vote_percentage_2="58" />
+				<cand id="175597" votes="22021" vote_percentage="41.81" vote_percentage_2="42" />
+				<cand id="107845" votes="30651" vote_percentage="58.19" vote_percentage_2="58" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="175597" votes="1110" vote_percentage="50.11" vote_percentage_2="50" />
@@ -969,8 +969,8 @@
 				<cand id="107845" votes="4801" vote_percentage="57.15" vote_percentage_2="57" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="714" precincts_percentage="99">
-				<cand id="175597" votes="39619" vote_percentage="47.25" vote_percentage_2="47" />
-				<cand id="107845" votes="44233" vote_percentage="52.75" vote_percentage_2="53" />
+				<cand id="175597" votes="39632" vote_percentage="47.25" vote_percentage_2="47" />
+				<cand id="107845" votes="44248" vote_percentage="52.75" vote_percentage_2="53" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="175597" votes="1066" vote_percentage="46.07" vote_percentage_2="46" />
@@ -1089,8 +1089,8 @@
 				<cand id="107845" votes="26308" vote_percentage="61.73" vote_percentage_2="62" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
-				<cand id="175597" votes="7596" vote_percentage="41.14" vote_percentage_2="41" />
-				<cand id="107845" votes="10870" vote_percentage="58.86" vote_percentage_2="59" />
+				<cand id="175597" votes="7596" vote_percentage="41.13" vote_percentage_2="41" />
+				<cand id="107845" votes="10874" vote_percentage="58.87" vote_percentage_2="59" />
 			</reporting_unit>
 			<reporting_unit id="10044" county="Monroe" fips="12087" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
 				<cand id="175597" votes="3263" vote_percentage="45.89" vote_percentage_2="46" />
@@ -1246,12 +1246,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175575" votes="96640" vote_percentage="7.73" vote_percentage_2="8" />
-				<cand id="175576" votes="47283" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="189301" vote_percentage="15.15" vote_percentage_2="15" />
-				<cand id="63159" votes="761847" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
-				<cand id="110345" votes="119877" vote_percentage="9.59" vote_percentage_2="10" />
-				<cand id="175580" votes="34939" vote_percentage="2.8" vote_percentage_2="3" />
+				<cand id="175575" votes="96661" vote_percentage="7.73" vote_percentage_2="8" />
+				<cand id="175576" votes="47291" vote_percentage="3.78" vote_percentage_2="4" />
+				<cand id="175578" votes="189319" vote_percentage="15.15" vote_percentage_2="15" />
+				<cand id="63159" votes="761912" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
+				<cand id="110345" votes="119898" vote_percentage="9.59" vote_percentage_2="10" />
+				<cand id="175580" votes="34945" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175575" votes="1419" vote_percentage="5.68" vote_percentage_2="6" />
@@ -1294,12 +1294,12 @@
 				<cand id="175580" votes="827" vote_percentage="2.3" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="352" precincts_percentage="99">
-				<cand id="175575" votes="8640" vote_percentage="6.39" vote_percentage_2="6" />
-				<cand id="175576" votes="4583" vote_percentage="3.39" vote_percentage_2="3" />
-				<cand id="175578" votes="20942" vote_percentage="15.48" vote_percentage_2="15" />
-				<cand id="63159" votes="82893" vote_percentage="61.28" vote_percentage_2="61" />
-				<cand id="110345" votes="13821" vote_percentage="10.22" vote_percentage_2="10" />
-				<cand id="175580" votes="4400" vote_percentage="3.25" vote_percentage_2="3" />
+				<cand id="175575" votes="8650" vote_percentage="6.39" vote_percentage_2="6" />
+				<cand id="175576" votes="4588" vote_percentage="3.39" vote_percentage_2="3" />
+				<cand id="175578" votes="20952" vote_percentage="15.48" vote_percentage_2="15" />
+				<cand id="63159" votes="82937" vote_percentage="61.27" vote_percentage_2="61" />
+				<cand id="110345" votes="13833" vote_percentage="10.22" vote_percentage_2="10" />
+				<cand id="175580" votes="4401" vote_percentage="3.25" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="175575" votes="71" vote_percentage="12.86" vote_percentage_2="13" />
@@ -1350,12 +1350,12 @@
 				<cand id="175580" votes="190" vote_percentage="6.5" vote_percentage_2="7" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="710" precincts_percentage="99">
-				<cand id="175575" votes="8980" vote_percentage="8.14" vote_percentage_2="8" />
-				<cand id="175576" votes="5205" vote_percentage="4.72" vote_percentage_2="5" />
-				<cand id="175578" votes="17549" vote_percentage="15.9" vote_percentage_2="16" />
-				<cand id="63159" votes="58369" vote_percentage="52.88" vote_percentage_2="53" />
-				<cand id="110345" votes="16423" vote_percentage="14.88" vote_percentage_2="15" />
-				<cand id="175580" votes="3861" vote_percentage="3.5" vote_percentage_2="3" />
+				<cand id="175575" votes="8990" vote_percentage="8.14" vote_percentage_2="8" />
+				<cand id="175576" votes="5208" vote_percentage="4.72" vote_percentage_2="5" />
+				<cand id="175578" votes="17554" vote_percentage="15.9" vote_percentage_2="16" />
+				<cand id="63159" votes="58381" vote_percentage="52.87" vote_percentage_2="53" />
+				<cand id="110345" votes="16428" vote_percentage="14.88" vote_percentage_2="15" />
+				<cand id="175580" votes="3866" vote_percentage="3.5" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="175575" votes="93" vote_percentage="10.24" vote_percentage_2="10" />
@@ -1376,9 +1376,9 @@
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
 				<cand id="175575" votes="6329" vote_percentage="9.38" vote_percentage_2="9" />
 				<cand id="175576" votes="2364" vote_percentage="3.5" vote_percentage_2="4" />
-				<cand id="175578" votes="13301" vote_percentage="19.72" vote_percentage_2="20" />
-				<cand id="63159" votes="34900" vote_percentage="51.74" vote_percentage_2="52" />
-				<cand id="110345" votes="7758" vote_percentage="11.5" vote_percentage_2="12" />
+				<cand id="175578" votes="13303" vote_percentage="19.72" vote_percentage_2="20" />
+				<cand id="63159" votes="34906" vote_percentage="51.74" vote_percentage_2="52" />
+				<cand id="110345" votes="7761" vote_percentage="11.5" vote_percentage_2="12" />
 				<cand id="175580" votes="2805" vote_percentage="4.16" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10017" county="Escambia" fips="12033" precincts_total="80" precincts_reporting="79" precincts_percentage="99">
@@ -1592,10 +1592,10 @@
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="175575" votes="607" vote_percentage="7.02" vote_percentage_2="7" />
 				<cand id="175576" votes="304" vote_percentage="3.52" vote_percentage_2="4" />
-				<cand id="175578" votes="1015" vote_percentage="11.74" vote_percentage_2="12" />
-				<cand id="63159" votes="5966" vote_percentage="69.03" vote_percentage_2="69" />
+				<cand id="175578" votes="1016" vote_percentage="11.75" vote_percentage_2="12" />
+				<cand id="63159" votes="5967" vote_percentage="69.02" vote_percentage_2="69" />
 				<cand id="110345" votes="531" vote_percentage="6.14" vote_percentage_2="6" />
-				<cand id="175580" votes="220" vote_percentage="2.55" vote_percentage_2="3" />
+				<cand id="175580" votes="220" vote_percentage="2.54" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10044" county="Monroe" fips="12087" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
 				<cand id="175575" votes="601" vote_percentage="9.79" vote_percentage_2="10" />
@@ -1742,12 +1742,12 @@
 				<cand id="175580" votes="84" vote_percentage="5.97" vote_percentage_2="6" />
 			</reporting_unit>
 			<reporting_unit id="10062" county="Taylor" fips="12123" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="175575" votes="97" vote_percentage="14.1" vote_percentage_2="14" />
-				<cand id="175576" votes="26" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="83" vote_percentage="12.06" vote_percentage_2="12" />
-				<cand id="63159" votes="397" vote_percentage="57.7" vote_percentage_2="58" />
-				<cand id="110345" votes="35" vote_percentage="5.09" vote_percentage_2="5" />
-				<cand id="175580" votes="50" vote_percentage="7.27" vote_percentage_2="7" />
+				<cand id="175575" votes="98" vote_percentage="14.16" vote_percentage_2="14" />
+				<cand id="175576" votes="26" vote_percentage="3.76" vote_percentage_2="4" />
+				<cand id="175578" votes="83" vote_percentage="11.99" vote_percentage_2="12" />
+				<cand id="63159" votes="399" vote_percentage="57.66" vote_percentage_2="58" />
+				<cand id="110345" votes="36" vote_percentage="5.2" vote_percentage_2="5" />
+				<cand id="175580" votes="50" vote_percentage="7.23" vote_percentage_2="7" />
 			</reporting_unit>
 			<reporting_unit id="10063" county="Union" fips="12125" precincts_total="13" precincts_reporting="12" precincts_percentage="92">
 				<cand id="175575" votes="43" vote_percentage="13.35" vote_percentage_2="13" />
@@ -1883,17 +1883,17 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426879" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810873" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177730" vote_percentage="10.47" vote_percentage_2="10" />
-				<cand id="175582" votes="13177" vote_percentage="0.78" />
-				<cand id="175583" votes="7043" vote_percentage="0.42" />
-				<cand id="175584" votes="5190" vote_percentage="0.31" />
-				<cand id="107807" votes="145013" vote_percentage="8.55" vote_percentage_2="9" />
-				<cand id="175585" votes="27610" vote_percentage="1.63" vote_percentage_2="2" />
+				<cand id="111504" votes="426890" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810907" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177734" vote_percentage="10.47" vote_percentage_2="10" />
+				<cand id="175582" votes="13178" vote_percentage="0.78" />
+				<cand id="175583" votes="7046" vote_percentage="0.42" />
+				<cand id="175584" votes="5192" vote_percentage="0.31" />
+				<cand id="107807" votes="145018" vote_percentage="8.55" vote_percentage_2="9" />
+				<cand id="175585" votes="27614" vote_percentage="1.63" vote_percentage_2="2" />
 				<cand id="111393" votes="7881" vote_percentage="0.46" />
-				<cand id="175586" votes="6267" vote_percentage="0.37" />
-				<cand id="175587" votes="69075" vote_percentage="4.07" vote_percentage_2="4" />
+				<cand id="175586" votes="6268" vote_percentage="0.37" />
+				<cand id="175587" votes="69077" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="111504" votes="3929" vote_percentage="27.67" vote_percentage_2="28" />
@@ -1961,17 +1961,17 @@
 				<cand id="175587" votes="2798" vote_percentage="4.17" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="354" precincts_percentage="99">
-				<cand id="111504" votes="11227" vote_percentage="19.67" vote_percentage_2="20" />
-				<cand id="62408" votes="31977" vote_percentage="56.04" vote_percentage_2="56" />
-				<cand id="175581" votes="6510" vote_percentage="11.41" vote_percentage_2="11" />
+				<cand id="111504" votes="11229" vote_percentage="19.67" vote_percentage_2="20" />
+				<cand id="62408" votes="31994" vote_percentage="56.04" vote_percentage_2="56" />
+				<cand id="175581" votes="6511" vote_percentage="11.4" vote_percentage_2="11" />
 				<cand id="175582" votes="475" vote_percentage="0.83" />
-				<cand id="175583" votes="450" vote_percentage="0.79" />
-				<cand id="175584" votes="311" vote_percentage="0.55" />
-				<cand id="107807" votes="3288" vote_percentage="5.76" vote_percentage_2="6" />
+				<cand id="175583" votes="451" vote_percentage="0.79" />
+				<cand id="175584" votes="313" vote_percentage="0.55" />
+				<cand id="107807" votes="3293" vote_percentage="5.77" vote_percentage_2="6" />
 				<cand id="175585" votes="1316" vote_percentage="2.31" vote_percentage_2="2" />
 				<cand id="111393" votes="430" vote_percentage="0.75" />
 				<cand id="175586" votes="253" vote_percentage="0.44" />
-				<cand id="175587" votes="826" vote_percentage="1.45" vote_percentage_2="1" />
+				<cand id="175587" votes="827" vote_percentage="1.45" vote_percentage_2="1" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="111504" votes="933" vote_percentage="39.89" vote_percentage_2="40" />
@@ -2052,17 +2052,17 @@
 				<cand id="175587" votes="1024" vote_percentage="11.43" vote_percentage_2="11" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="714" precincts_percentage="99">
-				<cand id="111504" votes="14300" vote_percentage="15.9" vote_percentage_2="16" />
-				<cand id="62408" votes="51948" vote_percentage="57.77" vote_percentage_2="58" />
-				<cand id="175581" votes="7797" vote_percentage="8.67" vote_percentage_2="9" />
-				<cand id="175582" votes="418" vote_percentage="0.46" />
-				<cand id="175583" votes="765" vote_percentage="0.85" />
+				<cand id="111504" votes="14308" vote_percentage="15.91" vote_percentage_2="16" />
+				<cand id="62408" votes="51962" vote_percentage="57.77" vote_percentage_2="58" />
+				<cand id="175581" votes="7798" vote_percentage="8.67" vote_percentage_2="9" />
+				<cand id="175582" votes="419" vote_percentage="0.47" />
+				<cand id="175583" votes="766" vote_percentage="0.85" />
 				<cand id="175584" votes="556" vote_percentage="0.62" />
 				<cand id="107807" votes="6406" vote_percentage="7.12" vote_percentage_2="7" />
-				<cand id="175585" votes="5921" vote_percentage="6.58" vote_percentage_2="7" />
+				<cand id="175585" votes="5925" vote_percentage="6.59" vote_percentage_2="7" />
 				<cand id="111393" votes="394" vote_percentage="0.44" />
-				<cand id="175586" votes="237" vote_percentage="0.26" />
-				<cand id="175587" votes="1175" vote_percentage="1.31" vote_percentage_2="1" />
+				<cand id="175586" votes="238" vote_percentage="0.26" />
+				<cand id="175587" votes="1176" vote_percentage="1.31" vote_percentage_2="1" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="111504" votes="650" vote_percentage="26.33" vote_percentage_2="26" />
@@ -2092,8 +2092,8 @@
 			</reporting_unit>
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
 				<cand id="111504" votes="15436" vote_percentage="22.7" vote_percentage_2="23" />
-				<cand id="62408" votes="29349" vote_percentage="43.17" vote_percentage_2="43" />
-				<cand id="175581" votes="8394" vote_percentage="12.35" vote_percentage_2="12" />
+				<cand id="62408" votes="29350" vote_percentage="43.17" vote_percentage_2="43" />
+				<cand id="175581" votes="8395" vote_percentage="12.35" vote_percentage_2="12" />
 				<cand id="175582" votes="597" vote_percentage="0.88" />
 				<cand id="175583" votes="221" vote_percentage="0.33" />
 				<cand id="175584" votes="175" vote_percentage="0.26" />
@@ -2442,11 +2442,11 @@
 				<cand id="175587" votes="2880" vote_percentage="6.24" vote_percentage_2="6" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
-				<cand id="111504" votes="4526" vote_percentage="22.04" vote_percentage_2="22" />
-				<cand id="62408" votes="9934" vote_percentage="48.37" vote_percentage_2="48" />
-				<cand id="175581" votes="2677" vote_percentage="13.03" vote_percentage_2="13" />
+				<cand id="111504" votes="4527" vote_percentage="22.04" vote_percentage_2="22" />
+				<cand id="62408" votes="9936" vote_percentage="48.37" vote_percentage_2="48" />
+				<cand id="175581" votes="2678" vote_percentage="13.04" vote_percentage_2="13" />
 				<cand id="175582" votes="152" vote_percentage="0.74" />
-				<cand id="175583" votes="81" vote_percentage="0.39" />
+				<cand id="175583" votes="82" vote_percentage="0.4" />
 				<cand id="175584" votes="58" vote_percentage="0.28" />
 				<cand id="107807" votes="1950" vote_percentage="9.49" vote_percentage_2="9" />
 				<cand id="175585" votes="244" vote_percentage="1.19" vote_percentage_2="1" />
@@ -3211,8 +3211,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="146" precincts_reporting="144" precincts_percentage="99">
-				<cand id="166329" votes="27610" winner="Y" vote_percentage="55.37" vote_percentage_2="55" />
-				<cand id="175818" votes="22257" vote_percentage="44.63" vote_percentage_2="45" />
+				<cand id="166329" votes="27621" winner="Y" vote_percentage="55.37" vote_percentage_2="55" />
+				<cand id="175818" votes="22265" vote_percentage="44.63" vote_percentage_2="45" />
 			</reporting_unit>
 			<reporting_unit id="10008" county="Charlotte" fips="12015" precincts_total="34" precincts_reporting="33" precincts_percentage="97">
 				<cand id="166329" votes="5148" vote_percentage="50.9" vote_percentage_2="51" />
@@ -3223,8 +3223,8 @@
 				<cand id="175818" votes="4391" vote_percentage="51.34" vote_percentage_2="51" />
 			</reporting_unit>
 			<reporting_unit id="10058" county="Sarasota" fips="12115" precincts_total="88" precincts_reporting="87" precincts_percentage="99">
-				<cand id="166329" votes="18301" vote_percentage="58.66" vote_percentage_2="59" />
-				<cand id="175818" votes="12900" vote_percentage="41.34" vote_percentage_2="41" />
+				<cand id="166329" votes="18312" vote_percentage="58.65" vote_percentage_2="59" />
+				<cand id="175818" votes="12908" vote_percentage="41.35" vote_percentage_2="41" />
 			</reporting_unit>
 		</reporting_units>
 	</race>
@@ -3419,12 +3419,12 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="209" precincts_reporting="206" precincts_percentage="99">
-				<cand id="175847" votes="26059" winner="Y" vote_percentage="68.57" vote_percentage_2="69" />
-				<cand id="175848" votes="11944" vote_percentage="31.43" vote_percentage_2="31" />
+				<cand id="175847" votes="26064" winner="Y" vote_percentage="68.57" vote_percentage_2="69" />
+				<cand id="175848" votes="11945" vote_percentage="31.43" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="56" precincts_reporting="55" precincts_percentage="98">
-				<cand id="175847" votes="12308" vote_percentage="69.88" vote_percentage_2="70" />
-				<cand id="175848" votes="5306" vote_percentage="30.12" vote_percentage_2="30" />
+				<cand id="175847" votes="12313" vote_percentage="69.88" vote_percentage_2="70" />
+				<cand id="175848" votes="5307" vote_percentage="30.12" vote_percentage_2="30" />
 			</reporting_unit>
 			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="31" precincts_reporting="30" precincts_percentage="97">
 				<cand id="175847" votes="4478" vote_percentage="72.34" vote_percentage_2="72" />
@@ -3504,21 +3504,21 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="209" precincts_reporting="206" precincts_percentage="99">
-				<cand id="69371" votes="14770" winner="Y" vote_percentage="30.86" vote_percentage_2="31" />
+				<cand id="69371" votes="14772" winner="Y" vote_percentage="30.86" vote_percentage_2="31" />
 				<cand id="175849" votes="7505" vote_percentage="15.68" vote_percentage_2="16" />
-				<cand id="175850" votes="9068" vote_percentage="18.95" vote_percentage_2="19" />
+				<cand id="175850" votes="9070" vote_percentage="18.95" vote_percentage_2="19" />
 				<cand id="166342" votes="1441" vote_percentage="3.01" vote_percentage_2="3" />
 				<cand id="175851" votes="3683" vote_percentage="7.69" vote_percentage_2="8" />
 				<cand id="110618" votes="8783" vote_percentage="18.35" vote_percentage_2="18" />
 				<cand id="175852" votes="2614" vote_percentage="5.46" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="56" precincts_reporting="55" precincts_percentage="98">
-				<cand id="69371" votes="3059" vote_percentage="25.03" vote_percentage_2="25" />
-				<cand id="175849" votes="1712" vote_percentage="14.01" vote_percentage_2="14" />
-				<cand id="175850" votes="3399" vote_percentage="27.81" vote_percentage_2="28" />
+				<cand id="69371" votes="3061" vote_percentage="25.04" vote_percentage_2="25" />
+				<cand id="175849" votes="1712" vote_percentage="14" />
+				<cand id="175850" votes="3401" vote_percentage="27.82" vote_percentage_2="28" />
 				<cand id="166342" votes="389" vote_percentage="3.18" vote_percentage_2="3" />
-				<cand id="175851" votes="920" vote_percentage="7.53" vote_percentage_2="8" />
-				<cand id="110618" votes="2217" vote_percentage="18.14" vote_percentage_2="18" />
+				<cand id="175851" votes="920" vote_percentage="7.52" vote_percentage_2="8" />
+				<cand id="110618" votes="2217" vote_percentage="18.13" vote_percentage_2="18" />
 				<cand id="175852" votes="526" vote_percentage="4.3" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10011" county="Collier" fips="12021" precincts_total="31" precincts_reporting="30" precincts_percentage="97">
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="705392" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
-				<cand id="175566" votes="552917" vote_percentage="43.94" vote_percentage_2="44" />
+				<cand id="110984" votes="705474" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="175566" votes="552971" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3598,8 +3598,8 @@
 				<cand id="175566" votes="17449" vote_percentage="48.15" vote_percentage_2="48" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="352" precincts_percentage="99">
-				<cand id="110984" votes="78024" vote_percentage="57.35" vote_percentage_2="57" />
-				<cand id="175566" votes="58024" vote_percentage="42.65" vote_percentage_2="43" />
+				<cand id="110984" votes="78072" vote_percentage="57.35" vote_percentage_2="57" />
+				<cand id="175566" votes="58058" vote_percentage="42.65" vote_percentage_2="43" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="110984" votes="405" vote_percentage="71.43" vote_percentage_2="71" />
@@ -3626,8 +3626,8 @@
 				<cand id="175566" votes="946" vote_percentage="32.25" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="710" precincts_percentage="99">
-				<cand id="110984" votes="66045" vote_percentage="59.6" vote_percentage_2="60" />
-				<cand id="175566" votes="44760" vote_percentage="40.4" vote_percentage_2="40" />
+				<cand id="110984" votes="66069" vote_percentage="59.6" vote_percentage_2="60" />
+				<cand id="175566" votes="44776" vote_percentage="40.4" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="110984" votes="527" vote_percentage="57.47" vote_percentage_2="57" />
@@ -3638,8 +3638,8 @@
 				<cand id="175566" votes="210" vote_percentage="38.32" vote_percentage_2="38" />
 			</reporting_unit>
 			<reporting_unit id="10016" county="Duval" fips="12031" precincts_total="160" precincts_reporting="158" precincts_percentage="99">
-				<cand id="110984" votes="55026" vote_percentage="80.24" vote_percentage_2="80" />
-				<cand id="175566" votes="13549" vote_percentage="19.76" vote_percentage_2="20" />
+				<cand id="110984" votes="55035" vote_percentage="80.24" vote_percentage_2="80" />
+				<cand id="175566" votes="13552" vote_percentage="19.76" vote_percentage_2="20" />
 			</reporting_unit>
 			<reporting_unit id="10017" county="Escambia" fips="12033" precincts_total="80" precincts_reporting="79" precincts_percentage="99">
 				<cand id="110984" votes="11009" vote_percentage="62.24" vote_percentage_2="62" />
@@ -3746,8 +3746,8 @@
 				<cand id="175566" votes="9222" vote_percentage="47.54" vote_percentage_2="48" />
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
-				<cand id="110984" votes="3596" vote_percentage="41.27" vote_percentage_2="41" />
-				<cand id="175566" votes="5118" vote_percentage="58.73" vote_percentage_2="59" />
+				<cand id="110984" votes="3597" vote_percentage="41.27" vote_percentage_2="41" />
+				<cand id="175566" votes="5119" vote_percentage="58.73" vote_percentage_2="59" />
 			</reporting_unit>
 			<reporting_unit id="10044" county="Monroe" fips="12087" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
 				<cand id="110984" votes="2819" vote_percentage="44.67" vote_percentage_2="45" />
@@ -3888,10 +3888,10 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227911" vote_percentage="13.73" vote_percentage_2="14" />
-				<cand id="109657" votes="1320350" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
-				<cand id="166322" votes="31230" vote_percentage="1.88" vote_percentage_2="2" />
-				<cand id="65724" votes="79935" vote_percentage="4.82" vote_percentage_2="5" />
+				<cand id="175565" votes="227924" vote_percentage="13.73" vote_percentage_2="14" />
+				<cand id="109657" votes="1320401" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="166322" votes="31233" vote_percentage="1.88" vote_percentage_2="2" />
+				<cand id="65724" votes="79940" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175565" votes="1796" vote_percentage="12.93" vote_percentage_2="13" />
@@ -3924,10 +3924,10 @@
 				<cand id="65724" votes="2898" vote_percentage="4.42" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10006" county="Broward" fips="12011" precincts_total="356" precincts_reporting="354" precincts_percentage="99">
-				<cand id="175565" votes="8665" vote_percentage="15.64" vote_percentage_2="16" />
-				<cand id="109657" votes="41751" vote_percentage="75.34" vote_percentage_2="75" />
+				<cand id="175565" votes="8674" vote_percentage="15.64" vote_percentage_2="16" />
+				<cand id="109657" votes="41769" vote_percentage="75.33" vote_percentage_2="75" />
 				<cand id="166322" votes="1302" vote_percentage="2.35" vote_percentage_2="2" />
-				<cand id="65724" votes="3700" vote_percentage="6.68" vote_percentage_2="7" />
+				<cand id="65724" votes="3701" vote_percentage="6.67" vote_percentage_2="7" />
 			</reporting_unit>
 			<reporting_unit id="10007" county="Calhoun" fips="12013" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
 				<cand id="175565" votes="332" vote_percentage="14.4" vote_percentage_2="14" />
@@ -3966,10 +3966,10 @@
 				<cand id="65724" votes="294" vote_percentage="3.38" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10013" county="Miami-Dade" fips="12086" precincts_total="718" precincts_reporting="714" precincts_percentage="99">
-				<cand id="175565" votes="14040" vote_percentage="15.98" vote_percentage_2="16" />
-				<cand id="109657" votes="59277" vote_percentage="67.47" vote_percentage_2="67" />
-				<cand id="166322" votes="1987" vote_percentage="2.26" vote_percentage_2="2" />
-				<cand id="65724" votes="12559" vote_percentage="14.29" vote_percentage_2="14" />
+				<cand id="175565" votes="14044" vote_percentage="15.98" vote_percentage_2="16" />
+				<cand id="109657" votes="59297" vote_percentage="67.46" vote_percentage_2="67" />
+				<cand id="166322" votes="1989" vote_percentage="2.26" vote_percentage_2="2" />
+				<cand id="65724" votes="12563" vote_percentage="14.29" vote_percentage_2="14" />
 			</reporting_unit>
 			<reporting_unit id="10014" county="DeSoto" fips="12027" precincts_total="15" precincts_reporting="14" precincts_percentage="93">
 				<cand id="175565" votes="335" vote_percentage="13.98" vote_percentage_2="14" />
@@ -4128,8 +4128,8 @@
 				<cand id="65724" votes="61" vote_percentage="3.92" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10040" county="Madison" fips="12079" precincts_total="11" precincts_reporting="10" precincts_percentage="91">
-				<cand id="175565" votes="331" vote_percentage="13.58" vote_percentage_2="14" />
-				<cand id="109657" votes="2013" vote_percentage="82.57" vote_percentage_2="83" />
+				<cand id="175565" votes="331" vote_percentage="13.57" vote_percentage_2="14" />
+				<cand id="109657" votes="2015" vote_percentage="82.58" vote_percentage_2="83" />
 				<cand id="166322" votes="21" vote_percentage="0.86" />
 				<cand id="65724" votes="73" vote_percentage="2.99" vote_percentage_2="3" />
 			</reporting_unit>
@@ -4147,9 +4147,9 @@
 			</reporting_unit>
 			<reporting_unit id="10043" county="Martin" fips="12085" precincts_total="29" precincts_reporting="28" precincts_percentage="97">
 				<cand id="175565" votes="2875" vote_percentage="14.48" vote_percentage_2="14" />
-				<cand id="109657" votes="15680" vote_percentage="79" />
-				<cand id="166322" votes="483" vote_percentage="2.43" vote_percentage_2="2" />
-				<cand id="65724" votes="811" vote_percentage="4.09" vote_percentage_2="4" />
+				<cand id="109657" votes="15684" vote_percentage="79" />
+				<cand id="166322" votes="484" vote_percentage="2.44" vote_percentage_2="2" />
+				<cand id="65724" votes="811" vote_percentage="4.08" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10044" county="Monroe" fips="12087" precincts_total="33" precincts_reporting="32" precincts_percentage="97">
 				<cand id="175565" votes="1119" vote_percentage="14.54" vote_percentage_2="15" />
@@ -4260,8 +4260,8 @@
 				<cand id="65724" votes="216" vote_percentage="3.41" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10062" county="Taylor" fips="12123" precincts_total="14" precincts_reporting="13" precincts_percentage="93">
-				<cand id="175565" votes="357" vote_percentage="12.88" vote_percentage_2="13" />
-				<cand id="109657" votes="2295" vote_percentage="82.82" vote_percentage_2="83" />
+				<cand id="175565" votes="357" vote_percentage="12.85" vote_percentage_2="13" />
+				<cand id="109657" votes="2302" vote_percentage="82.87" vote_percentage_2="83" />
 				<cand id="166322" votes="33" vote_percentage="1.19" vote_percentage_2="1" />
 				<cand id="65724" votes="86" vote_percentage="3.1" vote_percentage_2="3" />
 			</reporting_unit>
