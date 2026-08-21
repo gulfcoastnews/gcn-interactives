@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/21/2026 4:39:20 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/21/2026 8:50:35 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -321,7 +321,7 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1111384" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="106936" votes="1111386" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
 				<cand id="175601" votes="501423" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -457,8 +457,8 @@
 				<cand id="175601" votes="517" vote_percentage="23.43" vote_percentage_2="23" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
-				<cand id="106936" votes="1098" vote_percentage="67.53" vote_percentage_2="68" />
-				<cand id="175601" votes="528" vote_percentage="32.47" vote_percentage_2="32" />
+				<cand id="106936" votes="1100" vote_percentage="67.57" vote_percentage_2="68" />
+				<cand id="175601" votes="528" vote_percentage="32.43" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="91" precincts_percentage="99">
 				<cand id="106936" votes="27132" vote_percentage="65.7" vote_percentage_2="66" />
@@ -917,7 +917,7 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610759" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="175597" votes="610761" vote_percentage="38.68" vote_percentage_2="39" />
 				<cand id="107845" votes="968094" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -1053,8 +1053,8 @@
 				<cand id="107845" votes="1284" vote_percentage="60.88" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
-				<cand id="175597" votes="852" vote_percentage="54.72" vote_percentage_2="55" />
-				<cand id="107845" votes="705" vote_percentage="45.28" vote_percentage_2="45" />
+				<cand id="175597" votes="854" vote_percentage="54.78" vote_percentage_2="55" />
+				<cand id="107845" votes="705" vote_percentage="45.22" vote_percentage_2="45" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="91" precincts_percentage="99">
 				<cand id="175597" votes="15367" vote_percentage="38.46" vote_percentage_2="38" />
@@ -1883,7 +1883,7 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426953" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="111504" votes="426955" vote_percentage="25.16" vote_percentage_2="25" />
 				<cand id="62408" votes="811044" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
 				<cand id="175581" votes="177776" vote_percentage="10.48" vote_percentage_2="10" />
 				<cand id="175582" votes="13182" vote_percentage="0.78" />
@@ -2325,17 +2325,17 @@
 				<cand id="175587" votes="142" vote_percentage="6.3" vote_percentage_2="6" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
-				<cand id="111504" votes="497" vote_percentage="29.99" vote_percentage_2="30" />
-				<cand id="62408" votes="299" vote_percentage="18.04" vote_percentage_2="18" />
-				<cand id="175581" votes="230" vote_percentage="13.88" vote_percentage_2="14" />
+				<cand id="111504" votes="499" vote_percentage="30.08" vote_percentage_2="30" />
+				<cand id="62408" votes="299" vote_percentage="18.02" vote_percentage_2="18" />
+				<cand id="175581" votes="230" vote_percentage="13.86" vote_percentage_2="14" />
 				<cand id="175582" votes="9" vote_percentage="0.54" />
 				<cand id="175583" votes="3" vote_percentage="0.18" />
 				<cand id="175584" votes="2" vote_percentage="0.12" />
-				<cand id="107807" votes="124" vote_percentage="7.48" vote_percentage_2="7" />
+				<cand id="107807" votes="124" vote_percentage="7.47" vote_percentage_2="7" />
 				<cand id="175585" votes="10" vote_percentage="0.6" />
 				<cand id="111393" votes="7" vote_percentage="0.42" />
 				<cand id="175586" votes="3" vote_percentage="0.18" />
-				<cand id="175587" votes="473" vote_percentage="28.55" vote_percentage_2="29" />
+				<cand id="175587" votes="473" vote_percentage="28.51" vote_percentage_2="29" />
 			</reporting_unit>
 			<reporting_unit id="10035" county="Lake" fips="12069" precincts_total="92" precincts_reporting="91" precincts_percentage="99">
 				<cand id="111504" votes="12550" vote_percentage="28.97" vote_percentage_2="29" />
@@ -3889,7 +3889,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175565" votes="227974" vote_percentage="13.74" vote_percentage_2="14" />
-				<cand id="109657" votes="1320611" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="109657" votes="1320613" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
 				<cand id="166322" votes="31244" vote_percentage="1.88" vote_percentage_2="2" />
 				<cand id="65724" votes="79953" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
@@ -4092,8 +4092,8 @@
 				<cand id="65724" votes="57" vote_percentage="2.57" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
-				<cand id="175565" votes="223" vote_percentage="13.92" vote_percentage_2="14" />
-				<cand id="109657" votes="1294" vote_percentage="80.77" vote_percentage_2="81" />
+				<cand id="175565" votes="223" vote_percentage="13.9" vote_percentage_2="14" />
+				<cand id="109657" votes="1296" vote_percentage="80.8" vote_percentage_2="81" />
 				<cand id="166322" votes="17" vote_percentage="1.06" />
 				<cand id="65724" votes="68" vote_percentage="4.24" vote_percentage_2="4" />
 			</reporting_unit>
