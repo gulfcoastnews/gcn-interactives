@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/21/2026 3:34:50 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/21/2026 3:54:20 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="717035" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="472385" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="717040" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="472387" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -131,8 +131,8 @@
 				<cand id="175600" votes="476" vote_percentage="37.36" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
-				<cand id="166341" votes="5934" vote_percentage="62.73" vote_percentage_2="63" />
-				<cand id="175600" votes="3525" vote_percentage="37.27" vote_percentage_2="37" />
+				<cand id="166341" votes="5936" vote_percentage="62.73" vote_percentage_2="63" />
+				<cand id="175600" votes="3527" vote_percentage="37.27" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
 				<cand id="166341" votes="1699" vote_percentage="53.66" vote_percentage_2="54" />
@@ -155,8 +155,8 @@
 				<cand id="175600" votes="1064" vote_percentage="44.61" vote_percentage_2="45" />
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
-				<cand id="166341" votes="972" vote_percentage="59.45" vote_percentage_2="59" />
-				<cand id="175600" votes="663" vote_percentage="40.55" vote_percentage_2="41" />
+				<cand id="166341" votes="975" vote_percentage="59.52" vote_percentage_2="60" />
+				<cand id="175600" votes="663" vote_percentage="40.48" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
 				<cand id="166341" votes="111" vote_percentage="54.41" vote_percentage_2="54" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1111365" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501402" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1111371" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501405" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -429,8 +429,8 @@
 				<cand id="175601" votes="1071" vote_percentage="34.51" vote_percentage_2="35" />
 			</reporting_unit>
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
-				<cand id="106936" votes="14967" vote_percentage="65.58" vote_percentage_2="66" />
-				<cand id="175601" votes="7854" vote_percentage="34.42" vote_percentage_2="34" />
+				<cand id="106936" votes="14971" vote_percentage="65.58" vote_percentage_2="66" />
+				<cand id="175601" votes="7857" vote_percentage="34.42" vote_percentage_2="34" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
 				<cand id="106936" votes="7748" vote_percentage="67.79" vote_percentage_2="68" />
@@ -453,8 +453,8 @@
 				<cand id="175601" votes="1801" vote_percentage="29.64" vote_percentage_2="30" />
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
-				<cand id="106936" votes="1688" vote_percentage="76.55" vote_percentage_2="77" />
-				<cand id="175601" votes="517" vote_percentage="23.45" vote_percentage_2="23" />
+				<cand id="106936" votes="1690" vote_percentage="76.57" vote_percentage_2="77" />
+				<cand id="175601" votes="517" vote_percentage="23.43" vote_percentage_2="23" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
 				<cand id="106936" votes="1098" vote_percentage="67.53" vote_percentage_2="68" />
@@ -619,8 +619,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175596" votes="416882" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="796536" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="175596" votes="416885" vote_percentage="34.36" vote_percentage_2="34" />
+				<cand id="58627" votes="796540" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -727,8 +727,8 @@
 				<cand id="58627" votes="758" vote_percentage="59.45" vote_percentage_2="59" />
 			</reporting_unit>
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
-				<cand id="175596" votes="3120" vote_percentage="32.51" vote_percentage_2="33" />
-				<cand id="58627" votes="6478" vote_percentage="67.49" vote_percentage_2="67" />
+				<cand id="175596" votes="3121" vote_percentage="32.5" vote_percentage_2="33" />
+				<cand id="58627" votes="6481" vote_percentage="67.5" vote_percentage_2="67" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
 				<cand id="175596" votes="1097" vote_percentage="34.33" vote_percentage_2="34" />
@@ -751,8 +751,8 @@
 				<cand id="58627" votes="1384" vote_percentage="58.03" vote_percentage_2="58" />
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
-				<cand id="175596" votes="667" vote_percentage="40.52" vote_percentage_2="41" />
-				<cand id="58627" votes="979" vote_percentage="59.48" vote_percentage_2="59" />
+				<cand id="175596" votes="669" vote_percentage="40.57" vote_percentage_2="41" />
+				<cand id="58627" votes="980" vote_percentage="59.43" vote_percentage_2="59" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
 				<cand id="175596" votes="89" vote_percentage="42.58" vote_percentage_2="43" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610747" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="968068" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="175597" votes="610749" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="968074" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -1025,8 +1025,8 @@
 				<cand id="107845" votes="1414" vote_percentage="48.1" vote_percentage_2="48" />
 			</reporting_unit>
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
-				<cand id="175597" votes="7773" vote_percentage="34.53" vote_percentage_2="35" />
-				<cand id="107845" votes="14736" vote_percentage="65.47" vote_percentage_2="65" />
+				<cand id="175597" votes="7775" vote_percentage="34.53" vote_percentage_2="35" />
+				<cand id="107845" votes="14740" vote_percentage="65.47" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
 				<cand id="175597" votes="5063" vote_percentage="45.72" vote_percentage_2="46" />
@@ -1049,8 +1049,8 @@
 				<cand id="107845" votes="3030" vote_percentage="51.17" vote_percentage_2="51" />
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
-				<cand id="175597" votes="825" vote_percentage="39.16" vote_percentage_2="39" />
-				<cand id="107845" votes="1282" vote_percentage="60.84" vote_percentage_2="61" />
+				<cand id="175597" votes="825" vote_percentage="39.12" vote_percentage_2="39" />
+				<cand id="107845" votes="1284" vote_percentage="60.88" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
 				<cand id="175597" votes="852" vote_percentage="54.72" vote_percentage_2="55" />
@@ -1246,11 +1246,11 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175575" votes="96678" vote_percentage="7.73" vote_percentage_2="8" />
+				<cand id="175575" votes="96679" vote_percentage="7.73" vote_percentage_2="8" />
 				<cand id="175576" votes="47305" vote_percentage="3.78" vote_percentage_2="4" />
-				<cand id="175578" votes="189358" vote_percentage="15.15" vote_percentage_2="15" />
-				<cand id="63159" votes="762033" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
-				<cand id="110345" votes="119920" vote_percentage="9.59" vote_percentage_2="10" />
+				<cand id="175578" votes="189361" vote_percentage="15.15" vote_percentage_2="15" />
+				<cand id="63159" votes="762035" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
+				<cand id="110345" votes="119921" vote_percentage="9.59" vote_percentage_2="10" />
 				<cand id="175580" votes="34954" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -1464,9 +1464,9 @@
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
 				<cand id="175575" votes="927" vote_percentage="9.39" vote_percentage_2="9" />
 				<cand id="175576" votes="526" vote_percentage="5.33" vote_percentage_2="5" />
-				<cand id="175578" votes="1380" vote_percentage="13.99" vote_percentage_2="14" />
-				<cand id="63159" votes="6041" vote_percentage="61.22" vote_percentage_2="61" />
-				<cand id="110345" votes="736" vote_percentage="7.46" vote_percentage_2="7" />
+				<cand id="175578" votes="1382" vote_percentage="14" />
+				<cand id="63159" votes="6042" vote_percentage="61.21" vote_percentage_2="61" />
+				<cand id="110345" votes="737" vote_percentage="7.47" vote_percentage_2="7" />
 				<cand id="175580" votes="257" vote_percentage="2.6" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
@@ -1510,12 +1510,12 @@
 				<cand id="175580" votes="148" vote_percentage="6.13" vote_percentage_2="6" />
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
-				<cand id="175575" votes="135" vote_percentage="7.85" vote_percentage_2="8" />
-				<cand id="175576" votes="54" vote_percentage="3.14" vote_percentage_2="3" />
-				<cand id="175578" votes="140" vote_percentage="8.14" vote_percentage_2="8" />
-				<cand id="63159" votes="1184" vote_percentage="68.84" vote_percentage_2="69" />
-				<cand id="110345" votes="114" vote_percentage="6.63" vote_percentage_2="7" />
-				<cand id="175580" votes="93" vote_percentage="5.41" vote_percentage_2="5" />
+				<cand id="175575" votes="136" vote_percentage="7.89" vote_percentage_2="8" />
+				<cand id="175576" votes="54" vote_percentage="3.13" vote_percentage_2="3" />
+				<cand id="175578" votes="141" vote_percentage="8.18" vote_percentage_2="8" />
+				<cand id="63159" votes="1185" vote_percentage="68.78" vote_percentage_2="69" />
+				<cand id="110345" votes="114" vote_percentage="6.62" vote_percentage_2="7" />
+				<cand id="175580" votes="93" vote_percentage="5.4" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
 				<cand id="175575" votes="36" vote_percentage="16.29" vote_percentage_2="16" />
@@ -1883,15 +1883,15 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426947" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="811024" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177768" vote_percentage="10.48" vote_percentage_2="10" />
-				<cand id="175582" votes="13181" vote_percentage="0.78" />
+				<cand id="111504" votes="426948" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="811029" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177769" vote_percentage="10.48" vote_percentage_2="10" />
+				<cand id="175582" votes="13182" vote_percentage="0.78" />
 				<cand id="175583" votes="7048" vote_percentage="0.42" />
 				<cand id="175584" votes="5192" vote_percentage="0.31" />
 				<cand id="107807" votes="145034" vote_percentage="8.55" vote_percentage_2="9" />
-				<cand id="175585" votes="27618" vote_percentage="1.63" vote_percentage_2="2" />
-				<cand id="111393" votes="7883" vote_percentage="0.46" />
+				<cand id="175585" votes="27619" vote_percentage="1.63" vote_percentage_2="2" />
+				<cand id="111393" votes="7884" vote_percentage="0.46" />
 				<cand id="175586" votes="6271" vote_percentage="0.37" />
 				<cand id="175587" votes="69084" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
@@ -2234,17 +2234,17 @@
 				<cand id="175587" votes="318" vote_percentage="10.01" vote_percentage_2="10" />
 			</reporting_unit>
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
-				<cand id="111504" votes="7272" vote_percentage="31.25" vote_percentage_2="31" />
-				<cand id="62408" votes="9313" vote_percentage="40.02" vote_percentage_2="40" />
-				<cand id="175581" votes="2564" vote_percentage="11.02" vote_percentage_2="11" />
-				<cand id="175582" votes="471" vote_percentage="2.02" vote_percentage_2="2" />
+				<cand id="111504" votes="7273" vote_percentage="31.24" vote_percentage_2="31" />
+				<cand id="62408" votes="9317" vote_percentage="40.02" vote_percentage_2="40" />
+				<cand id="175581" votes="2565" vote_percentage="11.02" vote_percentage_2="11" />
+				<cand id="175582" votes="472" vote_percentage="2.03" vote_percentage_2="2" />
 				<cand id="175583" votes="76" vote_percentage="0.33" />
 				<cand id="175584" votes="39" vote_percentage="0.17" />
 				<cand id="107807" votes="1361" vote_percentage="5.85" vote_percentage_2="6" />
-				<cand id="175585" votes="270" vote_percentage="1.16" vote_percentage_2="1" />
+				<cand id="175585" votes="271" vote_percentage="1.16" vote_percentage_2="1" />
 				<cand id="111393" votes="82" vote_percentage="0.35" />
 				<cand id="175586" votes="40" vote_percentage="0.17" />
-				<cand id="175587" votes="1784" vote_percentage="7.67" vote_percentage_2="8" />
+				<cand id="175587" votes="1784" vote_percentage="7.66" vote_percentage_2="8" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
 				<cand id="111504" votes="3382" vote_percentage="28.37" vote_percentage_2="28" />
@@ -2312,17 +2312,17 @@
 				<cand id="175587" votes="489" vote_percentage="7.93" vote_percentage_2="8" />
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
-				<cand id="111504" votes="876" vote_percentage="38.92" vote_percentage_2="39" />
-				<cand id="62408" votes="674" vote_percentage="29.94" vote_percentage_2="30" />
-				<cand id="175581" votes="243" vote_percentage="10.8" vote_percentage_2="11" />
+				<cand id="111504" votes="876" vote_percentage="38.88" vote_percentage_2="39" />
+				<cand id="62408" votes="675" vote_percentage="29.96" vote_percentage_2="30" />
+				<cand id="175581" votes="243" vote_percentage="10.79" vote_percentage_2="11" />
 				<cand id="175582" votes="11" vote_percentage="0.49" />
 				<cand id="175583" votes="8" vote_percentage="0.36" />
 				<cand id="175584" votes="3" vote_percentage="0.13" />
-				<cand id="107807" votes="265" vote_percentage="11.77" vote_percentage_2="12" />
+				<cand id="107807" votes="265" vote_percentage="11.76" vote_percentage_2="12" />
 				<cand id="175585" votes="14" vote_percentage="0.62" />
-				<cand id="111393" votes="11" vote_percentage="0.49" />
+				<cand id="111393" votes="12" vote_percentage="0.53" />
 				<cand id="175586" votes="4" vote_percentage="0.18" />
-				<cand id="175587" votes="142" vote_percentage="6.31" vote_percentage_2="6" />
+				<cand id="175587" votes="142" vote_percentage="6.3" vote_percentage_2="6" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
 				<cand id="111504" votes="497" vote_percentage="29.99" vote_percentage_2="30" />
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="705618" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
-				<cand id="175566" votes="553050" vote_percentage="43.94" vote_percentage_2="44" />
+				<cand id="110984" votes="705623" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="175566" votes="553051" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3682,8 +3682,8 @@
 				<cand id="175566" votes="445" vote_percentage="34.18" vote_percentage_2="34" />
 			</reporting_unit>
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
-				<cand id="110984" votes="4962" vote_percentage="50.21" vote_percentage_2="50" />
-				<cand id="175566" votes="4920" vote_percentage="49.79" vote_percentage_2="50" />
+				<cand id="110984" votes="4965" vote_percentage="50.22" vote_percentage_2="50" />
+				<cand id="175566" votes="4921" vote_percentage="49.78" vote_percentage_2="50" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
 				<cand id="110984" votes="1705" vote_percentage="51.46" vote_percentage_2="51" />
@@ -3706,8 +3706,8 @@
 				<cand id="175566" votes="673" vote_percentage="27.82" vote_percentage_2="28" />
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
-				<cand id="110984" votes="1235" vote_percentage="72.35" vote_percentage_2="72" />
-				<cand id="175566" votes="472" vote_percentage="27.65" vote_percentage_2="28" />
+				<cand id="110984" votes="1237" vote_percentage="72.38" vote_percentage_2="72" />
+				<cand id="175566" votes="472" vote_percentage="27.62" vote_percentage_2="28" />
 			</reporting_unit>
 			<reporting_unit id="10034" county="Lafayette" fips="12067" precincts_total="5" precincts_reporting="4" precincts_percentage="80">
 				<cand id="110984" votes="139" vote_percentage="64.06" vote_percentage_2="64" />
@@ -3889,7 +3889,7 @@
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
 				<cand id="175565" votes="227967" vote_percentage="13.74" vote_percentage_2="14" />
-				<cand id="109657" votes="1320582" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="109657" votes="1320589" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
 				<cand id="166322" votes="31243" vote_percentage="1.88" vote_percentage_2="2" />
 				<cand id="65724" votes="79952" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
@@ -4051,8 +4051,8 @@
 			</reporting_unit>
 			<reporting_unit id="10027" county="Hernando" fips="12053" precincts_total="32" precincts_reporting="31" precincts_percentage="97">
 				<cand id="175565" votes="3493" vote_percentage="15.31" vote_percentage_2="15" />
-				<cand id="109657" votes="18003" vote_percentage="78.92" vote_percentage_2="79" />
-				<cand id="166322" votes="300" vote_percentage="1.32" vote_percentage_2="1" />
+				<cand id="109657" votes="18008" vote_percentage="78.92" vote_percentage_2="79" />
+				<cand id="166322" votes="300" vote_percentage="1.31" vote_percentage_2="1" />
 				<cand id="65724" votes="1017" vote_percentage="4.46" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10028" county="Highlands" fips="12055" precincts_total="25" precincts_reporting="24" precincts_percentage="96">
@@ -4087,7 +4087,7 @@
 			</reporting_unit>
 			<reporting_unit id="10033" county="Jefferson" fips="12065" precincts_total="16" precincts_reporting="15" precincts_percentage="94">
 				<cand id="175565" votes="191" vote_percentage="8.6" vote_percentage_2="9" />
-				<cand id="109657" votes="1954" vote_percentage="88.02" vote_percentage_2="88" />
+				<cand id="109657" votes="1956" vote_percentage="88.03" vote_percentage_2="88" />
 				<cand id="166322" votes="18" vote_percentage="0.81" />
 				<cand id="65724" votes="57" vote_percentage="2.57" vote_percentage_2="3" />
 			</reporting_unit>
