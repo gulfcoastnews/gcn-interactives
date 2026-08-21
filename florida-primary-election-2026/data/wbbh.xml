@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/20/2026 11:51:19 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/21/2026 12:01:04 AM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -23,8 +23,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="166341" votes="716754" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
-				<cand id="175600" votes="472255" vote_percentage="39.72" vote_percentage_2="40" />
+				<cand id="166341" votes="716759" winner="Y" vote_percentage="60.28" vote_percentage_2="60" />
+				<cand id="175600" votes="472258" vote_percentage="39.72" vote_percentage_2="40" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="166341" votes="13778" vote_percentage="58.68" vote_percentage_2="59" />
@@ -247,8 +247,8 @@
 				<cand id="175600" votes="4633" vote_percentage="30.07" vote_percentage_2="30" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="166341" votes="13281" vote_percentage="63.12" vote_percentage_2="63" />
-				<cand id="175600" votes="7759" vote_percentage="36.88" vote_percentage_2="37" />
+				<cand id="166341" votes="13286" vote_percentage="63.12" vote_percentage_2="63" />
+				<cand id="175600" votes="7762" vote_percentage="36.88" vote_percentage_2="37" />
 			</reporting_unit>
 			<reporting_unit id="10057" county="Santa Rosa" fips="12113" precincts_total="41" precincts_reporting="40" precincts_percentage="98">
 				<cand id="166341" votes="2903" vote_percentage="65.35" vote_percentage_2="65" />
@@ -321,8 +321,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="106936" votes="1111113" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
-				<cand id="175601" votes="501239" vote_percentage="31.09" vote_percentage_2="31" />
+				<cand id="106936" votes="1111120" winner="Y" vote_percentage="68.91" vote_percentage_2="69" />
+				<cand id="175601" votes="501241" vote_percentage="31.09" vote_percentage_2="31" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="106936" votes="9715" vote_percentage="71.01" vote_percentage_2="71" />
@@ -545,8 +545,8 @@
 				<cand id="175601" votes="12771" vote_percentage="31.93" vote_percentage_2="32" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="106936" votes="19273" vote_percentage="72.34" vote_percentage_2="72" />
-				<cand id="175601" votes="7369" vote_percentage="27.66" vote_percentage_2="28" />
+				<cand id="106936" votes="19280" vote_percentage="72.34" vote_percentage_2="72" />
+				<cand id="175601" votes="7371" vote_percentage="27.66" vote_percentage_2="28" />
 			</reporting_unit>
 			<reporting_unit id="10057" county="Santa Rosa" fips="12113" precincts_total="41" precincts_reporting="40" precincts_percentage="98">
 				<cand id="106936" votes="15041" vote_percentage="64.55" vote_percentage_2="65" />
@@ -619,8 +619,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175596" votes="416725" vote_percentage="34.36" vote_percentage_2="34" />
-				<cand id="58627" votes="796271" winner="Y" vote_percentage="65.64" vote_percentage_2="66" />
+				<cand id="175596" votes="416727" vote_percentage="34.35" vote_percentage_2="34" />
+				<cand id="58627" votes="796277" winner="Y" vote_percentage="65.65" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175596" votes="7455" vote_percentage="31.01" vote_percentage_2="31" />
@@ -843,8 +843,8 @@
 				<cand id="58627" votes="11002" vote_percentage="70.04" vote_percentage_2="70" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="175596" votes="7504" vote_percentage="35.9" vote_percentage_2="36" />
-				<cand id="58627" votes="13401" vote_percentage="64.1" vote_percentage_2="64" />
+				<cand id="175596" votes="7506" vote_percentage="35.89" vote_percentage_2="36" />
+				<cand id="58627" votes="13407" vote_percentage="64.11" vote_percentage_2="64" />
 			</reporting_unit>
 			<reporting_unit id="10057" county="Santa Rosa" fips="12113" precincts_total="41" precincts_reporting="40" precincts_percentage="98">
 				<cand id="175596" votes="1476" vote_percentage="32.79" vote_percentage_2="33" />
@@ -917,8 +917,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175597" votes="610586" vote_percentage="38.68" vote_percentage_2="39" />
-				<cand id="107845" votes="967836" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
+				<cand id="175597" votes="610589" vote_percentage="38.68" vote_percentage_2="39" />
+				<cand id="107845" votes="967841" winner="Y" vote_percentage="61.32" vote_percentage_2="61" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="175597" votes="4619" vote_percentage="34.66" vote_percentage_2="35" />
@@ -1141,8 +1141,8 @@
 				<cand id="107845" votes="26184" vote_percentage="66.38" vote_percentage_2="66" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="175597" votes="9177" vote_percentage="35.11" vote_percentage_2="35" />
-				<cand id="107845" votes="16963" vote_percentage="64.89" vote_percentage_2="65" />
+				<cand id="175597" votes="9180" vote_percentage="35.11" vote_percentage_2="35" />
+				<cand id="107845" votes="16968" vote_percentage="64.89" vote_percentage_2="65" />
 			</reporting_unit>
 			<reporting_unit id="10057" county="Santa Rosa" fips="12113" precincts_total="41" precincts_reporting="40" precincts_percentage="98">
 				<cand id="175597" votes="11796" vote_percentage="52.13" vote_percentage_2="52" />
@@ -1249,8 +1249,8 @@
 				<cand id="175575" votes="96632" vote_percentage="7.73" vote_percentage_2="8" />
 				<cand id="175576" votes="47280" vote_percentage="3.78" vote_percentage_2="4" />
 				<cand id="175578" votes="189289" vote_percentage="15.15" vote_percentage_2="15" />
-				<cand id="63159" votes="761804" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
-				<cand id="110345" votes="119871" vote_percentage="9.59" vote_percentage_2="10" />
+				<cand id="63159" votes="761812" winner="Y" vote_percentage="60.95" vote_percentage_2="61" />
+				<cand id="110345" votes="119872" vote_percentage="9.59" vote_percentage_2="10" />
 				<cand id="175580" votes="34939" vote_percentage="2.8" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -1694,11 +1694,11 @@
 				<cand id="175580" votes="306" vote_percentage="1.87" vote_percentage_2="2" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="175575" votes="1771" vote_percentage="8" />
+				<cand id="175575" votes="1771" vote_percentage="7.99" vote_percentage_2="8" />
 				<cand id="175576" votes="1081" vote_percentage="4.88" vote_percentage_2="5" />
-				<cand id="175578" votes="3408" vote_percentage="15.39" vote_percentage_2="15" />
-				<cand id="63159" votes="12889" vote_percentage="58.19" vote_percentage_2="58" />
-				<cand id="110345" votes="2399" vote_percentage="10.83" vote_percentage_2="11" />
+				<cand id="175578" votes="3408" vote_percentage="15.38" vote_percentage_2="15" />
+				<cand id="63159" votes="12897" vote_percentage="58.2" vote_percentage_2="58" />
+				<cand id="110345" votes="2400" vote_percentage="10.83" vote_percentage_2="11" />
 				<cand id="175580" votes="601" vote_percentage="2.71" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10057" county="Santa Rosa" fips="12113" precincts_total="41" precincts_reporting="40" precincts_percentage="98">
@@ -1883,9 +1883,9 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="111504" votes="426858" vote_percentage="25.16" vote_percentage_2="25" />
-				<cand id="62408" votes="810822" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
-				<cand id="175581" votes="177712" vote_percentage="10.47" vote_percentage_2="10" />
+				<cand id="111504" votes="426859" vote_percentage="25.16" vote_percentage_2="25" />
+				<cand id="62408" votes="810829" winner="Y" vote_percentage="47.79" vote_percentage_2="48" />
+				<cand id="175581" votes="177713" vote_percentage="10.47" vote_percentage_2="10" />
 				<cand id="175582" votes="13176" vote_percentage="0.78" />
 				<cand id="175583" votes="7042" vote_percentage="0.42" />
 				<cand id="175584" votes="5190" vote_percentage="0.31" />
@@ -2611,9 +2611,9 @@
 				<cand id="175587" votes="1313" vote_percentage="3.09" vote_percentage_2="3" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="111504" votes="6415" vote_percentage="23.06" vote_percentage_2="23" />
-				<cand id="62408" votes="14860" vote_percentage="53.41" vote_percentage_2="53" />
-				<cand id="175581" votes="2909" vote_percentage="10.46" vote_percentage_2="10" />
+				<cand id="111504" votes="6416" vote_percentage="23.05" vote_percentage_2="23" />
+				<cand id="62408" votes="14867" vote_percentage="53.42" vote_percentage_2="53" />
+				<cand id="175581" votes="2910" vote_percentage="10.46" vote_percentage_2="10" />
 				<cand id="175582" votes="185" vote_percentage="0.66" />
 				<cand id="175583" votes="116" vote_percentage="0.42" />
 				<cand id="175584" votes="85" vote_percentage="0.31" />
@@ -3574,8 +3574,8 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="110984" votes="705359" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
-				<cand id="175566" votes="552876" vote_percentage="43.94" vote_percentage_2="44" />
+				<cand id="110984" votes="705361" winner="Y" vote_percentage="56.06" vote_percentage_2="56" />
+				<cand id="175566" votes="552883" vote_percentage="43.94" vote_percentage_2="44" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
 				<cand id="110984" votes="15349" vote_percentage="60.98" vote_percentage_2="61" />
@@ -3798,8 +3798,8 @@
 				<cand id="175566" votes="7870" vote_percentage="47.73" vote_percentage_2="48" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="110984" votes="12159" vote_percentage="54.5" vote_percentage_2="55" />
-				<cand id="175566" votes="10151" vote_percentage="45.5" vote_percentage_2="45" />
+				<cand id="110984" votes="12161" vote_percentage="54.49" vote_percentage_2="54" />
+				<cand id="175566" votes="10158" vote_percentage="45.51" vote_percentage_2="46" />
 			</reporting_unit>
 			<reporting_unit id="10057" county="Santa Rosa" fips="12113" precincts_total="41" precincts_reporting="40" precincts_percentage="98">
 				<cand id="110984" votes="2574" vote_percentage="55.24" vote_percentage_2="55" />
@@ -3888,9 +3888,9 @@
 		</candidates>
 		<reporting_units>
 			<reporting_unit id="0" precincts_total="5641" precincts_reporting="5584" precincts_percentage="99">
-				<cand id="175565" votes="227884" vote_percentage="13.73" vote_percentage_2="14" />
-				<cand id="109657" votes="1320275" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
-				<cand id="166322" votes="31225" vote_percentage="1.88" vote_percentage_2="2" />
+				<cand id="175565" votes="227885" vote_percentage="13.73" vote_percentage_2="14" />
+				<cand id="109657" votes="1320282" winner="Y" vote_percentage="79.57" vote_percentage_2="80" />
+				<cand id="166322" votes="31226" vote_percentage="1.88" vote_percentage_2="2" />
 				<cand id="65724" votes="79928" vote_percentage="4.82" vote_percentage_2="5" />
 			</reporting_unit>
 			<reporting_unit id="10001" county="Alachua" fips="12001" precincts_total="63" precincts_reporting="62" precincts_percentage="98">
@@ -4224,9 +4224,9 @@
 				<cand id="65724" votes="1687" vote_percentage="4.07" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10056" county="St. Lucie" fips="12111" precincts_total="62" precincts_reporting="61" precincts_percentage="98">
-				<cand id="175565" votes="4001" vote_percentage="14.72" vote_percentage_2="15" />
-				<cand id="109657" votes="21687" vote_percentage="79.77" vote_percentage_2="80" />
-				<cand id="166322" votes="470" vote_percentage="1.73" vote_percentage_2="2" />
+				<cand id="175565" votes="4002" vote_percentage="14.72" vote_percentage_2="15" />
+				<cand id="109657" votes="21694" vote_percentage="79.77" vote_percentage_2="80" />
+				<cand id="166322" votes="471" vote_percentage="1.73" vote_percentage_2="2" />
 				<cand id="65724" votes="1029" vote_percentage="3.78" vote_percentage_2="4" />
 			</reporting_unit>
 			<reporting_unit id="10057" county="Santa Rosa" fips="12113" precincts_total="41" precincts_reporting="40" precincts_percentage="98">
