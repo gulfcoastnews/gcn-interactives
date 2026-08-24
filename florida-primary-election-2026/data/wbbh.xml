@@ -1,4 +1,4 @@
-<election date="20260818" reporttime_gmt="8/21/2026 8:50:35 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
+<election date="20260818" reporttime_gmt="8/24/2026 8:13:08 PM" election_version="1.73" title="August 18 Election" station="WBBH" services_version="1.12.0">
 	<race id="223" id_full="FL-10637-AGC" state="Florida" number="104" office="Agriculture Commissioner">
 		<title>Agriculture Commissioner - Florida (D)</title>
 		<title_2_1>Agriculture Commissioner (D)</title_2_1>
@@ -1224,7 +1224,7 @@
 				<first>David</first>
 				<last>Jolly</last>
 				<party>D</party>
-				<image_1>4891460-1.jpg</image_1>
+				<image_1>4891460-2.jpg</image_1>
 				<image_2>4891462-1.jpg</image_2>
 			</candidate>
 			<candidate id="110345">
@@ -1809,7 +1809,7 @@
 				<first>Byron</first>
 				<last>Donalds</last>
 				<party>R</party>
-				<image_1>3415560-1.jpg</image_1>
+				<image_1>3415560-2.jpg</image_1>
 				<image_2>3863452-1.jpg</image_2>
 			</candidate>
 			<candidate id="175581">
